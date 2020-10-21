@@ -16,7 +16,7 @@ body{
 nav{
   position:absolute;
   top:0 !important; right:18px !important;
-  width:72vw; height:98px;
+  width:100vw; height:98px;
   border-bottom:2.8px solid #bf1a68;
   background:#2e2e2e;
   }
@@ -31,6 +31,10 @@ h1{
 	z-index:205 !important;
 	background-clip:text;
     }
+nav ul{
+	max-width:64vw;
+	float:right;
+}
 nav ul li{
 	display:inline-block !important;
 }
