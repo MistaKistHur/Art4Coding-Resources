@@ -74,5 +74,10 @@ nav ul li a{
     color:transparent;
 	width:auto;
     }
+iframe{
+	border-top-left-radius:28px;
+	border-bottom-right-radius:28.8px;
+	margin:4px;
+    }
 
 /*Dark Pinkish Color ::>> #bf1a68 */
