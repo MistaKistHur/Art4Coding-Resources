@@ -3,6 +3,7 @@
 	text-decoration:none;
 	box-sizing:border-box;
 	font-size:calc(18px + 4vw) !important;
+	list-style:none;
 	text-align:center;
 	overflow-x:hidden;
 	user-select:none;
