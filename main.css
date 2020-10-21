@@ -3,8 +3,8 @@
 	src: url(https://mistakisthur.github.io/Art-and-Coding-Resources/Imgs/z.Fonts/BlkChcry.ttf) format("truetype");
     }
 @font-face {
-	font-family:"Bsthebre";
-	src: url(https://mistakisthur.github.io/Art-and-Coding-Resources/Imgs/z.Fonts/Bsthebre.ttf) format("truetype");
+	font-family:"Blackletter";
+	src: url(https://mistakisthur.github.io/Art-and-Coding-Resources/Imgs/z.Fonts/Blackletter.ttf) format("truetype");
     }
 *{
  margin:0; padding:0;
@@ -52,7 +52,7 @@ nav ul li{
 	}
 nav ul li a{
 	font-size:calc(15.8px + 0.78vmax)!important;
-	font-family:"Bsthebre", Verdana, Tahoma;
+	font-family:"Blackletter", Verdana, Tahoma;
 	text-shadow:2.8px 2.8px 1.2px black;
 	display:inline-block;
 	position:relative;
