@@ -42,11 +42,13 @@ h1{
 		                      rgb(229, 235, 52),
 		                      rgb(11, 143, 130));
 	filter:blur(0.54px);
+	transition:filter 780ms ease-in-out;
 	z-index:205 !important;
 	background-clip:text;
+
     }
 h1:hover{
-	filter:hue-rotate(48deg);
+	filter:hue-rotate(-48deg);
 	transition:filter 780ms ease-in-out;
 }
 nav ul{
