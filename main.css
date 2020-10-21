@@ -11,7 +11,7 @@
 body{
     background:black;
     display:block !important;
-    font-size:calc(16.2px + 1.4vw + 0.7vmin);
+    font-size:calc(16.2px + 0.4vw + 0.2vmin);
 }
 nav{
   position:absolute;
@@ -23,9 +23,11 @@ nav{
 h1{
 	position:absolute;
 	top:8px; left:8px;
-	font-size:calc(18px + 1.47vw);
+	font-size:calc(18px + 1.27vw);
 	color:black;
 	z-index:205 !important;
+	background:linear-gradient(-33deg,#bf1a68,rgb(229, 235, 52),rgb(11, 143, 130));
+	background-clip:text;
 }
 
 /*Dark Pinkish Color ::>> #bf1a68 */
