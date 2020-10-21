@@ -58,12 +58,12 @@ nav ul li{
 nav ul li a{
 	font-size:calc(15.8px + 0.88vmax + 0.44vw)!important;
 	font-family:"Abassy", Verdana, Tahoma;
-	text-shadow:2.8px 2.8px 1.2px black, -4px -8px 8.5px rgba(18,239,255,1);
-    background:linear-gradient(240deg, rgb(18,239,255), #bf1a68);
+	text-shadow: -4px -8px 8.5px rgba(18,239,255,1); /* 2.8px 2.8px 1.2px black, */
+    background:linear-gradient(240deg, rgb(18,239,255), #bf1a68, #bf1a68);
     color:transparent;
     background-clip:text;
 	display:inline-block;
-	padding:0 4px 0 4px;
+	padding:0 4px 0 8px;
 	position:relative;
 	width:auto;
     }
