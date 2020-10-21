@@ -9,4 +9,5 @@
 body{
     background:black;
     display:block !important;
+    font-size:calc(16.2px + 0.8vw + 0.7vmin);
 }
