@@ -20,6 +20,10 @@ nav{
   border-bottom:2.8px solid #bf1a68;
   background:#2e2e2e;
 }
+nav ul li a{
+	font-size:15px;
+	display:inline;
+}
 h1{
 	position:absolute;
 	top:8px; left:8px;
