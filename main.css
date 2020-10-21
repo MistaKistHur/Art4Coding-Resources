@@ -12,3 +12,9 @@ body{
     display:block !important;
     font-size:calc(16.2px + 2.8vw + 0.7vmin);
 }
+nav{
+  position:absolute;
+  top:0 !important; left:0 !important;
+  width:100vw; height:98px;
+  background:white;
+}
