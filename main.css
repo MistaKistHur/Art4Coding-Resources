@@ -35,7 +35,7 @@ h1{
 	top:8px; left:calc(8.8px + 0.85vw);
 	font-family:"Black_Chancery", Verdana, Tahoma;
 	color:transparent;
-	font-size:calc(18px + 1.28vw) !important;
+	font-size:calc(18.95px + 2.28vw) !important;
 	background:linear-gradient(-33deg,#bf1a68,
 		                      rgb(229, 235, 52),
 		                      rgb(11, 143, 130));
