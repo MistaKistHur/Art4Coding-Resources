@@ -59,6 +59,9 @@ h1:hover{
 	transform:scale(0.54);
 	height:auto;
     }
+.logo{
+	overflow:hidden !important;
+    }
 nav ul{
 	position:absolute;
 	top:0px; right:0px;
