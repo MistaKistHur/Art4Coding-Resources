@@ -48,7 +48,7 @@ h1{
 
     }
 h1:hover{
-	filter:hue-rotate(-78deg);
+	filter:hue-rotate(-148deg);
 	transition:filter 780ms ease-in-out;
 }
 nav ul{
