@@ -24,6 +24,7 @@ h1{
 	top:8px; left:8px;
 	font-size:calc(18px + 1.47vw);
 	color:black;
+	z-index:205;
 }
 
 /*Dark Pinkish Color ::>> #bf1a68 */
