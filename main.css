@@ -24,9 +24,13 @@ h1{
 	position:absolute;
 	top:8px; left:8px;
 	font-size:calc(18px + 1.27vw);
-	color:black;
+	background:linear-gradient(-33deg,#bf1a68,
+		                      rgb(229, 235, 52),
+		                      rgb(11, 143, 130));
+
+	color:transparent;
 	z-index:205 !important;
-	background:linear-gradient(-33deg,#bf1a68,rgb(229, 235, 52),rgb(11, 143, 130));
+
 	background-clip:text;
 }
 

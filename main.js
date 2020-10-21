@@ -3,5 +3,5 @@
 
 	docu.addEventListener("DOMContentLoaded",()=>{
 		  let bodi = doc.querySelector("body");
-		  let header = doc,querySelector("header");
+		  let header = doc.querySelector("header");
 	})
