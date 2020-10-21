@@ -54,6 +54,7 @@ h1:hover{
 /* ::>> Section for The Web Radio Player */
 	.embed-radioplayer{
 		position:absolute;
+		right:0 !important;
 		z-index:55;
 		max-width:calc(484px + 0.8vw);
 		margin-top:4.8vh;
@@ -62,6 +63,7 @@ h1:hover{
 	    }
 	.logo{
 		overflow:hidden !important;
+		filter:hue-rotate(88deg);
 	    }
 	.audioplayer-time{
 		transform:scale(0.77);
