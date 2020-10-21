@@ -51,6 +51,12 @@ h1:hover{
 	filter:hue-rotate(-148deg);
 	transition:filter 780ms ease-in-out;
 	}
+.embed-radioplayer{
+	position:absolute;
+	z-index:55;
+	max-width:calc(184px + 0.8vw);
+	height:auto;
+    }
 nav ul{
 	position:absolute;
 	top:0px; right:0px;
