@@ -3,8 +3,8 @@
 	src: url(https://mistakisthur.github.io/Art-and-Coding-Resources/Imgs/z.Fonts/BlkChcry.ttf) format("truetype");
     }
 @font-face {
-	font-family:"Blackletter";
-	src: url(https://mistakisthur.github.io/Art-and-Coding-Resources/Imgs/z.Fonts/Blackletter.ttf) format("truetype");
+	font-family:"Abassy";
+	src: url(https://mistakisthur.github.io/Art-and-Coding-Resources/Imgs/z.Fonts/AbbasyCalligraphy.ttf) format("truetype");
     }
 *{
  margin:0; padding:0;
@@ -27,6 +27,8 @@ nav{
   width:100vw; height:98px;
   min-width:100%;
   border-bottom:2.8px solid #bf1a68;
+  word-wrap: none;
+  overflow:hidden;
   margin-bottom:18px;
   background:#2e2e2e;
   }
@@ -35,7 +37,7 @@ h1{
 	top:8px; left:calc(8.8px + 0.85vw);
 	font-family:"Black_Chancery", Verdana, Tahoma;
 	color:transparent;
-	font-size:calc(18.95px + 2.28vw) !important;
+	font-size:calc(22.95px + 2.28vw) !important;
 	background:linear-gradient(-33deg,#bf1a68,
 		                      rgb(229, 235, 52),
 		                      rgb(11, 143, 130));
@@ -54,7 +56,7 @@ nav ul li{
 	}
 nav ul li a{
 	font-size:calc(15.8px + 0.88vmax + 0.44vw)!important;
-	font-family:"Blackletter", Verdana, Tahoma;
+	font-family:"Abassy", Verdana, Tahoma;
 	text-shadow:2.8px 2.8px 1.2px black, 1px 1px 0.5px blue;
 	display:inline-block;
 	position:relative;
