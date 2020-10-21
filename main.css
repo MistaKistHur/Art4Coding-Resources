@@ -54,9 +54,9 @@ h1:hover{
 .embed-radioplayer{
 	position:absolute;
 	z-index:55;
-	max-width:calc(284px + 0.8vw);
-	margin-top:4vh;
-	transform:scale(0.78);
+	max-width:calc(484px + 0.8vw);
+	margin-top:4.8vh;
+	transform:scale(0.54);
 	height:auto;
     }
 nav ul{
