@@ -35,7 +35,7 @@ nav ul li{
 	display:inline-block !important;
 }
 nav ul li a{
-	font-size:calc(15px + 0.2vmax)!important;
+	font-size:calc(15.4px + 0.48vmax)!important;
 	display:inline-block;
 	position:relative;
 	width:auto;
