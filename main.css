@@ -1,3 +1,7 @@
+@font-face {
+	font-family:"black_chancery";
+	src: url(https://mistakisthur.github.io/Art-and-Coding-Resources/Imgs/z.Fonts/BlkChcry.ttf) format("truetype");
+}
 *{
  margin:0; padding:0;
  text-decoration:none;
@@ -24,6 +28,7 @@ nav{
 h1{
 	position:absolute;
 	top:8px; left:calc(8.8px + 0.85vw);
+	font-family:"black_chancery", Verdana, Tahoma;
 	color:transparent;
 	font-size:calc(18px + 1.27vw);
 	background:linear-gradient(-33deg,#bf1a68,
@@ -43,6 +48,7 @@ nav ul li{
 nav ul li a{
 	font-size:calc(15.8px + 0.78vmax)!important;
 	text-shadow:2.8px 2.8px 1.2px black;
+	
 	display:inline-block;
 	position:relative;
 	width:auto;
