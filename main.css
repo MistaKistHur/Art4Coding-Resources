@@ -34,7 +34,7 @@ nav{
   }
 h1{
 	position:absolute;
-	top:8px; left:calc(8.8px + 0.85vw);
+	top:4px; left:calc(8.8px + 0.85vw);
 	font-family:"Black_Chancery", Verdana, Tahoma;
 	color:transparent;
 	font-size:calc(22.95px + 2.28vw) !important;
@@ -46,7 +46,7 @@ h1{
 	background-clip:text;
     }
 nav ul{
-	max-width:64vw;
+	max-width:68vw;
 	margin-right:calc(18px - 0.3vw);
 	margin-top:8vh;
 	float:right;
@@ -57,8 +57,9 @@ nav ul li{
 nav ul li a{
 	font-size:calc(15.8px + 0.88vmax + 0.44vw)!important;
 	font-family:"Abassy", Verdana, Tahoma;
-	text-shadow:2.8px 2.8px 1.2px black, 1px 1px 0.5px blue;
+	text-shadow:2.8px 2.8px 1.2px black, 4px 1px 0.5px blue;
 	display:inline-block;
+	padding:0 2px 0 2px;
 	position:relative;
 	width:auto;
     }
