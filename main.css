@@ -51,20 +51,22 @@ h1:hover{
 	filter:hue-rotate(-148deg);
 	transition:filter 780ms ease-in-out;
 	}
-.embed-radioplayer{
-	position:absolute;
-	z-index:55;
-	max-width:calc(484px + 0.8vw);
-	margin-top:4.8vh;
-	transform:scale(0.54);
-	height:auto;
-    }
-.logo{
-	overflow:hidden !important;
-    }
-.audioplayer-time{
-	transform:scale(0.77);
-    }
+/* ::>> Section for The Web Radio Player */
+	.embed-radioplayer{
+		position:absolute;
+		z-index:55;
+		max-width:calc(484px + 0.8vw);
+		margin-top:4.8vh;
+		transform:scale(0.54);
+		height:auto;
+	    }
+	.logo{
+		overflow:hidden !important;
+	    }
+	.audioplayer-time{
+		transform:scale(0.77);
+	    }
+/* ::>> Section for The Web Radio Player */
 nav ul{
 	position:absolute;
 	top:0px; right:0px;
