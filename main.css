@@ -31,6 +31,9 @@ h1{
 	z-index:205 !important;
 	background-clip:text;
     }
+nav ul li{
+	display:inline-block !important;
+}
 nav ul li a{
 	font-size:calc(15px + 0.2vmax)!important;
 	display:inline-block;
