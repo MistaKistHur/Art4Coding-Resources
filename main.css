@@ -63,7 +63,8 @@ nav ul li a{
     color:transparent;
     background-clip:text;
 	display:inline-block;
-	padding:0 4px 0 8px;
+	padding:0 8.2px 0 8px;
+	 -webkit-text-stroke: 2px red;
 	position:relative;
 	width:auto;
     }
