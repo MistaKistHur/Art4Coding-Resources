@@ -62,6 +62,9 @@ h1:hover{
 .logo{
 	overflow:hidden !important;
     }
+.audioplayer-time{
+	transform:scale(0.77);
+    }
 nav ul{
 	position:absolute;
 	top:0px; right:0px;
