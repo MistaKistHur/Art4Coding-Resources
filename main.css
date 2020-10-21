@@ -1,7 +1,11 @@
 @font-face {
-	font-family:"black_chancery";
+	font-family:"Black_Chancery";
 	src: url(https://mistakisthur.github.io/Art-and-Coding-Resources/Imgs/z.Fonts/BlkChcry.ttf) format("truetype");
-}
+    }
+@font-face {
+	font-family:"Bsthebre";
+	src: url(https://mistakisthur.github.io/Art-and-Coding-Resources/Imgs/z.Fonts/Bsthebre.ttf) format("truetype");
+    }
 *{
  margin:0; padding:0;
  text-decoration:none;
@@ -28,12 +32,13 @@ nav{
 h1{
 	position:absolute;
 	top:8px; left:calc(8.8px + 0.85vw);
-	font-family:"black_chancery", Verdana, Tahoma;
+	font-family:"Black_Chancery", Verdana, Tahoma;
 	color:transparent;
-	font-size:calc(18px + 1.27vw);
+	font-size:calc(18px + 1.28vw) !important;
 	background:linear-gradient(-33deg,#bf1a68,
 		                      rgb(229, 235, 52),
 		                      rgb(11, 143, 130));
+	filter:blur(0.54px);
 	z-index:205 !important;
 	background-clip:text;
     }
@@ -47,8 +52,8 @@ nav ul li{
 	}
 nav ul li a{
 	font-size:calc(15.8px + 0.78vmax)!important;
+	font-family:"Bsthebre", Verdana, Tahoma;
 	text-shadow:2.8px 2.8px 1.2px black;
-	
 	display:inline-block;
 	position:relative;
 	width:auto;
