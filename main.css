@@ -2,6 +2,7 @@
 	margin:0; padding:0;
 	text-decoration:none;
 	box-sizing:border-box;
+	font-size:calc(18px + 4vw) !important;
 	text-align:center;
 	overflow-x:hidden;
 	user-select:none;
