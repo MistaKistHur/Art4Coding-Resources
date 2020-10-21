@@ -15,8 +15,9 @@ body{
     }
 nav{
   position:absolute;
-  top:0 !important; right:18px !important;
+  top:0 !important; left:0;
   width:100vw; height:98px;
+  min-width:100%;
   border-bottom:2.8px solid #bf1a68;
   background:#2e2e2e;
   }
