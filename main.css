@@ -20,23 +20,23 @@ nav{
   border-bottom:2.8px solid #bf1a68;
   background:#2e2e2e;
   }
+h1{
+	position:absolute;
+	top:8px; left:calc(8.8px + 0.85vw);
+	color:transparent;
+	font-size:calc(18px + 1.27vw);
+	background:linear-gradient(-33deg,#bf1a68,
+		                      rgb(229, 235, 52),
+		                      rgb(11, 143, 130));
+	z-index:205 !important;
+	background-clip:text;
+    }
 nav ul li a{
 	font-size:calc(15px + 0.2vmax)!important;
 	display:inline-block;
 	position:relative;
 	width:auto;
     }
-h1{
-	position:absolute;
-	top:8px; left:8px;
-	font-size:calc(18px + 1.27vw);
-	background:linear-gradient(-33deg,#bf1a68,
-		                      rgb(229, 235, 52),
-		                      rgb(11, 143, 130));
 
-	color:transparent;
-	z-index:205 !important;
-	background-clip:text;
-    }
 
 /*Dark Pinkish Color ::>> #bf1a68 */
