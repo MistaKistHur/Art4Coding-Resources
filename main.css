@@ -36,6 +36,7 @@ nav ul li{
 }
 nav ul li a{
 	font-size:calc(15.4px + 0.48vmax)!important;
+	text-shadow:2.8px 2.8px 1.2px black;
 	display:inline-block;
 	position:relative;
 	width:auto;
