@@ -89,3 +89,11 @@ iframe{
     }
 
 /*Dark Pinkish Color ::>> #bf1a68 */
+
+footer{
+	display:grid;
+	position:absolute;
+	width:100vw; height:128px;
+	background:teal;
+	
+}
