@@ -6,3 +6,29 @@ people who enjoy bothcoding and artwork. This is a work in progress and hopefull
 on a regular basis. Anybody is welcome to contribute, & add other resourcs.
 Hopefully also build a small community of like minded people also on our DeviantArt group page,
 which will allow users to chat, collaborate nd bounce ideas off one another.
+
+
+Topics of interest for this webpage & all subsequent pages:
+  * Procedural Fractal Generation through code.
+  * Data Visualization. 
+  * Gimp Plugin Building.
+  * Pure CSS Animation.
+  * Animation Librarys.  
+  * Blender Projects.  
+  * SVG + Animation.
+  * Unreal Engine.  
+  * HTML5 Canvas.  
+  * 3D Modelling.
+  * Game Dev.  
+  * Phaser.
+  * Unity.  
+  * CGI.
+
+
+
+
+
+
+
+
+  
