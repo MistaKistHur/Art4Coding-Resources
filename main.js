@@ -2,7 +2,7 @@
   //let e = e || evt || event;
 	console.log("Js File Loaded Successfully");
 
-	document.addEventListener("DOMContentLoaded",(e)=>{
+	document.addEventListener("DOMContentLoaded",((e)=>{
 		if(!document.worker()){
 			console.log("::>> err somewhere");
 		}
@@ -21,7 +21,7 @@
                   fetch();
 		    // fetch extra videos, bump others out of view..
 		  });
-	}) /* ::>> Closing Tag for the MAIN body DOMC loaded event */
+	})) /* ::>> Closing Tag for the MAIN body DOMC loaded event */
 
 
 /* ::>> Use PreventDefault on all top Nav a links then use Ajax/xhr to load in other content .... */
