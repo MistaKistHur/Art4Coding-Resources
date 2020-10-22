@@ -44,13 +44,13 @@ h1{
 	z-index:205 !important;
 	        background-clip:text;
 	-webkit-background-clip:text;
-	filter:blur(0.54px);
+	filter:blur(0.54px) hue-rotate(0deg);
 	color:transparent;
 	will-change:auto;
     }
 h1:hover{
 	transition:filter 980ms ease-in-out;
-	filter:hue-rotate(-178deg);
+	filter:blur(0.31px) hue-rotate(-178deg);
     will-change:auto;
 	}
 /* ::>> Section for The Web Radio Player */
