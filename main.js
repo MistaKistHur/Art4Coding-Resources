@@ -10,7 +10,7 @@
 		let docu = document;
 		  let bodi = docu.querySelector("body");
 		  let header = docu.querySelector("header");
-		  let xhr_video = docu.querySelectorAll(".xhr_video_request")[0];
+		  let xhr_video = docu.getElemeentsByClassName(".xhr_video_request")[0];
 
 		  xhr_video.addEventListener("mousedown",(e) => {
 
