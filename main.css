@@ -55,14 +55,14 @@ h1:hover{
 	}
 h2{
 	position:absolute;
-	left:29.8px; top:calc(68px + 0.28vh);
+	left:29.8px; top:calc(64px + 0.28vh);
 	font-family:"Black_Chancery", Verdana, Tahoma;
-	z-index:5;
 	background:radial-gradient(ellipse at top,rgba(50,168,82,1),rgba(204,145,16,1),rgba(7,176,159,1));
+	font-size:calc(15.44px + 0.08vmax);
 	background-clip:text;
 	color:transparent;
-	font-size:15.2px;
-}
+	z-index:5;
+    }
 /* ::>> Section for The Web Radio Player */
 	.embed-radioplayer{
 		position:absolute;
