@@ -2,7 +2,7 @@
   //let e = e || evt || event;
 	console.log("Js File Loaded Successfully");
 
-	document.addEventListener("DOMContentLoaded",((e)=>{
+	document.addEventListener("DOMContentLoaded",(function(){
 		    let tick_one = performance.now();
 		    console.log(tick_one)
 
