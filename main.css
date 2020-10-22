@@ -60,6 +60,7 @@ h2{
 	background:radial-gradient(ellipse at top,rgba(50,168,82,1),rgba(204,145,16,1),rgba(7,176,159,1));
 	background-clip:text;
 	color:transparent;
+	font-size:15.2px;
 }
 /* ::>> Section for The Web Radio Player */
 	.embed-radioplayer{
