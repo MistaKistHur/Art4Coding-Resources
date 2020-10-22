@@ -63,6 +63,15 @@ h2{
 	color:transparent;
 	z-index:5;
     }
+
+
+#Rev-maps{
+	position:absolute;
+	top:200px; right:18px;
+	overflow: hidden;
+	width: 408px; height: 408px;
+	background:#ffff;
+}
 /* ::>> Section for The Web Radio Player */
 	.embed-radioplayer{
 		position:absolute;
