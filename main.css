@@ -63,7 +63,15 @@ h2{
 	color:transparent;
 	z-index:5;
     }
-
+/* ::>> ... DeviantArt Group Section... ... ... ... ... ... ... ... ... */
+	#DevArt_Group_Page{
+		position:absolute;
+		top:134px; left:18px;
+		width:72vw; height:calc(240px + 18.2vh);
+		background:green;
+		z-index:10;
+	    }
+/* ::>> ... DeviantArt Group Section... ... ... ... ... ... ... ... ... */
 /* ::>> ... Revolver Maps Section > Hide the Scroll Bar ... ... ... ... */
 			#Rev-maps{
 				position:absolute;
