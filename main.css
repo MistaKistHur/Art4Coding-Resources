@@ -53,6 +53,12 @@ h1:hover{
 	filter:blur(0.31px) hue-rotate(-178deg);
     will-change:auto;
 	}
+h2{
+	position:absolute;
+	left:28.8px; top:5px;
+	z-index:5;
+	background:radial-gradient(ellipse at top,rgba(50,168,82,1),rgba(204,145,16,1),rgba(7,176,159,1));
+}
 /* ::>> Section for The Web Radio Player */
 	.embed-radioplayer{
 		position:absolute;
