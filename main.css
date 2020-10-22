@@ -64,16 +64,18 @@ h2{
 	z-index:5;
     }
 
-
-#Rev-maps{
-	position:absolute;
-	top:114px; right:18px;
-	overflow: hidden;
-	width: 408px; height: 408px;
-	background:#2e2e2e;
-	border-radius:18px;
-}
-/* ::>> Section for The Web Radio Player */
+/* ::>> ... Revolver Maps Section > Hide the Scroll Bar ... ... ... ... */
+			#Rev-maps{
+				position:absolute;
+				top:114px; right:18px;
+				width:calc(342px + 0.5vw + 0.2vmax);
+			    height:calc(342px + 0.4vh + 0.2vmin);
+				border-radius:18px;
+				background:#2e2e2e;
+				overflow: hidden;
+			    }
+/* ::>> ... Revolver Maps Section > Hide the Scroll Bar ... ... ... ... */
+/* ::>> ... Web Radio Section > Give option 1Xtra or Reggae Stations ... ... */
 	.embed-radioplayer{
 		position:absolute;
 		right:0 !important;
@@ -83,15 +85,16 @@ h2{
 		transform:scale(0.54);
 		height:auto;
 	    }
+	.audioplayer-time{
+		transform:scale(0.77);
+	    }
 	.logo{
 		overflow:hidden !important;
 		filter:hue-rotate(188deg);
 		border-radius:59.2%;
 	    }
-	.audioplayer-time{
-		transform:scale(0.77);
-	    }
-/* ::>> Section for The Web Radio Player */
+
+/* ::>> ... Web Radio Section > Give option 1Xtra or Reggae Stations ... ... */
 nav ul{
 	position:absolute;
 	top:0px; right:0px;
