@@ -1,4 +1,10 @@
 "use-strict";
+ let e = e || evt || event;
+x
+
+
+
+
 	//let document = docu;
 	console.log("Js File Loaded Successfully");
 
