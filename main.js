@@ -21,7 +21,8 @@
 		  xhr_video.addEventListener("mousedown",(e) => {
                   e.preventDefault();
                   console.log("Testing ::>> no err"); // move around for testing errors.
-                  fetch();
+                  var vid_xhttp = new XMLHttpRequest();
+                  //fetch();
 		    // fetch extra videos, bump others out of view..
 		  });
 	})) /* ::>> Closing Tag for the MAIN body DOMC loaded event */
