@@ -40,16 +40,18 @@ h1{
 	background:linear-gradient(-33deg,#bf1a68,
 		                    rgb(229, 235, 52),
 		                    rgb(11, 143, 130));
-	transition:filter 780ms ease-in-out;
+	transition:filter 980ms ease-in-out 8ms;
 	z-index:205 !important;
 	        background-clip:text;
 	-webkit-background-clip:text;
 	filter:blur(0.54px);
 	color:transparent;
+	will-change:auto;
     }
 h1:hover{
-	filter:hue-rotate(-148deg);
-	transition:filter 780ms ease-in-out;
+	transition:filter 980ms ease-in-out;
+	filter:hue-rotate(-178deg);
+    will-change:auto;
 	}
 /* ::>> Section for The Web Radio Player */
 	.embed-radioplayer{
