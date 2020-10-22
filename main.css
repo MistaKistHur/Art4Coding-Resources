@@ -55,7 +55,8 @@ h1:hover{
 	}
 h2{
 	position:absolute;
-	left:28.8px; top:45px;
+	left:29.8px; top:calc(48px + 0.08vh);
+	font-family:"Black_Chancery", Verdana, Tahoma;
 	z-index:5;
 	background:radial-gradient(ellipse at top,rgba(50,168,82,1),rgba(204,145,16,1),rgba(7,176,159,1));
 	background-clip:text;
