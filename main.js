@@ -3,7 +3,7 @@
 	console.log("Js File Loaded Successfully");
 
 	document.addEventListener("DOMContentLoaded",((e)=>{
-		if(!document.worker()){
+		if(!document.worker){
 			console.log("::>> err somewhere");
 		}
 		console.log("DomC Ran Successfully");
