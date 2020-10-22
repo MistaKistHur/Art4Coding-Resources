@@ -63,7 +63,8 @@ h1:hover{
 	    }
 	.logo{
 		overflow:hidden !important;
-		filter:hue-rotate(88deg);
+		filter:hue-rotate(188deg);
+		border-radius:59.2%;
 	    }
 	.audioplayer-time{
 		transform:scale(0.77);
