@@ -1,10 +1,10 @@
 @font-face {
 	font-family:"Black_Chancery";
-	src: url(https://mistakisthur.github.io/Art-and-Coding-Resources/Imgs/z.Fonts/BlkChcry.ttf) format("truetype");
+	src: url(/Imgs/z.Fonts/BlkChcry.ttf) format("truetype");
     }
 @font-face {
 	font-family:"Abassy";
-	src: url(https://mistakisthur.github.io/Art-and-Coding-Resources/Imgs/z.Fonts/AbbasyCalligraphy.ttf) format("truetype");
+	src: url(/Imgs/z.Fonts/AbbasyCalligraphy.ttf) format("truetype");
     }
 *{
  margin:0; padding:0;
