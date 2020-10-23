@@ -11,8 +11,8 @@ https://www.publicdomainpictures.net<br>
 https://fontawesome.com<br>
 https://developer.mozilla.org<br>
 https://www.freelancevideocollective.com<br>
-
-
+**Software Section**
+https://www.omnigeometry.com<br>
 
 **Other Designs & Experimentals**<br>
 https://www.gtheimagineers.com<br>
@@ -39,7 +39,7 @@ https://www.freelancevideocollective.com/free-video-assets<br>
 <br>
 <br>
 <br>
-<br>
+http://www.metacafe.com/categories/art_and_animation<br>
 
 
 
