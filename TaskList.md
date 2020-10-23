@@ -1,5 +1,7 @@
 - [x] Create a Draft Homepage.
 - [ ] 2nd Revision Homepage.
+- [ ] Create a Searchable Tutorials Page Using Js.
+- [ ] Create a Documentation Index.
 - [ ] Link to Art4Coding Deviant Art Group, For Chat and Collaboration.
 - [ ] Create a Gallery Page.
 - [ ] Collect Resources.
