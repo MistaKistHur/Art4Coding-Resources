@@ -11,7 +11,7 @@ https://www.publicdomainpictures.net<br>
 https://fontawesome.com<br>
 https://developer.mozilla.org<br>
 
-**Other Designs & Experimentals**
+**Other Designs & Experimentals**<br>
 https://www.gtheimagineers.com<br>
 https://www.wonderlandams.com/<br>
 <br>
