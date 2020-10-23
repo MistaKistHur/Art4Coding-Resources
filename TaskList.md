@@ -8,6 +8,7 @@
 - [ ] Create Animated Thumbnail Image for the DeviantArt Group.
 - [ ] Link to Art4Coding Deviant Art Group, For Chat and Collaboration.
 - [ ] Create a Searchable Tutorials Page Using Js.
+- [ ] Tidy Up File Structure Periodically.
 - [ ] Make and Revise A Logo.
 - [ ] Create a Gallery Page.
 - [ ] Collect Resources.
