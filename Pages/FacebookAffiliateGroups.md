@@ -24,7 +24,7 @@
 
 **Top DeviantArt Groups to Browse**<br>
 
-Once this list is built out more create a Json file with all the same info + sum extras..<br>
+Once this list is built out more create Json & csv files with all the same info + sum extras..<br>
 
 If Any of the Links are broken, or any of the groups change their name or Url Please message someone on Our Deviantart Page.
 
