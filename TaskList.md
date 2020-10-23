@@ -1,1 +1,5 @@
-- [] Create Homepage
+- [x] Create a Draft Homepage.
+- [ ] 2nd Revision Homepage.
+- [ ] Link to Art4Coding Deviant Art Group, For Chat and Collaboration.
+- [ ] Create a Gallery Page.
+- [ ] Collect Resources.
