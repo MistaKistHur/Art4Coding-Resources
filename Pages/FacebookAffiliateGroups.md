@@ -23,6 +23,9 @@
 **Fractal Groups**<br>
 
 **Top DeviantArt Groups to Browse**<br>
+🎱[Awesome Animation](https://www.deviantart.com/awesome-animation)<br>
+🎱[Create Fantasy Art](https://www.deviantart.com/createfantasyart)<br>
+🎱[Character Library](https://www.deviantart.com/characterlibrary)
 
 Once this list is built out more create Json & csv files with all the same info + sum extras..<br>
 
