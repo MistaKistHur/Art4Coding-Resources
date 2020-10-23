@@ -4,4 +4,6 @@
 - [ ] Create a Documentation Index.
 - [ ] Link to Art4Coding Deviant Art Group, For Chat and Collaboration.
 - [ ] Create a Gallery Page.
+- [ ] Make and Revise A Logo.
+- [ ] Create a Social Media Preview Image.
 - [ ] Collect Resources.
