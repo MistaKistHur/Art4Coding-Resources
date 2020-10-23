@@ -1,9 +1,13 @@
 - [x] Create a Draft Homepage.
 - [ ] 2nd Revision Homepage.
-- [ ] Create a Searchable Tutorials Page Using Js.
+- [ ] 3rd Revision Homepage.
 - [ ] Create a Documentation Index.
-- [ ] Link to Art4Coding Deviant Art Group, For Chat and Collaboration.
-- [ ] Create a Gallery Page.
-- [ ] Make and Revise A Logo.
 - [ ] Create a Social Media Preview Image.
+- [ ] Find Curators for the DeviantArt Group.
+- [ ] Find Moderators for The DeviantArt Group.
+- [ ] Create Animated Thumbnail Image for the DeviantArt Group.
+- [ ] Link to Art4Coding Deviant Art Group, For Chat and Collaboration.
+- [ ] Create a Searchable Tutorials Page Using Js.
+- [ ] Make and Revise A Logo.
+- [ ] Create a Gallery Page.
 - [ ] Collect Resources.
