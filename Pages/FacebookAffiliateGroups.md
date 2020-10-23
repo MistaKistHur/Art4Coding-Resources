@@ -1,7 +1,7 @@
 **..Create A list of Art Based Facebook groups..**
 
 **Art Based Groups.**<br>
-🎱**>**[DeviantArt](https://www.facebook.com/groups/artdev)![GitHub Logo](/images/logo.png)Format: ![Alt Text](url)<br>
+🎱**>**[DeviantArt](https://www.facebook.com/groups/artdev)  ![GitHub Logo](/images/logo.png)Format: ![Alt Text](url)<br>
 🎱**>**[Art is a Way of Survival](https://www.facebook.com/groups/1961654980714526)<br>
 🎱**>**[Art Is Everything](https://www.facebook.com/groups/artiseverything)<br>
 🎱**>**[World Artists Supporting Each Other](https://www.facebook.com/groups/WorldArtistsSupportingEachOther)<br>
