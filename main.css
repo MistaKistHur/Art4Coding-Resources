@@ -37,24 +37,26 @@ h1{
 	top:0.2px; left:calc(8.8px + 0.85vw);
 	font-family:"Black_Chancery", Verdana, Tahoma;
 	font-size:calc(22.95px + 2.28vw) !important;
+	transition:all 980ms ease-in-out 8ms;
+	filter:blur(0.54px) hue-rotate(0deg);
+	text-rendering: geometricPrecision;
+        -webkit-backface-visibility:hidden;
+	    -webkit-font-smoothing:antialiased;
 	background:linear-gradient(-33deg,#bf1a68,
 		                    rgb(229, 235, 52),
 		                    rgb(11, 143, 130));
-	transition:all 980ms ease-in-out 8ms;
-	z-index:205 !important;
 	        background-clip:text;
 	-webkit-background-clip:text;
-	filter:blur(0.54px) hue-rotate(0deg);
-	text-rendering: geometricPrecision;
 	transform: skew(0deg, 0deg);
+	z-index:205 !important;
 	color:transparent;
 	will-change:auto;
-	-webkit-font-smoothing:antialiased; -webkit-backface-visibility:hidden;
     }
 h1:hover{
 	transition:all 980ms ease-in-out 8ms;
 	filter:blur(0.31px) hue-rotate(-208deg);
 	transform: skew(0.7deg, 0.9deg);
+	font-smoothing:antialiased;
     will-change:auto;
 	}
 h2{
