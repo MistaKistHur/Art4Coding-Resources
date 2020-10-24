@@ -67,7 +67,7 @@ h2{
 	#DevArt_Group_Page{
 		position:absolute;
 		top:134px; left:18px;
-		width:48vw; height:calc(240px + 18.2vh);
+		width:auto; height:calc(240px + 18.2vh);
 		background:linear-gradient(-48deg,green,blue);
 		z-index:10;
 	    }
@@ -90,7 +90,7 @@ h2{
 			    height:calc(342px + 0.4vh + 0.2vmin);
 				border-radius:18px;
 				background:#2e2e2e;
-				overflow: hidden;
+				overflow-y: hidden;
 			    }
 /* ::>> ... Revolver Maps Section > Hide the Scroll Bar ... ... ... ... */
 /* ::>> ... Web Radio Section > Give option 1Xtra or Reggae Stations ... ... */
