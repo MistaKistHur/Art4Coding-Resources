@@ -58,6 +58,7 @@ h1:hover{
 	transform: scaleX(1.22) translateX(32px);
 	font-size:calc(27.95px + 2.295vw) !important;
 	font-smoothing:antialiased;
+	pointer-events: none;
     will-change:auto;
 	}
 h2{
