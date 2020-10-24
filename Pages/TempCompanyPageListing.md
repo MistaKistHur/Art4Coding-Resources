@@ -23,7 +23,8 @@ http://xenodream.com<br>
 https://sourceforge.net/projects/apophysis<br>
 https://sourceforge.net/projects/fractalforge<br>
 https://www.softpedia.com/get/Multimedia/Graphic/Graphic-Others/Kaos-Rhei.shtml<br>
-
+**Image Processing**
+https://www.vectorizer.io
 
 
 **Other Designs & Experimentals**<br>
