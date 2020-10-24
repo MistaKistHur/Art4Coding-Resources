@@ -40,7 +40,7 @@ h1{
 	background:linear-gradient(-33deg,#bf1a68,
 		                    rgb(229, 235, 52),
 		                    rgb(11, 143, 130));
-	transition:filter 980ms ease-in-out 8ms;
+	transition:all 980ms ease-in-out 8ms;
 	z-index:205 !important;
 	        background-clip:text;
 	-webkit-background-clip:text;
@@ -49,8 +49,9 @@ h1{
 	will-change:auto;
     }
 h1:hover{
-	transition:filter 980ms ease-in-out;
-	filter:blur(0.31px) hue-rotate(-178deg);
+	transition:all 980ms ease-in-out;
+	filter:blur(0.31px) hue-rotate(-208deg);
+	transform: skew(15deg, 15deg);
     will-change:auto;
 	}
 h2{
