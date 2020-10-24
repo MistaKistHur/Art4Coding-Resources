@@ -30,11 +30,21 @@
 🎱>  ![HealthBar](/Imgs/z.Gifs/health_5.gif)💎[Awesome Animation](https://www.deviantart.com/awesome-animation)<br>
 🎱>  ![HealthBar](/Imgs/z.Gifs/health_5.gif)💎[Create Fantasy Art](https://www.deviantart.com/createfantasyart)<br>
 🎱>  ![HealthBar](/Imgs/z.Gifs/health_5.gif)💎[Character Library](https://www.deviantart.com/characterlibrary)<br>
-
+🎱>  ![HealthBar](/Imgs/z.Gifs/health_5.gif)💎[Devious Development](https://www.deviantart.com/deviousdevelopment)<br>
+🎱>  ![HealthBar](/Imgs/z.Gifs/health_5.gif)💎[Devious Developers](https://www.deviantart.com/deviousdevelopers)<br>
+🎱>  ![HealthBar](/Imgs/z.Gifs/health_5.gif)💎[Dadvertise](https://www.deviantart.com/dadvertise)<br>
+🎱>  ![HealthBar](/Imgs/z.Gifs/health_5.gif)💎[GfxCoders](https://www.deviantart.com/gfxcoders)<br>
+🎱>  ![HealthBar](/Imgs/z.Gifs/health_5.gif)💎[GameDevelopers](https://www.deviantart.com/gamedevelopers)<br>
+🎱>  ![HealthBar](/Imgs/z.Gifs/health_5.gif)💎[DevelopingDevelopers](https://www.deviantart.com/developingdevelopers)<br>
+🎱>  ![HealthBar](/Imgs/z.Gifs/health_5.gif)💎[DeviantArtCommunity](https://www.deviantart.com/deviantartcommunity)<br>
+🎱>  ![HealthBar](/Imgs/z.Gifs/health_5.gif)💎[CustomCode](https://www.deviantart.com/customcode)<br>
+🎱>  ![HealthBar](/Imgs/z.Gifs/health_5.gif)💎[DA.BestResources](https://www.deviantart.com/best-resources)<br>
+🎱>  ![HealthBar](/Imgs/z.Gifs/health_5.gif)💎[?](?)<br>
+**Other Resources**
 
 🎱>  ![HealthBar](/Imgs/z.Gifs/health_10.gif)💎[Software Engineering Jobs @ TripleByte](https://triplebyte.com/iv/VLFwLE6/cp/request_referral_email)<br>
 
-https://www.deviantart.com/best-resources<br>
+<br>
 
 Once this list is built out more create Json & csv files with all the same info + sum extras..<br>
 
