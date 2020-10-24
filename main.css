@@ -45,13 +45,14 @@ h1{
 	        background-clip:text;
 	-webkit-background-clip:text;
 	filter:blur(0.54px) hue-rotate(0deg);
+	transform: skew(0deg, 0deg);
 	color:transparent;
 	will-change:auto;
     }
 h1:hover{
-	transition:all 980ms ease-in-out;
+	transition:all 980ms ease-in-out 8ms;
 	filter:blur(0.31px) hue-rotate(-208deg);
-	transform: skew(15deg, 15deg);
+	transform: skew(15deg, 27deg);
     will-change:auto;
 	}
 h2{
