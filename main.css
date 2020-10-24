@@ -72,27 +72,9 @@ h2{
 	color:transparent;
 	z-index:5;
     }
-/* ::>> ... DeviantArt Group Section... ... ... ... ... ... ... ... ... */
-	#DevArt_Group_Page{
-		position:absolute;
-		top:134px; left:18px;
-		filter:opacity(0.2);
-		width:auto; height:calc(240px + 18.2vh);
-		background:linear-gradient(-48deg,green,blue);
-		z-index:10;
-	    }
-	    .Dev_iFrame{
-	      	overflow-x: hidden !important;
-             -ms-zoom: 0.72;
-             -moz-transform:scale(0.72);
-             -moz-transform-origin: 0 0;
-             -o-transform: scale(0.72);
-             -o-transform-origin: 0 0;
-             -webkit-transform: scale(0.72);
-             -webkit-transform-origin: 0 0;
-              border-radius:none !important;
-	          }
-/* ::>> ... DeviantArt Group Section... ... ... ... ... ... ... ... ... */
+.video_embeds{
+	margin-top:calc(148px + 8.2vh);
+}
 /* ::>> ... Revolver Maps Section > Hide the Scroll Bar ... ... ... ... */
 			#Rev-maps{
 				position:absolute;
@@ -171,3 +153,25 @@ footer{
 	background:teal;
 
 }
+
+/* ::>> ... DeviantArt Group Section... ... ... ... ... ... ... ... ... */
+	#DevArt_Group_Page{
+		position:absolute;
+		top:134px; left:18px;
+		filter:opacity(0.2);
+		width:auto; height:calc(240px + 18.2vh);
+		background:linear-gradient(-48deg,green,blue);
+		z-index:10;
+	    }
+	    .Dev_iFrame{
+	      	overflow-x: hidden !important;
+             -ms-zoom: 0.72;
+             -moz-transform:scale(0.72);
+             -moz-transform-origin: 0 0;
+             -o-transform: scale(0.72);
+             -o-transform-origin: 0 0;
+             -webkit-transform: scale(0.72);
+             -webkit-transform-origin: 0 0;
+              border-radius:none !important;
+	          }
+/* ::>> ... DeviantArt Group Section... ... ... ... ... ... ... ... ... */
