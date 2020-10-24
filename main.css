@@ -42,7 +42,7 @@ h1{
 	text-rendering: geometricPrecision;
         -webkit-backface-visibility:hidden;
 	    -webkit-font-smoothing:antialiased;
-	background:linear-gradient(-33deg,#bf1a68,
+	background:linear-gradient(-33deg,#bf1a68,#bf1a68,
 		                    rgb(229, 235, 52),
 		                    rgb(11, 143, 130));
 	        background-clip:text;
