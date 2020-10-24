@@ -68,11 +68,12 @@ h2{
 		position:absolute;
 		top:134px; left:18px;
 		width:72vw; height:calc(240px + 18.2vh);
-		background:green;
+		background:linear-gradient(top-left, green,blue);
 		z-index:10;
 
 	      }
 	      .Dev_iFrame{
+	      	overflow: hidden;
          -ms-zoom: 0.72;
          -moz-transform: scale(0.72);
          -moz-transform-origin: 0 0;
