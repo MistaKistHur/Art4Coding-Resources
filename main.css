@@ -54,7 +54,7 @@ h1{
     }
 h1:hover{
 	transition:all 980ms ease-in-out 8ms;
-	filter:blur(0.82px) hue-rotate(-408deg);
+	filter:blur(0.82px) hue-rotate(408deg);
 	transform: scaleX(1.22) translateX(32px);
 	font-smoothing:antialiased;
     will-change:auto;
