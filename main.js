@@ -13,6 +13,22 @@
 
 
 
+/* ::>> Three.js Set-up <<:: */
+		var scene = new THREE.Scene();
+		var camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
+
+		var renderer = new THREE.WebGLRenderer();
+		renderer.setSize( window.innerWidth, window.innerHeight );
+		document.body.appendChild( renderer.domElement );
+/* ::>> Three.js Set-up <<:: */
+
+
+
+
+
+
+
+
 		let docu = document;
 		  let bodi = docu.querySelector("body");
 		  let header = docu.querySelector("header");
