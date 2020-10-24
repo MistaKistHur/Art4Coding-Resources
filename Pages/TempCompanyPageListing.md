@@ -1,5 +1,36 @@
-::>> Rebuild in Json & Csv formats.<br>
-::>> Sort into Sections.<br>
+**Coding Basics**
+
+**Coding Resources**
+
+**Coding Software**
+
+**Coding Tutorials**
+
+**Coding Documentation**
+
+**Coding Communitys**
+
+**Art General**
+
+**Art Assets**
+
+**Art Stock**
+
+**Art Social**
+
+**Art Promotion**
+
+**Art Supplies**
+
+**Art Companies**
+
+
+
+
+
+
+::>> Notes:: Rebuild in Json & Csv formats.<br>
+::>> ::      Sort into Sections.<br>
 
 https://www.murwalls.com<br>
 https://mothershipglass.com<br>
@@ -40,22 +71,13 @@ https://stock.adobe.com/ee/search?k=2d+animation+asset<br>
 <br>
 <br>
 **General Assets**<br>
-
+**Stock**<br>
+https://favpng.com<br>
 **Video Assets & Vj Loops**<br>
 https://www.freelancevideocollective.com/free-video-assets<br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
 http://www.metacafe.com/categories/art_and_animation<br>
 
 **Unknown**<br>
@@ -64,6 +86,18 @@ https://www.hydeoutworld.com<br>
 **Extras**<br>
 https://www.ancient-code.com<br>
 https://www.gaia.com<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 
