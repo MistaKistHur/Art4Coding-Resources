@@ -31,6 +31,8 @@
 🎱>  ![HealthBar](/Imgs/z.Gifs/health_5.gif)💎[Create Fantasy Art](https://www.deviantart.com/createfantasyart)<br>
 🎱>  ![HealthBar](/Imgs/z.Gifs/health_5.gif)💎[Character Library](https://www.deviantart.com/characterlibrary)
 
+https://www.deviantart.com/best-resources
+
 Once this list is built out more create Json & csv files with all the same info + sum extras..<br>
 
 If Any of the Links are broken, or any of the groups change their name or Url Please message someone on Our Deviantart Page.
