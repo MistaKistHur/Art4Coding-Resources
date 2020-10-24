@@ -72,6 +72,21 @@ h2{
 	color:transparent;
 	z-index:5;
     }
+.intial_top_animation{
+	position:absolute;
+	top:8px;left:8px;
+	width:calc(288px + 4.2vh);
+	height:calc(240px + 2.2vh);
+	border-radius:8.8px;
+	background:orange;
+	}
+
+
+
+
+
+
+
 .video_embeds{
 	margin-top:calc(148px + 8.2vh);
 }
