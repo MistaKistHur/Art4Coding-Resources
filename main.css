@@ -68,7 +68,7 @@ h2{
 		position:absolute;
 		top:134px; left:18px;
 		width:72vw; height:calc(240px + 18.2vh);
-		background:linear-gradient(top-left, green,blue);
+		background:linear-gradient(-48deg, green,blue);
 		z-index:10;
 
 	      }
