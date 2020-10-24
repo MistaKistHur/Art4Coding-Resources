@@ -49,7 +49,7 @@ h1{
 	-webkit-background-clip:text;
 	/* transform: scaleX(1) translateX(0); */
 	z-index:205 !important;
-	padding:.8px 12px 78px .2px;
+	padding:.8px 4.8px 34.8px .2px;
 	color:transparent;
 	will-change:auto;
     }
