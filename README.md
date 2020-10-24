@@ -1,4 +1,4 @@
-<img src="" style="">
+<img src="/Imgs/Jpgs/Art4Coding.jpg" style="margin:auto;">
 # Art and Coding Resources
  Resources for creativity
 
