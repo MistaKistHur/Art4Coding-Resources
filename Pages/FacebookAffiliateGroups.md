@@ -29,13 +29,16 @@
 **Top DeviantArt Groups to Browse**<br>
 🎱>  ![HealthBar](/Imgs/z.Gifs/health_5.gif)💎[Awesome Animation](https://www.deviantart.com/awesome-animation)<br>
 🎱>  ![HealthBar](/Imgs/z.Gifs/health_5.gif)💎[Create Fantasy Art](https://www.deviantart.com/createfantasyart)<br>
-🎱>  ![HealthBar](/Imgs/z.Gifs/health_5.gif)💎[Character Library](https://www.deviantart.com/characterlibrary)
+🎱>  ![HealthBar](/Imgs/z.Gifs/health_5.gif)💎[Character Library](https://www.deviantart.com/characterlibrary)<br>
 
-https://www.deviantart.com/best-resources
+
+🎱>  ![HealthBar](/Imgs/z.Gifs/health_10.gif)💎[Software Engineering Jobs @ TripleByte](https://triplebyte.com/iv/VLFwLE6/cp/request_referral_email)<br>
+
+https://www.deviantart.com/best-resources<br>
 
 Once this list is built out more create Json & csv files with all the same info + sum extras..<br>
 
-If Any of the Links are broken, or any of the groups change their name or Url Please message someone on Our Deviantart Page.
+If Any of the Links are broken, or any of the groups change their name or Url Please message someone on Our Deviantart Page.<br>
 
 
 
