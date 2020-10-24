@@ -47,7 +47,7 @@ h1{
 		                    rgb(11, 143, 130));
 	        background-clip:text;
 	-webkit-background-clip:text;
-	transform: skew(0deg, 0deg);
+	transform: scaleX(1);
 	z-index:205 !important;
 	color:transparent;
 	will-change:auto;
@@ -55,7 +55,7 @@ h1{
 h1:hover{
 	transition:all 980ms ease-in-out 8ms;
 	filter:blur(0.31px) hue-rotate(-208deg);
-	transform: skew(0deg, 1deg);
+	transform: scaleX(1.7);
 	font-smoothing:antialiased;
     will-change:auto;
 	}
