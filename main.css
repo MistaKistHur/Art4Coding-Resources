@@ -47,7 +47,7 @@ h1{
 		                    rgb(11, 143, 130));
 	        background-clip:text;
 	-webkit-background-clip:text;
-	transform: scaleX(1) translateX(0);
+	/* transform: scaleX(1) translateX(0); */
 	z-index:205 !important;
 	color:transparent;
 	will-change:auto;
@@ -55,8 +55,9 @@ h1{
 h1:hover{
 	transition:all 980ms ease-in-out 8ms;
 	filter:blur(0.82px) hue-rotate(408deg);
-	transform: scaleX(1.22) translateX(32px);
-	font-size:calc(27.95px + 2.295vw) !important;
+	text-shadow: 2.4px 2px 8px teal;
+	/* transform: scaleX(1.22) translateX(32px);
+	font-size:calc(27.95px + 2.295vw) !important; */
 	font-smoothing:antialiased;
 	pointer-events: none;
     will-change:auto;
