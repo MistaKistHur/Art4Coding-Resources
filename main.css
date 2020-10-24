@@ -67,6 +67,7 @@ h2{
 	#DevArt_Group_Page{
 		position:absolute;
 		top:134px; left:18px;
+		filter:opacity(0.2);
 		width:auto; height:calc(240px + 18.2vh);
 		background:linear-gradient(-48deg,green,blue);
 		z-index:10;
