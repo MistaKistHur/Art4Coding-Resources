@@ -13,6 +13,7 @@ https://developer.mozilla.org<br>
 https://www.freelancevideocollective.com<br>
 
 **Software Section**<br>
+https://processing.org<br>
 https://www.omnigeometry.com<br>
 https://www.gimp.org/downloads<br>
 https://jwildfire.overwhale.com<br>
@@ -23,8 +24,8 @@ http://xenodream.com<br>
 https://sourceforge.net/projects/apophysis<br>
 https://sourceforge.net/projects/fractalforge<br>
 https://www.softpedia.com/get/Multimedia/Graphic/Graphic-Others/Kaos-Rhei.shtml<br>
-**Image Processing**
-https://www.vectorizer.io
+**Image Processing**<br>
+https://www.vectorizer.io<br>
 
 
 **Other Designs & Experimentals**<br>
@@ -59,6 +60,10 @@ http://www.metacafe.com/categories/art_and_animation<br>
 
 **Unknown**<br>
 https://www.hydeoutworld.com<br>
+
+**Extras**<br>
+https://www.ancient-code.com<br>
+https://www.gaia.com<br>
 
 
 
