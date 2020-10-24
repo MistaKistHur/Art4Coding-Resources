@@ -57,9 +57,9 @@ h1:hover{
 	filter:blur(0.82px) hue-rotate(408deg);
 	text-shadow: 2.4px 2px 8px teal;
 	/* transform: scaleX(1.22) translateX(32px);
-	font-size:calc(27.95px + 2.295vw) !important; */
+	font-size:calc(27.95px + 2.295vw) !important; pointer-events: none;*/
 	font-smoothing:antialiased;
-	pointer-events: none;
+	
     will-change:auto;
 	}
 h2{
