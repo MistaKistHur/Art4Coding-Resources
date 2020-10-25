@@ -122,7 +122,7 @@ nav ul li a:hover{
 	top:calc(118px + .85vh + .45vmax); left:8px;
 	width:calc(298.8px + 27.788vh + 2.48vmax);
 	height:calc(248px + 2.2vh);
-	filter:blur(0.33px) opacity(0.99);
+	filter:blur(18.33px) opacity(0.99);
 	border-radius:8.8px;
 	background:url("/Imgs/Jpgs/snow-covered-trees-and-moon.jpg");
 	background-size:cover;
