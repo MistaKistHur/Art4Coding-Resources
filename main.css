@@ -149,6 +149,7 @@ nav ul li a:hover{
 	grid-template-areas: ;
     }
 .help_png{
+	float:right;
 	transform:scale(1.12) rotateZ(0deg);
 	filter:blur(0.32px) hue-rotate(0deg);
 	transition:all 648ms ease-out;
