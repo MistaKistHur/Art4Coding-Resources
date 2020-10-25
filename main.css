@@ -112,8 +112,8 @@ nav ul li a:hover{
 .btn-container{
 	position:absolute;
 	left:8px !important;
-	top:148px;
-}
+	top:748px;
+    }
 .intial_top_animation{
 	position:absolute;
 	top:calc(118px + .85vh + .45vmax); left:8px;
@@ -123,7 +123,9 @@ nav ul li a:hover{
 	background:url("/Imgs/Jpgs/snow-covered-trees-and-moon.jpg");
 	background-size:contain;
 	}
-
+.video_embeds{
+	margin-top:calc(248.8px + 8.77vh + 0.7vmin);
+    }
 
 /* List stock imgs used ::>> https://www.pikrepo.com/fjpww/snow-covered-trees-and-moon*/
 
@@ -133,9 +135,7 @@ nav ul li a:hover{
 
 
 
-.video_embeds{
-	margin-top:calc(248px + 8.47vh);
-}
+
 /* ::>> ... Revolver Maps Section > Hide the Scroll Bar ... ... ... ... */
 			#Rev-maps{
 				position:absolute;
