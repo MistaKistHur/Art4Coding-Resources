@@ -117,14 +117,16 @@ nav ul li a:hover{
 .intial_top_animation{
 	position:absolute;
 	top:calc(118px + .85vh + .45vmax); left:8px;
-	width:calc(298.8px + 17.788vh + 2.28vmax);
+	width:calc(298.8px + 27.788vh + 2.48vmax);
 	height:calc(248px + 2.2vh);
 	border-radius:8.8px;
 	background:url("/Imgs/Jpgs/snow-covered-trees-and-moon.jpg");
 	background-size:contain;
 	}
 .video_embeds{
-	margin-top:calc(248.8px + 8.77vh + 0.7vmin);
+	margin-top:calc(288.8px + 8.77vh + 0.7vmin);
+	display:grid;
+	grid-template-areas: ;
     }
 
 /* List stock imgs used ::>> https://www.pikrepo.com/fjpww/snow-covered-trees-and-moon*/
