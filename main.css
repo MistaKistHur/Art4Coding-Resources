@@ -109,10 +109,15 @@ nav ul li a:hover{
 	transform:scale(1.2);
 	will-change:auto;
     }
+.btn-container{
+	position:absolute;
+	left:8px !important;
+	top:148px;
+}
 .intial_top_animation{
 	position:absolute;
 	top:calc(118px + .85vh + .45vmax); left:8px;
-	width:calc(288px + 4.2vh);
+	width:calc(288px + 4.288vh);
 	height:calc(240px + 2.2vh);
 	border-radius:8.8px;
 	background:orange;
