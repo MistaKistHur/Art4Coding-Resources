@@ -148,6 +148,10 @@ nav ul li a:hover{
 	display:grid;
 	grid-template-areas: ;
     }
+.help_png{
+	transform:scale(1.08);
+	filter:blur(0.34px);
+}
 
 /* List stock imgs used ::>> https://www.pikrepo.com/fjpww/snow-covered-trees-and-moon*/
 
