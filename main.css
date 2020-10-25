@@ -182,8 +182,9 @@ iframe{
 footer{
 	display:grid;
 	position:absolute;
+	bottom:0 !important;
 	width:100vw; height:128px;
-	background:teal;
+	background:grey;
 
 }
 
