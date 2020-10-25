@@ -121,7 +121,7 @@ nav ul li a:hover{
 	height:calc(248px + 2.2vh);
 	border-radius:8.8px;
 	background:url("/Imgs/Jpgs/snow-covered-trees-and-moon.jpg");
-	background-size:contain;
+	background-size:cover;
 	}
 .video_embeds{
 	margin-top:calc(288.8px + 8.77vh + 0.7vmin);
