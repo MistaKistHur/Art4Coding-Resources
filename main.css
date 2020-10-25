@@ -180,14 +180,7 @@ iframe{
 
 /*Dark Pinkish Color ::>> #bf1a68 */
 
-footer{
-	display:grid;
-	position:absolute;
-	bottom:0 !important;
-	width:100vw; height:128px;
-	background:grey;
 
-}
 
 /* ::>> ... DeviantArt Group Section... ... ... ... ... ... ... ... ... */
 	#DevArt_Group_Page{
@@ -210,3 +203,14 @@ footer{
               border-radius:none !important;
 	          }
 /* ::>> ... DeviantArt Group Section... ... ... ... ... ... ... ... ... */
+
+
+
+footer{
+	display:grid;
+	position:absolute;
+	bottom:0 !important;
+	width:100vw; height:128px;
+	background:grey;
+
+}
