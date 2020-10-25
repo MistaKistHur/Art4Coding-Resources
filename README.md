@@ -1,6 +1,7 @@
 <img src="/Imgs/Jpgs/Art4Coding.jpg" style="margin:auto;">
-![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)(https://ko-fi.com/N4N62IBAH)
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/N4N62IBAH)
+
+Join the Facebook Group here: <a href="https://www.facebook.com/groups/657329864926380">Art4Coding Group</a><br>
+Or Share Our Facebook Page: <a href="https://www.facebook.com/OpenSourceProjectz">Art4Coding Page</a><br>
 
 # Art and Coding Resources
  Resources for creativity
@@ -27,6 +28,8 @@ Topics of interest for this webpage & all subsequent pages:
   * Phaser.
   * Unity.  
   * CGI.
+  
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/N4N62IBAH)
 
 
 
