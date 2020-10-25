@@ -1,5 +1,7 @@
 <img src="/Imgs/Jpgs/Art4Coding.jpg" style="margin:auto;">
 ![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)(https://ko-fi.com/N4N62IBAH)
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/N4N62IBAH)
+
 # Art and Coding Resources
  Resources for creativity
 
