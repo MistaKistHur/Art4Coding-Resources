@@ -149,14 +149,15 @@ nav ul li a:hover{
 	grid-template-areas: ;
     }
 .help_png{
-	transform:scale(1.099);
-	filter:blur(0.34px);
-}
-.help_png:hover{
-	transform:scale(1.099) rotateZ(14deg);
-	filter:blur(0.34px) hue-rotate(-45deg);
+	transform:scale(1.099) rotateZ(0deg);
+	filter:blur(0.33px) hue-rotate(0deg);
 	transition:all 648ms ease-out;
-}
+    }
+.help_png:hover{
+	transform:scale(1.099) rotateZ(22deg);
+	filter:blur(0.31px) hue-rotate(-45deg);
+	transition:all 648ms ease-out;
+    }
 
 /* List stock imgs used ::>> https://www.pikrepo.com/fjpww/snow-covered-trees-and-moon*/
 
