@@ -131,9 +131,9 @@ nav ul li a:hover{
 	}
 .intial_top_animation:hover{
 	filter:blur(0.24px) opacity(0.78);
-	transform:scale(1.2);
+	transform:scale(1.2) translate(12px, 12px);
 	transition:all 880ms ease-in-out;
-	box-shadow: 0 0 14px 12px #324963;
+	/* box-shadow: 0 0 14px 12px #324963; */
 	}
 /* ::>> ... Revolver Maps Section > Hide the Scroll Bar ... ... ... ... */
 			#Rev-maps{
