@@ -109,11 +109,14 @@ nav ul li a:hover{
 	transform:scale(1.2);
 	will-change:auto;
     }
+/* ::>> Kofi Donate Button & Container */
 .btn-container{
 	position:absolute;
 	left:8px !important;
 	top:748px;
     }
+/* ::>> Kofi Donate Button & Container */
+
 .intial_top_animation{
 	position:absolute;
 	top:calc(118px + .85vh + .45vmax); left:8px;
@@ -123,6 +126,19 @@ nav ul li a:hover{
 	background:url("/Imgs/Jpgs/snow-covered-trees-and-moon.jpg");
 	background-size:cover;
 	}
+/* ::>> ... Revolver Maps Section > Hide the Scroll Bar ... ... ... ... */
+			#Rev-maps{
+				position:absolute;
+				top:114px; right:18px;
+				width:calc(342px + 0.5vw + 0.2vmax);
+			    height:calc(342px + 0.4vh + 0.2vmin);
+				border-radius:18px;
+				background:#2e2e2e;
+				overflow-y: hidden;
+			    }
+/* ::>> ... Revolver Maps Section > Hide the Scroll Bar ... ... ... ... */
+
+
 .video_embeds{
 	position:relative; left:8px;
 	width:auto;
@@ -140,17 +156,7 @@ nav ul li a:hover{
 
 
 
-/* ::>> ... Revolver Maps Section > Hide the Scroll Bar ... ... ... ... */
-			#Rev-maps{
-				position:absolute;
-				top:114px; right:18px;
-				width:calc(342px + 0.5vw + 0.2vmax);
-			    height:calc(342px + 0.4vh + 0.2vmin);
-				border-radius:18px;
-				background:#2e2e2e;
-				overflow-y: hidden;
-			    }
-/* ::>> ... Revolver Maps Section > Hide the Scroll Bar ... ... ... ... */
+
 /* ::>> ... Web Radio Section > Give option 1Xtra or Reggae Stations ... ... */
 	.embed-radioplayer{
 		position:absolute;
