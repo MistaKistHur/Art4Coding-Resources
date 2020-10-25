@@ -126,7 +126,12 @@ nav ul li a:hover{
 	filter:blur(18.33px) opacity(0.99);
 	border-radius:8.8px;
 	background:url("/Imgs/Jpgs/snow-covered-trees-and-moon.jpg");
+	transition:transform 880ms ease-in-out;
 	background-size:cover;
+	}
+.intial_top_animation:hover{
+	filter:blur(0.24px) opacity(0.88);
+	transition:transform 880ms ease-in-out;
 	}
 /* ::>> ... Revolver Maps Section > Hide the Scroll Bar ... ... ... ... */
 			#Rev-maps{
@@ -152,15 +157,12 @@ nav ul li a:hover{
 	float:right;
 	transform-origin: bottom right 60px;
 	transform:scale(1.12) rotateZ(0deg) translate(-33px, 12px);
-
 	filter:blur(0.32px) hue-rotate(0deg);
 	transition:all 648ms ease-out;
     }
 .help_png:hover{
 	transform-origin: bottom right 60px;
-
 	transform:scale(1.123) rotateZ(42deg) translate(-33px, 12px);
-
 	filter:blur(0.27px) hue-rotate(-47deg);
 	transition:all 648ms ease-out;
     }
