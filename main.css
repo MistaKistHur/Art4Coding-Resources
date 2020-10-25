@@ -150,13 +150,13 @@ nav ul li a:hover{
     }
 .help_png{
 	float:right;
-	transform:scale(1.12) rotateZ(0deg) translate(-25px, 14px);
+	transform:scale(1.12) rotateZ(0deg) translate(-28px, 12px);
 	transform-origin:-25px, 14px;
 	filter:blur(0.32px) hue-rotate(0deg);
 	transition:all 648ms ease-out;
     }
 .help_png:hover{
-	transform:scale(1.123) rotateZ(42deg) translate(-25px, 14px);
+	transform:scale(1.123) rotateZ(42deg) translate(-28px, 12px);
 	transform-origin:-25px, 14px;
 	filter:blur(0.27px) hue-rotate(-47deg);
 	transition:all 648ms ease-out;
