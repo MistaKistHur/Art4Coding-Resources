@@ -144,7 +144,7 @@ nav ul li a:hover{
 .video_embeds{
 	position:relative; left:8px;
 	width:78vw;
-	margin-top:calc(288.8px + 8.77vh + 0.7vmin);
+	margin-top:calc(288.8px + 8.77vh + 2.7vmin);
 	display:grid;
 	grid-template-areas: ;
     }
