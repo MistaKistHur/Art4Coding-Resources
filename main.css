@@ -124,7 +124,7 @@ nav ul li a:hover{
 	background-size:cover;
 	}
 .video_embeds{
-	position:absolute; left:8px;
+	position:relative; left:8px;
 	width:auto;
 	margin-top:calc(288.8px + 8.77vh + 0.7vmin);
 	display:grid;
