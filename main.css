@@ -110,6 +110,11 @@ nav ul li a:hover{
 	transform:scale(1.2);
 	will-change:auto;
     }
+.face_group{
+	position:absolute;
+	top:80px; right:8px !important;
+	z-index:55;
+}
 /* ::>> Kofi Donate Button & Container */
 .btn-container{
 	position:absolute;
