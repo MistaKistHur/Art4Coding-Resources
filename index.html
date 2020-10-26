@@ -10,9 +10,10 @@
     <meta http-equiv="Access-Control-Allow-Headers" content="X-Requested-With"/>
     <meta name="keywords" content="Art, Coding, Animation, Resources, Stock, Images, Developer,
                 Webdesign, Assets, Javascript, Html5, Css, Tutorials, Design, Image_processing, Game_Developement"/>
+    <!-- Don't think I'll use this part use GSAP instead
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
           integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
-          crossorigin="anonymous"/>
+          crossorigin="anonymous"/>   -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="Author" content="R T Middleton"/>
     <meta name="robots" content=""/>
@@ -43,7 +44,7 @@
 						                       FractalGen, Online editor, sticky note.
 				-->
 				<a href="https://www.facebook.com/groups/art4coding.icu/"
-				   target="_blank" class="face_group fa fa-facebook animated infinite bounce"></a>
+				   target="_blank" class="face_group fa fa-facebook"></a><!-- " animated infinite bounce" Classes for animate.css from cdn were not activating -->
 				<li><a href="/Pages/Resources/Rsc_one.html"
 					   class="top_nav nav_opt nav_style ajax prevent_default">Resources</a>
 					<img src="/Imgs/Pngs/help.png" class="help_png tooltip" width="" height="" type="img/png">
@@ -167,9 +168,6 @@
 	</section>
 <!-- ::>> End of Video Embeds Section -->
 
-
-
-
 	<div class="Deviant_Group txt_align_cent">
 		<a href="https://www.deviantart.com/coding-artists"
 		   target="_blank">Open The DeviantArt Collaboration Page</a>
@@ -185,12 +183,6 @@
 		<a href="https://designers.hubspot.com/code-gallery/open-source/submission">OpenSource Submission</a>
 		<a href="https://softwareengineering.stackexchange.com/questions/14033/where-can-i-list-my-opensource-project">Where to list OpenSource Projects</a>
 		<a href="https://opensource.com/how-submit-article">Submi an OpenSource Article</a>
-
-
-
-
-
-
 
 	</div>
 <!-- Notes ::>>
@@ -246,28 +238,6 @@
 
 <!-- Info -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	<!-- Optional Bbc 1Xtra Player try fade in with JS
 		  <div data-my-radio-lang="en" class="embed-radioplayer js-radioplayerData"
 		       data-autoplay="false" data-stream="752" data-name="BBC 1Xtra"
@@ -279,17 +249,16 @@
 		  </script> -->
 	<!-- Optional Bbc 1Xtra Player -->
 
-
 <!--
-<div class="smallz" style="margin-top:8.95vh; width:200px; height:auto;">
-	<pre style="color:white; z-index:500;">
-		if(Art){
-		   document.extract(Code)
-	    } elseif(Code){
-	         document.manifest(Art);
-	    }
-	</pre>
-</div> -->
+	<div class="smallz" style="margin-top:8.95vh; width:200px; height:auto;">
+		<pre style="color:white; z-index:500;">
+			if(Art){
+			   document.extract(Code)
+		    } elseif(Code){
+		         document.manifest(Art);
+		    }
+		</pre>
+	</div> -->
 <!-- ::>> Deviant Art Group Page for Art4Coding for Collaboration
 	<div id="DevArt_Group_Page">
 		<iframe class="Dev_iFrame" name=""
@@ -337,12 +306,12 @@
       	<iframe></iframe>
       	<iframe></iframe>
       </div>-->
-      <!-- DBX 
+      <!-- DBX
 	<hr>
     <br/>
 	<br>
 	<hr>-->
-	<!-- Dumby Text 
+	<!-- Dumby Text
 	<p class="dummy_txt" style="color:white; margin-top:2vh; display:none;">
 	   Dispassionate extra-terrestrial observer, you have split your worlds in two.<br>
 	   one so far removed from yourself that you feel alienated waking in your own attire<br>
@@ -445,7 +414,7 @@
 		<a href="">3</a>
 	</footer>
 <!-- ::>> Footer Notes ::>>
-
+       Pick and Choose which Scripts you'll end up using Sure functionality overlaps with some of them..
 -->
 	<script src="main.js"></script>
 <!-- ::>> P5 Library -->
@@ -460,6 +429,8 @@
             crossorigin="anonymous">
     </script>
 <!-- ::>> Three Library -->
-
+<!-- ::>> GSAP Animation [Note:: Try & find a version with integrity Hash & origin decl`...]-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+<!-- ::>> GSAP Animation -->
 </body>
 </html>
