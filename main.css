@@ -114,7 +114,7 @@ nav ul li a:hover{
 	position:absolute;
 	top:80px; right:8px !important;
 	z-index:55;
-}
+    }
 /* ::>> Kofi Donate Button & Container */
 .btn-container{
 	position:absolute;
