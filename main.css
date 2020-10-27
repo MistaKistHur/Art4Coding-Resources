@@ -22,17 +22,18 @@ body{
     display:block !important;
     font-size:calc(16.2px + 0.4vw + 0.2vmin);
     }
-nav{
-  position:absolute;
-  top:0 !important; left:0;
-  width:100vw; height:calc(98.8px + 0.85vh + 0.12vmax);
-  border-bottom:2.8px solid #bf1a68;
-  margin-bottom:18px;
-  background:#2e2e2e;
-  overflow:hidden !important;
-  min-width:100%;
-  word-wrap:none;
-  }
+/* ::>> Change the Layout of this to be display:grid? flex? */
+	nav{
+	  position:absolute;
+	  top:0 !important; left:0;
+	  width:100vw; height:calc(98.8px + 0.85vh + 0.12vmax);
+	  border-bottom:2.8px solid #bf1a68;
+	  margin-bottom:18px;
+	  background:#2e2e2e;
+	  overflow:hidden !important;
+	  min-width:100%;
+	  word-wrap:none;
+	  }
 .blob{
 	position:absolute;
 	top:8px; left:8px;
@@ -139,6 +140,20 @@ nav ul li a:hover{
 	transform:scale(1.2);
 	will-change:auto;
     }
+.help_png{
+	float:right;
+	transform-origin: bottom right 60px;
+	transform:scale(1.12) translate(-33px, 12px);
+	filter:blur(0.32px) hue-rotate(0deg);
+	transition:all 648ms ease-out;
+    }
+.help_png:hover{
+	transform-origin: bottom right 60px;
+	transform:scale(1.123) translate(-33px, 12px); /* Temp removing the rotate ::>> rotateZ(0deg)  rotateZ(42deg)*/
+	filter:blur(0.27px) hue-rotate(-47deg);
+	transition:all 648ms ease-out;
+    }
+
 .face_group{
 	position:absolute;
 	top:62px; right:calc(18.8px + 0.25vw)!important;
@@ -189,19 +204,7 @@ nav ul li a:hover{
 	display:grid;
 	grid-template-areas: ;
     }
-.help_png{
-	float:right;
-	transform-origin: bottom right 60px;
-	transform:scale(1.12) rotateZ(0deg) translate(-33px, 12px);
-	filter:blur(0.32px) hue-rotate(0deg);
-	transition:all 648ms ease-out;
-    }
-.help_png:hover{
-	transform-origin: bottom right 60px;
-	transform:scale(1.123) rotateZ(42deg) translate(-33px, 12px);
-	filter:blur(0.27px) hue-rotate(-47deg);
-	transition:all 648ms ease-out;
-    }
+
 
 /* List stock imgs used ::>> https://www.pikrepo.com/fjpww/snow-covered-trees-and-moon*/
 
