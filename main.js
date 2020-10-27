@@ -35,8 +35,12 @@
            Consider using parallax aswell... */
         // let h1Anime = gsap.to();  // Flame/Smoke reveal or not? fad in/ slide in?
         // let h2Anime = gsap.to();  // Fade in.
+        let RevolverMapsGsap = gsap.effects.explode(".r_maps_container", {
+  									direction: "up", //can reference any properties that the author decides - in this case "direction".
+                                    duration: 3
+        });
 
-        let navMenu = gsap.to();
+        // let navMenu = gsap.to();
 
         // CreateA P5.js Fractal?
         function P5Visual(){
