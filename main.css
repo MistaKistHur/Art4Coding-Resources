@@ -95,6 +95,17 @@ h2{
 	color:transparent;
 	z-index:5;
     }
+h3{
+	position:absolute;
+	left:29.8px; top:calc(64px + 0.28vh);
+	font-family:"Black_Chancery", Verdana, Tahoma;
+	font-size:calc(15.44px + 0.08vmax);
+	background:radial-gradient(circle at 40%,
+		                  black,grey,black);
+	background-clip:text; -webkit-background-clip:text;
+	color:transparent;
+	z-index:5;
+    }
 nav ul{
 	position:absolute;
 	top:0px; right:0px;
