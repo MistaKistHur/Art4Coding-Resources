@@ -443,6 +443,9 @@
 				<!-- TODO: Add SDKs for Firebase products that you want to use
 				     https://firebase.google.com/docs/web/setup#available-libraries -->
 				<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-analytics.js"></script>
+				<!-- Add the standard Performance Monitoring library -->
+  				<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-performance.js"></script>
+
 					<script>
 					  // Your web app's Firebase configuration
 					  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
@@ -459,6 +462,7 @@
 					  // Initialize Firebase
 					  firebase.initializeApp(firebaseConfig);
 					  firebase.analytics();
+					  var perf = firebase.performance();
 					</script>
 <!-- ::>> Google Firebase Code -->
 </body>
