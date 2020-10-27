@@ -39,9 +39,15 @@ nav{
 	width:22px; height:22px;
 	background:springgreen;
 	border-radius:50%;
-	filter:blur(12px);
+	filter:blur(9.4px);
 	z-index:500;
     }
+.blob::before{
+	content:"";
+	position:relative;
+	width:24px; height:24px;
+	background:black;
+	}
 h1{
 	position:absolute;
 	top:0.2px; left:calc(8.8px + 0.85vw);
