@@ -27,42 +27,39 @@
 	console.log("Js File Loaded Successfully");
 
 	document.addEventListener("DOMContentLoaded",(function(){
-		    let tick_one = performance.now();
-		    console.log(tick_one)
+		console.log("DomC Ran Successfully");
+		        let tick_one = performance.now(); // Testing only.
+		        console.log(tick_one)
 
-        /* Wait 180ms after page load and use gsap to fade items it, draw in from sides etc..
+        /* Wait 2/8/180ms after page load and use gsap to fade items it, draw in from sides etc..
            Consider using parallax aswell... */
-        let h1Anime = gsap.to();
-        let h2Anime = gsap.to();
+        let h1Anime = gsap.to();  // Flame/Smoke reveal or not? fad in/ slide in?
+        let h2Anime = gsap.to();  // Fade in.
 
         let navMenu = gsap.to();
+
+        // CreateA P5.js Fractal?
+        function P5Visual(){
+
+        }P5Visual();
 
 
 		//if(!document.worker()){
 		//	console.log("::>> err somewhere");
 		//}
-		console.log("DomC Ran Successfully");
-
-
 
 /* ::>> Three.js Set-up <<:: */
         function ThreeActive(){
              // Move three Code inside here for modularity...
-        }ThreeActive();
 			var scene = new THREE.Scene();
 			var camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
 
 			var renderer = new THREE.WebGLRenderer();
 			renderer.setSize( window.innerWidth, window.innerHeight );
 			document.body.appendChild( renderer.domElement );
+        }ThreeActive();
+
 /* ::>> Three.js Set-up <<:: */
-
-
-
-
-
-
-
 
 		let docu = document;
 		  let bodi = docu.querySelector("body");
