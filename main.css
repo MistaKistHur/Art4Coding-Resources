@@ -100,7 +100,7 @@ h3{
 	left:31.8px; top:calc(65.98px + 0.28vh);
 	font-family:"Black_Chancery", Verdana, Tahoma;
 	font-size:calc(15.44px + 0.08vmax);
-	background:radial-gradient(circle at 40%,
+	background:linear-gradient(-33deg,
 		                  black,orange,yellow);
 	background-clip:text; -webkit-background-clip:text;
 	color:transparent;
