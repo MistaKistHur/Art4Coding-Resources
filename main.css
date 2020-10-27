@@ -39,11 +39,12 @@ nav{
 	width:22px; height:22px;
 	background:springgreen;
 	border-radius:50%;
-	filter:blur(9.4px);
+	filter:blur(7.4px);
 	z-index:500;
     }
 .blob::before{
 	content:"";
+	display:block;
 	position:relative;
 	width:24px; height:24px;
 	background:black;
