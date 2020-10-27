@@ -33,8 +33,8 @@
 
         /* Wait 2/8/180ms after page load and use gsap to fade items it, draw in from sides etc..
            Consider using parallax aswell... */
-        let h1Anime = gsap.to();  // Flame/Smoke reveal or not? fad in/ slide in?
-        let h2Anime = gsap.to();  // Fade in.
+        // let h1Anime = gsap.to();  // Flame/Smoke reveal or not? fad in/ slide in?
+        // let h2Anime = gsap.to();  // Fade in.
 
         let navMenu = gsap.to();
 
