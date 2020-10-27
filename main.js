@@ -1,19 +1,24 @@
 "use-strict";
 // Pre-loading Screen Overlay?
- let UsrMetrix = [];
+ let UsrMetrix = [];     // Unsure to use an array for this Json or Object might be better...
  let MenuItems = [];
- let PageActions = [];
- let ScrollAmnt = undefined;
- let IframeConn = undefined;
+ let PageActions = [];   // ?
+ let ScrollAmnt = undefined;   // Activatecertain animations based on Scroll Ammount/ Parallex.
+ let IframeConn = undefined;   // Github Pages does not support server side stuff Use iframe merged?
+ let AssetCrate = {};
+       // Has P5 loaded successfully?
+       // Has Three.js Loaded?
+       // Has GSAP Loaded?
 
 // ::>> Example Only
- var text = '{ "employees" : [' +
-            '{ "firstName":"John" , "lastName":"Doe" },' +
-            '{ "firstName":"Anna" , "lastName":"Smith" },' +
-            '{ "firstName":"Peter" , "lastName":"Jones" } ]}';
+// Put in a marquee style greeting message.......
+ var welcome = '{ "Welcome Message" : [' +
+                 '{ "Hello":"John" , "lastName":"Doe" },' +      // Change these and use Math.random() + ifelse to select a random greeting.
+                 '{ "Bonjour":"Anna" , "lastName":"Smith" },' +
+                 '{ "buenos dias":"Peter" , "lastName":"Jones" } ]}';
 
 	// ::>> Then, use the JavaScript built-in function JSON.parse() to convert the string into a JavaScript object:
-        var obj = JSON.parse(text);
+        var obj = JSON.parse(welcome);
     // ::>> UsrMetrix - - Device width, Device Height, User Agent : browser,
                        // Os, Ios etc, First Conn Time, Js-Disabled, Sensors,
                        // CountryLocation, Cookies? Refferer?
