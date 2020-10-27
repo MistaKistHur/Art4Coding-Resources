@@ -101,7 +101,7 @@ h3{
 	font-family:"Black_Chancery", Verdana, Tahoma;
 	font-size:calc(15.44px + 0.08vmax);
 	background:linear-gradient(-33deg,
-		                  black,orange,yellow);
+		                  black,orange,yellow,orange,black);
 	background-clip:text; -webkit-background-clip:text;
 	color:transparent;
 	z-index:6;
