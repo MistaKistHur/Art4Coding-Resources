@@ -23,7 +23,7 @@
 		// ::>> Example Only
 		// Put in a marquee style greeting message.......
 		document.addEventListener("mousemove",(e) => {
-		    let xAxis = (window.innerWidth / 2 - e.pageX);
+		     x let xAxis = (window.innerWidth / 2 - e.pageX);
 		    let yAxis = (window.innerHeight / 2 - e.pageY);
             let mouseMoving = true;
 
@@ -45,6 +45,7 @@
 		                '{ "Buenos dias":"Chica" } ]}';
 			// ::>> Then, use the JavaScript built-in function JSON.parse() to convert the string into a JavaScript object:
 		        var obj = JSON.parse(welcome);
+		        // welcome.SomeMethod?
 
     (function UnloadAnimationAssets(){
 	    const RMaps = document.getElementById("Rev-maps")
