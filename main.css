@@ -97,6 +97,9 @@ h2{
 	color:transparent;
 	z-index:5;
     }
+.h2italic{
+	left:134px;
+}
 h3{
 	position:absolute;
 	left:42.8px; top:calc(64.98px + 0.28vh);
