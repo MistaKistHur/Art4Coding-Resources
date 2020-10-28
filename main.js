@@ -22,13 +22,14 @@
 		       // Has GSAP Loaded?
 		// ::>> Example Only
 		// Put in a marquee style greeting message.......
-		document.addEventListener("mousemove",(e) => {
+            const RMapsOuterCard = document.getElementById("RMapsOutCard");
+		RMapsOuterCard.addEventListener("mousemove",(e) => {
 		    let xAxis = (window.innerWidth / 2 - e.pageX) / 24;
 		    let yAxis = (window.innerHeight / 2 - e.pageY) / 28.8;
             let mouseMoving = true;
 
             console.log("hi");
-            const RMapsOuterCard = document.getElementById("RMapsOutCard");
+
             RMapsOuterCard.style.transform = `rotateX(${yAxis}deg) rotateY(${xAxis}deg) scale(0.8)`;
 				// if(mouseMoving === true){
 				//	console.log(`X:Axis::>>`+ ${xAxis}+`Y:Axis::>>`+ ${yAxis});
