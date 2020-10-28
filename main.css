@@ -190,6 +190,7 @@ nav ul li a:hover{
 				top:114px; right:18px;
 				width:calc(342px + 0.5vw + 0.2vmax);
 			    height:calc(342px + 0.4vh + 0.2vmin);
+			    filter:opacity(0);
 				border-radius:18px;
 				background:#2e2e2e;
 				overflow-y: hidden;
