@@ -192,9 +192,17 @@ nav ul li a:hover{
 	/* box-shadow: 0 0 14px 12px #324963; */
 	}
 /* ::>> ... Revolver Maps Section > Hide the Scroll Bar ... ... ... ... */
-		.r_maps_border_patch{
+		#RMapsOutCard{
 			position:absolute;
 			top:114px; right:18px;
+			width:calc(345px + 0.5vw + 0.2vmax);
+		    height:calc(352px + 0.4vh + 0.2vmin);
+		    background:transparent;
+		    }
+		.r_maps_border_patch{
+			position:relative;
+			top:50%; right:50%;
+			transform:translate(-50%, -50%);
 			width:calc(344px + 0.5vw + 0.2vmax);
 		    height:calc(350px + 0.4vh + 0.2vmin);
 		    box-shadow: inset 0 0 2.25px 4.8px black;
