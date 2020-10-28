@@ -212,7 +212,7 @@ nav ul li a:hover{
 					                        black,transparent,#bf1a68,
 					                           skyblue,yellow,springgreen);
 				overflow: hidden !important;
-				border:solid 4px black;
+				/* border:solid 4px black; */
 				padding-bottom:48px;
 				filter:hue-rotate(0deg);
 				transition:filter 840ms ease-in-out;/*
