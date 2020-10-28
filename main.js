@@ -4,8 +4,9 @@
     // this = this || window || document;
     const Docu = document;
 	Docu.addEventListener("DOMContentLoaded",(function(){
-            // if(null)?
-		const Head   = Docu.querySelector("body");
+            // ::>> if(null)?
+            // ::>> modules ? require()? include()?
+		const Head   = Docu.querySelector("head");
 		const Bodi   = Docu.querySelector("body");
 		const Header = Docu.querySelector("header");
 		const Footer = Docu.querySelector("footer");
