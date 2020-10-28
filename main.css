@@ -99,9 +99,9 @@ h2{
     }
 h3{
 	position:absolute;
-	left:31.8px; top:calc(68.98px + 0.28vh);
+	left:34.8px; top:calc(68.98px + 0.28vh);
 	font-family:"Black_Chancery", Verdana, Tahoma;
-	font-size:calc(15.44px + 0.08vmax);
+	font-size:calc(16.44px + 0.28vmax);
 	background:linear-gradient(-33deg,
 		                  black,orange,yellow,orange,black);
 	background-clip:text; -webkit-background-clip:text;
@@ -226,7 +226,10 @@ nav ul li a:hover{
 
 /* List stock imgs used ::>> https://www.pikrepo.com/fjpww/snow-covered-trees-and-moon*/
 
-
+.opensource_project_linx{
+	position:absolute;
+	top:880px;
+}
 
 
 
