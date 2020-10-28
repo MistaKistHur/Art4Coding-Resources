@@ -37,7 +37,7 @@
 		       // Has GSAP Loaded?
 		// ::>> Example Only
 		// Put in a marquee style greeting message.......
-            const RMapsOuterCard = document.getElementById("RMapsHoverActivator");
+            const RMapsOuterCard = Docu.getElementById("RMapsHoverActivator");
 
         // ::>> Test Bench{::>>Move Around<<::}.. <<:: ::>>....................................................................<<::
 				//const t1 = performance.now();
