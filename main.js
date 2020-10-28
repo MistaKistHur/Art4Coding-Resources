@@ -25,8 +25,8 @@
             const RMapsOuterCard = document.getElementById("RMapsHoverActivator");
 
         // ::>> Test Bench{::>>Move Around<<::}.. <<:: ::>>....................................................................<<::
-				const t1 = performance.now();
-				console.log(`Call to doSomething took ${t1 - t0} milliseconds.`);
+				//const t1 = performance.now();
+				//console.log(`Call to doSomething took ${t1 - t0} milliseconds.`);
 // console.log("::>> Testing, This Section Ran Ok" + performance.now() + "<<::" + (performance.now() - ${tick_one}));
         // ::>> Test Bench{::>>Move Around<<::}.. <<:: ::>>....................................................................<<::
 
