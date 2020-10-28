@@ -4,12 +4,14 @@
     // this = this || window || document;
     const Docu = document;
 	Docu.addEventListener("DOMContentLoaded",(function(){
-		console.log("Js File Loaded Successfully");
-		console.log("DomC Ran Successfully");
-
-
-
-
+            // if(null)?
+		const Head   = Docu.querySelector("body");
+		const Bodi   = Docu.querySelector("body");
+		const Header = Docu.querySelector("header");
+		const Footer = Docu.querySelector("footer");
+		/* ::>> Notes            */
+			console.log("Js File Loaded Successfully");
+			console.log("DomC Ran Successfully");
 
 		    const t0 = performance.now(); // Testing only.
 		    console.log(`${t0}`);
@@ -120,10 +122,8 @@
 
 /* ::>> Three.js Set-up <<:: */
 
-		
-		  let bodi = docu.querySelector("body");
-		  let header = docu.querySelector("header");
-		  let xhr_video = docu.getElementsByClassName("xhr_video_request")[0];
+
+		  let xhr_video = Docu.getElementsByClassName("xhr_video_request")[0];
 
 		  xhr_video.addEventListener("mousedown",(e) => {
                   e.preventDefault();
