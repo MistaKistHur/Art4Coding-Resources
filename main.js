@@ -1,12 +1,18 @@
 "use-strict";
     // this.applicationCache.onprogress; ......... <<:: Research These:
     // this.applicationCache.ondownloading; ...... <<:: Research These:
+    // this = this || window || document;
     const Docu = document;
 	Docu.addEventListener("DOMContentLoaded",(function(){
 		console.log("Js File Loaded Successfully");
 		console.log("DomC Ran Successfully");
+
+
+
+
+
 		    const t0 = performance.now(); // Testing only.
-		    console.log(${t0});
+		    console.log(`${t0}`);
 			//console.log(tick_one);
 		//let e = e || evt || event;
 	    (function PreSetUp(){
