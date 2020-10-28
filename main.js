@@ -22,7 +22,7 @@
 		       // Has GSAP Loaded?
 		// ::>> Example Only
 		// Put in a marquee style greeting message.......
-		document.addEventListener("mousemove",((e) => {
+		document.addEventListener("mousemove",(e) => {
 		    let xAxis = (window.innerWidth / 2 - e.pageX);
 		    let yAxis = (window.innerHeight / 2 - e.pageY);
             let mouseMoving = true;
@@ -36,7 +36,7 @@
 
               // console.log(" "${xAxis}"" ${yAxis}"");
           // Handle touch events seperately.
-		}))(); // ::>> Closing Tag for Document MouseMove evt...
+		}) // ::>> Closing Tag for Document MouseMove evt...
 
 
 		var welcome = '{ "Welcome Message" : [' +
