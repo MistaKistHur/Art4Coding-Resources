@@ -7,7 +7,8 @@
 	font-family:"Abassy";
 	src: url(/Imgs/z.Fonts/AbbasyCalligraphy.ttf) format("truetype");
     }
-.disp_none{display:none;}
+.disp_none{display:none;}.disp_block{display:block;}.vis_hidden{visibility:hidden;}
+/* https://www.youtube.com/watch?v=XK7T3mY1V-w */
 *{
  margin:0; padding:0;
  text-decoration:none;
