@@ -59,7 +59,7 @@ html,body{
 	}
 h1{
 	position:absolute;
-	top:0.02px; left:calc(8.8px + 0.85vw);
+	top:0.02px; left:calc(8.88px + 0.87vw);
 	font-family:"Black_Chancery", Verdana, Tahoma;
 	font-size:calc(22.95px + 2.28vw) !important;
 	transition:all 980ms ease-in-out 8ms;
