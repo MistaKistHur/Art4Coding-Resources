@@ -197,7 +197,7 @@ nav ul li a:hover{
 			top:114px; right:18px;
 			width:calc(345px + 0.5vw + 0.2vmax);
 		    height:calc(352px + 0.4vh + 0.2vmin);
-		    background:transparent;
+		    background:black;
 		    }
 		.r_maps_border_patch{
 			position:relative;
