@@ -20,6 +20,7 @@
 		//let e = e || evt || event;
 	    (function PreSetUp(){
 			// Pre-loading Screen Overlay?
+			console.log(`::>> PreSetUp Fn Ran Successfully.`);
 			 let UsrMetrix = [];     // Unsure to use an array for this Json or Object might be better...
 			 let MenuItems = [];
 			 let PageActions = [];   // ?
