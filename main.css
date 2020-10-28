@@ -189,7 +189,7 @@ nav ul li a:hover{
 				position:absolute;
 				top:114px; right:18px;
 				width:calc(342px + 0.5vw + 0.2vmax);
-			    height:calc(342px + 0.4vh + 0.2vmin);
+			    height:calc(348px + 0.4vh + 0.2vmin);
 			    /* filter:opacity(0); Gsap works via inline styles Thiswas over-riding that. */
 				border-radius:18px;
 				background:linear-gradient(145deg,transparent,
@@ -197,7 +197,7 @@ nav ul li a:hover{
 					                           skyblue,yellow,springgreen);
 				overflow: hidden !important;
 				border:solid 4px black;
-				padding-bottom:28px;
+				padding-bottom:48px;
 				filter:hue-rotate(0deg);
 				transition:filter 840ms ease-in-out;
 			    }
