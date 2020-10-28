@@ -1,4 +1,6 @@
 "use-strict";
+    // this.applicationCache.onprogress; ......... <<:: Research These:
+    // this.applicationCache.ondownloading; ...... <<:: Research These:
     const Docu = document;
 	Docu.addEventListener("DOMContentLoaded",(function(){
 		console.log("Js File Loaded Successfully");
