@@ -1,5 +1,6 @@
 "use-strict";
-	document.addEventListener("DOMContentLoaded",(function(){
+    const Docu = document;
+	Docu.addEventListener("DOMContentLoaded",(function(){
 		console.log("Js File Loaded Successfully");
 		console.log("DomC Ran Successfully");
 		    const t0 = performance.now(); // Testing only.
@@ -111,7 +112,7 @@
 
 /* ::>> Three.js Set-up <<:: */
 
-		let docu = document;
+		
 		  let bodi = docu.querySelector("body");
 		  let header = docu.querySelector("header");
 		  let xhr_video = docu.getElementsByClassName("xhr_video_request")[0];
