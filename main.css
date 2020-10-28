@@ -82,9 +82,9 @@ h1:hover{
 	}
 h2{
 	position:absolute;
-	left:29.8px; top:calc(64px + 0.28vh);
+	left:29.8px; top:calc(57px + 0.28vh);
 	font-family:"Black_Chancery", Verdana, Tahoma;
-	font-size:calc(15.44px + 0.08vmax) !important;
+	font-size:calc(38.44px + 0.08vmax) !important;
 	background:radial-gradient(circle at 60%,
 		                  rgba(18,239,255,1),
 		                  rgba(18,239,255,1),
@@ -98,8 +98,9 @@ h2{
 	z-index:5;
     }
 .h2italic{
+	position:relative;
 	left:134px;
-}
+    }
 h3{
 	position:absolute;
 	left:42.8px; top:calc(64.98px + 0.28vh);
