@@ -35,7 +35,7 @@
            Consider using parallax aswell... */
         // let h1Anime = gsap.to();  // Flame/Smoke reveal or not? fad in/ slide in?
         // let h2Anime = gsap.to();  // Fade in.
-        let RevolverMapsGsap = gsap.fromTo(".r_maps_container", {opacity: 0}, {opacity: 1, duration: 648});
+        let RevolverMapsGsap = gsap.fromTo(".r_maps_container", {opacity: 0}, {opacity: 1, duration: 4.2});
 
         // let navMenu = gsap.to();
 
