@@ -75,7 +75,7 @@
 			// ::>> Then, use the JavaScript built-in function JSON.parse() to convert the string into a JavaScript object:
 		        var obj = JSON.parse(welcome);
 		        // welcome.SomeMethod?
-
+console.log(`::>> Test Ran Successfully`);
     (function UnloadAnimationAssets(){
     	// require('Anime_Assets.json');
 	    const RMaps = Docu.getElementById("Rev-Maps");
