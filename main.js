@@ -118,7 +118,7 @@
 
 			var renderer = new THREE.WebGLRenderer();
 			renderer.setSize( window.innerWidth, window.innerHeight );
-			document.body.appendChild( renderer.domElement );
+			Docu.body.appendChild( renderer.domElement );
         }ThreeActive();
 
 /* ::>> Three.js Set-up <<:: */
