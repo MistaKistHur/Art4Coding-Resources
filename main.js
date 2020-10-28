@@ -27,11 +27,11 @@
 		    let yAxis = (window.innerHeight / 2 - e.pageY);
             let mouseMoving = true;
 				if(mouseMoving === true){
-					console.log(`X:Axis::>>${xAxis}Y:Axis::>>${yAxis}`);
+					console.log(`X:Axis::>>`+${xAxis}+`Y:Axis::>>`+${yAxis});
 				};
 
 
-              console.log(" "${xAxis}"" ${yAxis}"");
+              // console.log(" "${xAxis}"" ${yAxis}"");
           // Handle touch events seperately.
 		});
 
