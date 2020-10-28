@@ -12,3 +12,34 @@
 - [ ] Make and Revise A Logo.
 - [ ] Create a Gallery Page.
 - [ ] Collect Resources.
+- [ ] Design or Get Designed A Favicon
+- [ ] Build Out the Main Homepage
+- [ ] See if you Can use Firebase or Similar Cloud service for A Database
+- [ ] Learn How to Connect the Pages to DB
+- [ ] Update The Wiki Page
+- [ ] Create Rough Sitemap/ Index Tree
+- [ ] Build out core Functionality
+- [ ] Collect Resources
+- [ ] Research
+- [ ] Connect Google Analytics
+- [ ] Refactor for MVC
+- [ ] Modularize Javascript
+- [ ] Narrow Down Necessary Js Librarys
+- [ ] Find CDN's
+- [ ] Research Api's
+- [ ] Find Collaborators [Coders & Artist's]
+- [ ] Refactor Logo
+- [ ] Compare Logo Sets
+- [ ] Build Svg's
+- [ ] Refactor All Readme.md's
+- [ ] Tweak Styles
+- [ ] Make coffee
+- [ ] Draw Tree Map
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+
+
