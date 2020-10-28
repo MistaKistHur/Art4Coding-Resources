@@ -193,7 +193,7 @@ nav ul li a:hover{
 			    /* filter:opacity(0); Gsap works via inline styles Thiswas over-riding that. */
 				border-radius:18px;
 				background:linear-gradient(175deg,transparent,black,#2e2e2e,#2e2e2e,yellow);
-				overflow: hidden;
+				overflow: hidden !important;
 			    }
 /* ::>> ... Revolver Maps Section > Hide the Scroll Bar ... ... ... ... */
 
