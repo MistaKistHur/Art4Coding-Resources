@@ -84,7 +84,7 @@ h2{
 	position:absolute;
 	left:29.8px; top:calc(64px + 0.28vh);
 	font-family:"Black_Chancery", Verdana, Tahoma;
-	font-size:calc(15.44px + 0.08vmax);
+	font-size:calc(15.44px + 0.08vmax) !important;
 	background:radial-gradient(circle at 60%,
 		                  rgba(18,239,255,1),
 		                  rgba(18,239,255,1),
@@ -104,7 +104,7 @@ h3{
 	position:absolute;
 	left:42.8px; top:calc(64.98px + 0.28vh);
 	font-family:"Black_Chancery", Verdana, Tahoma;
-	font-size:calc(16.44px + 0.28vmax);
+	font-size:calc(16.44px + 0.28vmax) !important;
 	background:linear-gradient(-33deg,
 		                  black,orange,yellow,orange,black);
 	background-clip:text; -webkit-background-clip:text;
