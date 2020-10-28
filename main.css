@@ -194,6 +194,9 @@ nav ul li a:hover{
 			top:114px; right:18px;
 			width:calc(344px + 0.5vw + 0.2vmax);
 		    height:calc(350px + 0.4vh + 0.2vmin);
+		    box-shadow: inset 0 0 2.25px 4.8px black
+			border-radius:18px;
+			border-bottom-left-radius: 2.8px;
 		    background:white;
 			}
 			#Rev-maps{
