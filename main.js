@@ -3,6 +3,7 @@
 		console.log("Js File Loaded Successfully");
 		console.log("DomC Ran Successfully");
 		    const t0 = performance.now(); // Testing only.
+		    console.log(${t0});
 			//console.log(tick_one);
 		//let e = e || evt || event;
 	    (function PreSetUp(){
