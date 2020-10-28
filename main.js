@@ -29,7 +29,7 @@
           // Handle touch events seperately.
 		});
 		if(mouseMoving === true){
-			console.log(" "${xAxis}"" ${yAxis}"");
+			console.log(`X:Axis::>>${xAxis}Y:Axis::>>${yAxis}`);
 		}
 
 		var welcome = '{ "Welcome Message" : [' +
