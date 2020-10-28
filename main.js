@@ -82,7 +82,7 @@ console.log(`::>> Test Ran Successfully:: ref x345`);
     	console.log(Docu);
     	console.log(this);
     	// require('Anime_Assets.json');
-	    const RMaps = Docu.getElementById("Rev-Maps");
+	    const RMaps = Docu.getElementById("Rev_Maps");
 		setTimeout(() => {
 			  RMaps.classList.remove("disp_none");
 	        let RevolverMapsGsap = gsap.fromTo(".r_maps_container",
