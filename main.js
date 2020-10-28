@@ -78,6 +78,8 @@
 		        // welcome.SomeMethod?
 console.log(`::>> Test Ran Successfully:: ref x345`);
     (function UnloadAnimationAssets(){
+    	console.log(Docu);
+    	console.log(this);
     	// require('Anime_Assets.json');
 	    const RMaps = Docu.getElementById("Rev-Maps");
 		setTimeout(() => {
