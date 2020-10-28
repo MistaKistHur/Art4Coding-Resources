@@ -3,7 +3,7 @@
     // this.applicationCache.ondownloading; ...... <<:: Research These:
     // this = this || window || document;
     const Docu = document;
-	Docu.addEventListener("DOMContentLoaded",(function(){
+	Docu.addEventListener("DOMContentLoaded",(fn(){
             // ::>> if(null)?
             // ::>> modules ? require()? include()?
 		const Head   = Docu.querySelector("head");
