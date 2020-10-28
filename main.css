@@ -197,7 +197,13 @@ nav ul li a:hover{
 					                           skyblue,yellow,springgreen);
 				overflow: hidden !important;
 				border:solid 4px black;
+				padding-bottom:8px;
+				filter:hue-rotate(0deg);
 			    }
+			#Rev-maps:hover{
+				filter:hue-rotate(22deg);
+				transition:filter 440ms ease-in-out;
+			}
 			#Rev-maps > div > div{
 				overflow:hidden !important;
 			    }
