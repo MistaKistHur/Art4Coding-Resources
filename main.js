@@ -90,7 +90,7 @@
 	        });
 	        // Need to retain the hue-rotate but inverse the hue of the actual globe...
 		},240)
-		const TopNavLinx = document.getElementById("TopNavLinx");
+		const TopNavLinx = Docu.getElementById("TopNavLinx");
 		              // Slide in from the right menu linx
     })();
 
