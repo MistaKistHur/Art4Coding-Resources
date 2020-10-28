@@ -30,8 +30,9 @@
 		console.log("DomC Ran Successfully");
 		        let tick_one = performance.now(); // Testing only.
 		        console.log(tick_one)
-		    const RMaps = document.getElementById("Rev-maps").classList.remove("disp_none");
+		    const RMaps = document.getElementById("Rev-maps")
 			setTimeout(() => {
+				  RMaps.classList.remove("disp_none");
 		        let RevolverMapsGsap = gsap.fromTo(".r_maps_container", {opacity: 0}, {
 		        	                                                      opacity: 1,
 		        	                                                     duration: 8.4287,
