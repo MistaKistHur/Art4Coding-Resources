@@ -201,7 +201,9 @@ nav ul li a:hover{
 				padding-bottom:48px;
 				filter:hue-rotate(0deg);
 				transition:filter 840ms ease-in-out;
-				box-shadow: inset 0 0 .25px .8px black;
+				box-shadow: inset 0 0 .25px .8px black,
+				                 0 0 .05px 1.2px black,
+				               inset 0 0 .15px 0 black;
 			    }
 			#Rev-maps:hover{
 				filter:hue-rotate(-78deg);
