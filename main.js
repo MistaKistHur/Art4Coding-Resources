@@ -22,7 +22,7 @@
 		       // Has GSAP Loaded?
 		// ::>> Example Only
 		// Put in a marquee style greeting message.......
-            const RMapsOuterCard = document.getElementById("RMapsOutCard");
+            const RMapsOuterCard = document.getElementById("RMapsHoverActivator");
 
 
 
