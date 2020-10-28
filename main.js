@@ -30,7 +30,7 @@
 		console.log("DomC Ran Successfully");
 		        let tick_one = performance.now(); // Testing only.
 		        console.log(tick_one)
-		    const RMaps = document.getElementById("RMaps").style.display = `block !important`;
+		    const RMaps = document.getElementById("Rev-maps").style.display = `block !important`;
 
         let RevolverMapsGsap = gsap.fromTo(".r_maps_container", {opacity: 0}, {opacity: 1, duration: 7.2});
         /* Wait 2/8/180ms after page load and use gsap to fade items it, draw in from sides etc..
