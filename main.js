@@ -2,7 +2,7 @@
 	document.addEventListener("DOMContentLoaded",(function(){
 		console.log("Js File Loaded Successfully");
 		console.log("DomC Ran Successfully");
-		    let tick_one = performance.now().value; // Testing only.
+		    const t0 = performance.now(); // Testing only.
 			console.log(tick_one);
 		//let e = e || evt || event;
 	    (function PreSetUp(){
@@ -25,9 +25,8 @@
             const RMapsOuterCard = document.getElementById("RMapsHoverActivator");
 
         // ::>> Test Bench{::>>Move Around<<::}.. <<:: ::>>....................................................................<<::
-           performance.now();
-           let tick_two = performance.now();
-console.log(`::>> Testing, This Section Ran Ok`).perfomance.now();
+				const t1 = performance.now();
+				console.log(`Call to doSomething took ${t1 - t0} milliseconds.`);
 // console.log("::>> Testing, This Section Ran Ok" + performance.now() + "<<::" + (performance.now() - ${tick_one}));
         // ::>> Test Bench{::>>Move Around<<::}.. <<:: ::>>....................................................................<<::
 
