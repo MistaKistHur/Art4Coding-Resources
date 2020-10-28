@@ -101,6 +101,7 @@ h2{
 		                  rgba(204,145,16,1),
 		                  rgba(7,176,159,1));
 	background-clip:text; -webkit-background-clip:text;
+	padding:8.8px;
 	font-weight:850;
 	color:transparent;
 	z-index:5;
