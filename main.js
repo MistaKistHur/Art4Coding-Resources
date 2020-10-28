@@ -25,7 +25,8 @@
             const RMapsOuterCard = document.getElementById("RMapsHoverActivator");
 
         // ::>> Test Bench{::>>Move Around<<::}.. <<:: ::>>....................................................................<<::
-           console.log("::>> Testing, This Section Ran Ok" + performance.now() + "<<::" + (performance.now() - ${tick_one}));
+console.log(`::>> Testing, This Section Ran Ok` + performance.now());
+           	                                   
         // ::>> Test Bench{::>>Move Around<<::}.. <<:: ::>>....................................................................<<::
 
                 RMapsOuterCard.addEventListener("mouseenter",(e) => {
