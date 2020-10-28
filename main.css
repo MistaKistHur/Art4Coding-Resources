@@ -197,6 +197,11 @@ nav ul li a:hover{
 			top:114px; right:18px;
 			width:calc(345px + 0.5vw + 0.2vmax);
 		    height:calc(352px + 0.4vh + 0.2vmin);
+		    transform-style:preserve-3d;
+		    transition:transform 288ms ease-in-out 8ms;
+			border-radius:17.2px;
+			border-bottom-left-radius: 2.8px;
+		    will-change: auto;
 		    background:black;
 		    }
 		.r_maps_border_patch{
