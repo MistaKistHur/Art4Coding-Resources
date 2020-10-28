@@ -32,9 +32,9 @@ console.log(`::>> Testing, This Section Ran Ok` + `${performance.now()}`);
                 RMapsOuterCard.addEventListener("mouseenter",(e) => {
                 	// RMapsOuterCard.style.transition = `all 244ms ease-in-out`
                 }
-                RMapsOuterCard.addEventListener("mouseleave",(e) => {
+                //RMapsOuterCard.addEventListener("mouseleave",(e) => {
 
-                }
+                //}
 				RMapsOuterCard.addEventListener("mousemove",(e) => {
 				    let xAxis = (window.innerWidth / 2 - e.pageX) / 24;
 				    let yAxis = (window.innerHeight / 2 - e.pageY) / 28.8;
