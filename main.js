@@ -25,7 +25,8 @@
 		document.addEventListener("mousemove", (e) => {
 		  let xAxis = (window.innerWidth / 2 - e.pageX);
 		  let yAxis = (window.innerHeight / 2 - e.pageY);
-          let mouseMoving = true;console.log(" "${xAxis}"" ${yAxis}"");
+          let mouseMoving = true;
+              console.log(" "${xAxis}"" ${yAxis}"");
           // Handle touch events seperately.
 		});
 		if(mouseMoving === true){
