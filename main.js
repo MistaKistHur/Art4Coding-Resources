@@ -76,7 +76,7 @@
 			// ::>> Then, use the JavaScript built-in function JSON.parse() to convert the string into a JavaScript object:
 		        var obj = JSON.parse(welcome);
 		        // welcome.SomeMethod?
-console.log(`::>> Test Ran Successfully`);
+console.log(`::>> Test Ran Successfully:: ref x345`);
     (function UnloadAnimationAssets(){
     	// require('Anime_Assets.json');
 	    const RMaps = Docu.getElementById("Rev-Maps");
@@ -129,7 +129,7 @@ console.log(`::>> Test Ran Successfully`);
 
 		  xhr_video.addEventListener("mousedown",(e) => {
                   e.preventDefault();
-                  console.log("Testing ::>> no err"); // move around for testing errors.
+                  console.log("Testing ::>> no err :: ref: x123"); // move around for testing errors.
                   var vid_xhttp = new XMLHttpRequest();
                   //fetch();
 		    // fetch extra videos, bump others out of view..
