@@ -27,10 +27,10 @@
 
 
                 RMapsOuterCard.addEventListener("mouseenter",(e) => {
-                	RMapsOuterCard.style.transition = `all 244ms ease-in-out`;
+                	RMapsOuterCard.style.transition = `all 244ms ease-in-out`
                 }
                 RMapsOuterCard.addEventListener("mouseleave",(e) => {
-                	
+
                 }
 				RMapsOuterCard.addEventListener("mousemove",(e) => {
 				    let xAxis = (window.innerWidth / 2 - e.pageX) / 24;
