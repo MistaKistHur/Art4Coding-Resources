@@ -12,6 +12,7 @@
 			 let PageActions = [];   // ?
 			 let ScrollAmnt = undefined;   // Activatecertain animations based on Scroll Ammount/ Parallex.
 			 let IframeConn = undefined;   // Github Pages does not support server side stuff Use iframe merged?
+			 let MaxConcuIframes = null;   // Max number of iframes, if more generate remove prev.
 			 let AssetCrate = {};
 			    // ::>> UsrMetrix - - Device width, Device Height, User Agent : browser,
 			                       // Os, Ios etc, First Conn Time, Js-Disabled, Sensors,
