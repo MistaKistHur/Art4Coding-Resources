@@ -21,12 +21,15 @@ html,body{
 	display:block !important;
     font-size:calc(16.2px + 0.4vw + 0.2vmin);
     overflow-x:hidden !important;
+    list-style-type: circle;
     scroll-behavior: smooth;
     perspective:850px;
     background:black;
     }
 /* :: ALL Good Up2 Here <<:: Move Around When Sections are complete.. <<::.........................
 /* ::>> Change the Layout of this to be display:grid? flex? */
+/* ::>> Test this Out filter:url(); --> function takes the location of an XML file that specifies an SVG filter, and may include an anchor to a specific filter element
+*/ /* caret-color: green; */
 	nav{
 	  position:absolute;
 	  top:0 !important; left:0;
@@ -50,13 +53,13 @@ html,body{
 .blob::before{
 	content:"";
 	display:block;
-	position:relative;
+	position:absolute;
 	width:24px; height:24px;
 	background:black;
 	}
 h1{
 	position:absolute;
-	top:0.2px; left:calc(8.8px + 0.85vw);
+	top:0.02px; left:calc(8.8px + 0.85vw);
 	font-family:"Black_Chancery", Verdana, Tahoma;
 	font-size:calc(22.95px + 2.28vw) !important;
 	transition:all 980ms ease-in-out 8ms;
