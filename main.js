@@ -30,9 +30,9 @@
 // console.log("::>> Testing, This Section Ran Ok" + performance.now() + "<<::" + (performance.now() - ${tick_one}));
         // ::>> Test Bench{::>>Move Around<<::}.. <<:: ::>>....................................................................<<::
 
-                RMapsOuterCard.addEventListener("mouseenter",(e) => {
+                //RMapsOuterCard.addEventListener("mouseenter",(e) => {
                 	// RMapsOuterCard.style.transition = `all 244ms ease-in-out`
-                }
+                //}
                 //RMapsOuterCard.addEventListener("mouseleave",(e) => {
 
                 //}
