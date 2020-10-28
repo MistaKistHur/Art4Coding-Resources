@@ -29,6 +29,7 @@
 
             console.log("hi");
             const RMapsOuterCard = document.getElementById("RMapsOutCard");
+            RMapsOuterCard.style.transform = `rotateX(${xAxis}deg) rotateY(${yAxis}deg)`;
 				// if(mouseMoving === true){
 				//	console.log(`X:Axis::>>`+ ${xAxis}+`Y:Axis::>>`+ ${yAxis});
 				// };
