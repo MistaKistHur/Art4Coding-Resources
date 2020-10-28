@@ -13,6 +13,9 @@
 		 let ScrollAmnt = undefined;   // Activatecertain animations based on Scroll Ammount/ Parallex.
 		 let IframeConn = undefined;   // Github Pages does not support server side stuff Use iframe merged?
 		 let AssetCrate = {};
+		    // ::>> UsrMetrix - - Device width, Device Height, User Agent : browser,
+		                       // Os, Ios etc, First Conn Time, Js-Disabled, Sensors,
+		                       // CountryLocation, Cookies? Refferer?
     })();
 		       // Has P5 loaded successfully?
 		       // Has Three.js Loaded?
@@ -20,14 +23,12 @@
 		// ::>> Example Only
 		// Put in a marquee style greeting message.......
 		 var welcome = '{ "Welcome Message" : [' +
-		                 '{ "Hello":"John" , "lastName":"Doe" },' +      // Change these and use Math.random() + ifelse to select a random greeting.
-		                 '{ "Bonjour":"Anna" , "lastName":"Smith" },' +
-		                 '{ "buenos dias":"Peter" , "lastName":"Jones" } ]}';
+		                 '{ "Hello":"New User" },' +      // Change these and use Math.random() + ifelse to select a random greeting.
+		                 '{ "Bonjour":"Partner" },' +
+		                 '{ "Buenos dias":"Chica" } ]}';
 			// ::>> Then, use the JavaScript built-in function JSON.parse() to convert the string into a JavaScript object:
 		        var obj = JSON.parse(welcome);
-		    // ::>> UsrMetrix - - Device width, Device Height, User Agent : browser,
-		                       // Os, Ios etc, First Conn Time, Js-Disabled, Sensors,
-		                       // CountryLocation, Cookies? Refferer?
+
     (function UnloadAnimationAssets(){
 	    const RMaps = document.getElementById("Rev-maps")
 		setTimeout(() => {
@@ -39,7 +40,10 @@
                                          ease: "slow(0.7, 0.7, false)",
                                          delay: 0.240
 	        });
+	        // Need to retain the hue-rotate but inverse the hue of the actual globe...
 		},240)
+		const TopNavLinx = document.getElementById("TopNavLinx");
+		              // Slide in from the right menu linx
     })();
 
         /* Wait 2/8/180ms after page load and use gsap to fade items it, draw in from sides etc..
