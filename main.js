@@ -2,7 +2,7 @@
 	document.addEventListener("DOMContentLoaded",(function(){
 		console.log("Js File Loaded Successfully");
 		console.log("DomC Ran Successfully");
-		    let tick_one = performance.now(); // Testing only.
+		    let tick_one = performance.now().value; // Testing only.
 			console.log(tick_one);
 		//let e = e || evt || event;
 	    (function PreSetUp(){
