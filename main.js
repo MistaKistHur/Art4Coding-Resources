@@ -23,12 +23,12 @@
 		// ::>> Example Only
 		// Put in a marquee style greeting message.......
 		document.addEventListener("mousemove",(e) => {
-		     x let xAxis = (window.innerWidth / 2 - e.pageX);
+		    let xAxis = (window.innerWidth / 2 - e.pageX);
 		    let yAxis = (window.innerHeight / 2 - e.pageY);
             let mouseMoving = true;
 
-
-            RMapsOuterCard = document.getElementById("RMapsOutCard");
+            console.log("hi");
+            const RMapsOuterCard = document.getElementById("RMapsOutCard");
 				// if(mouseMoving === true){
 				//	console.log(`X:Axis::>>`+ ${xAxis}+`Y:Axis::>>`+ ${yAxis});
 				// };
