@@ -51,7 +51,7 @@
 
 		              // console.log(" "${xAxis}"" ${yAxis}"");
 		          // Handle touch events seperately.
-				}) // ::>> Closing Tag for Document MouseMove evt...
+				}); // ::>> Closing Tag for Document MouseMove evt...
 
 
 		var welcome = '{ "Welcome Message" : [' +
