@@ -192,8 +192,11 @@ nav ul li a:hover{
 			    height:calc(342px + 0.4vh + 0.2vmin);
 			    /* filter:opacity(0); Gsap works via inline styles Thiswas over-riding that. */
 				border-radius:18px;
-				background:linear-gradient(145deg,transparent,black,transparent,#2e2e2e,yellow,springgreen);
+				background:linear-gradient(145deg,transparent,
+					                        black,transparent,
+					                           skyblue,yellow,springgreen);
 				overflow: hidden !important;
+				border:solid 4px black;
 			    }
 			#Rev-maps > div > div{
 				overflow:hidden !important;
