@@ -31,12 +31,15 @@
 		        let tick_one = performance.now(); // Testing only.
 		        console.log(tick_one)
 		    const RMaps = document.getElementById("Rev-maps").classList.remove("disp_none");
+			setTimeout(() => {
+		        let RevolverMapsGsap = gsap.fromTo(".r_maps_container", {opacity: 0}, {
+		        	                                                      opacity: 1,
+		        	                                                     duration: 8.4287,
+		        	                                                     ease: "slow(0.7, 0.7, false)",
+		        	                                                     delay: 0.240
+		        });
+			},240)
 
-        let RevolverMapsGsap = gsap.fromTo(".r_maps_container", {opacity: 0}, {
-        	                                                      opacity: 1,
-        	                                                     duration: 8.4287,
-        	                                                     ease: "slow(0.7, 0.7, false)"
-        });
         /* Wait 2/8/180ms after page load and use gsap to fade items it, draw in from sides etc..
            Consider using parallax aswell... */
         // let h1Anime = gsap.to();  // Flame/Smoke reveal or not? fad in/ slide in?
