@@ -54,8 +54,9 @@ html,body{
 	content:"";
 	display:block;
 	position:absolute;
+	left:48px;
 	width:24px; height:24px;
-	background:black;
+	background:radial-gradient(circle, rgb(20, 227, 199), rgb(0,7,144));
 	}
 h1{
 	position:absolute;
