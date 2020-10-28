@@ -26,14 +26,17 @@
 		    let xAxis = (window.innerWidth / 2 - e.pageX);
 		    let yAxis = (window.innerHeight / 2 - e.pageY);
             let mouseMoving = true;
-				if(mouseMoving === true){
-					console.log(`X:Axis::>>`+${xAxis}+`Y:Axis::>>`+${yAxis});
-				};
+
+
+            RMapsOuterCard = document.getElementById("RMapsOutCard");
+				// if(mouseMoving === true){
+				//	console.log(`X:Axis::>>`+ ${xAxis}+`Y:Axis::>>`+ ${yAxis});
+				// };
 
 
               // console.log(" "${xAxis}"" ${yAxis}"");
           // Handle touch events seperately.
-		});
+		}); // ::>> Closing Tag for Document MouseMove evt...
 
 
 		var welcome = '{ "Welcome Message" : [' +
