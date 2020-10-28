@@ -1,52 +1,51 @@
 "use-strict";
-// Pre-loading Screen Overlay?
- let UsrMetrix = [];     // Unsure to use an array for this Json or Object might be better...
- let MenuItems = [];
- let PageActions = [];   // ?
- let ScrollAmnt = undefined;   // Activatecertain animations based on Scroll Ammount/ Parallex.
- let IframeConn = undefined;   // Github Pages does not support server side stuff Use iframe merged?
- let AssetCrate = {};
-       // Has P5 loaded successfully?
-       // Has Three.js Loaded?
-       // Has GSAP Loaded?
-
-// ::>> Example Only
-// Put in a marquee style greeting message.......
- var welcome = '{ "Welcome Message" : [' +
-                 '{ "Hello":"John" , "lastName":"Doe" },' +      // Change these and use Math.random() + ifelse to select a random greeting.
-                 '{ "Bonjour":"Anna" , "lastName":"Smith" },' +
-                 '{ "buenos dias":"Peter" , "lastName":"Jones" } ]}';
-
-	// ::>> Then, use the JavaScript built-in function JSON.parse() to convert the string into a JavaScript object:
-        var obj = JSON.parse(welcome);
-    // ::>> UsrMetrix - - Device width, Device Height, User Agent : browser,
-                       // Os, Ios etc, First Conn Time, Js-Disabled, Sensors,
-                       // CountryLocation, Cookies? Refferer?
-
-  //let e = e || evt || event;
-	console.log("Js File Loaded Successfully");
-
 	document.addEventListener("DOMContentLoaded",(function(){
-		console.log("DomC Ran Successfully");
-		        let tick_one = performance.now(); // Testing only.
-		        console.log(tick_one)
-		    const RMaps = document.getElementById("Rev-maps")
-			setTimeout(() => {
-				  RMaps.classList.remove("disp_none");
-		        let RevolverMapsGsap = gsap.fromTo(".r_maps_container",
-		        	                        { opacity: 0 }, {
-                                              opacity: 1,
-                                             duration: 24.4287,
-                                             ease: "slow(0.7, 0.7, false)",
-                                             delay: 0.240
-		        });
-			},240)
+	console.log("Js File Loaded Successfully");
+	console.log("DomC Ran Successfully");
+	    let tick_one = performance.now(); // Testing only.
+		console.log(tick_one)
+	//let e = e || evt || event;
+    (function PreSetUp(){
+		// Pre-loading Screen Overlay?
+		 let UsrMetrix = [];     // Unsure to use an array for this Json or Object might be better...
+		 let MenuItems = [];
+		 let PageActions = [];   // ?
+		 let ScrollAmnt = undefined;   // Activatecertain animations based on Scroll Ammount/ Parallex.
+		 let IframeConn = undefined;   // Github Pages does not support server side stuff Use iframe merged?
+		 let AssetCrate = {};
+    })();
+		       // Has P5 loaded successfully?
+		       // Has Three.js Loaded?
+		       // Has GSAP Loaded?
+		// ::>> Example Only
+		// Put in a marquee style greeting message.......
+		 var welcome = '{ "Welcome Message" : [' +
+		                 '{ "Hello":"John" , "lastName":"Doe" },' +      // Change these and use Math.random() + ifelse to select a random greeting.
+		                 '{ "Bonjour":"Anna" , "lastName":"Smith" },' +
+		                 '{ "buenos dias":"Peter" , "lastName":"Jones" } ]}';
+			// ::>> Then, use the JavaScript built-in function JSON.parse() to convert the string into a JavaScript object:
+		        var obj = JSON.parse(welcome);
+		    // ::>> UsrMetrix - - Device width, Device Height, User Agent : browser,
+		                       // Os, Ios etc, First Conn Time, Js-Disabled, Sensors,
+		                       // CountryLocation, Cookies? Refferer?
+    (function UnloadAnimationAssets(){
+	    const RMaps = document.getElementById("Rev-maps")
+		setTimeout(() => {
+			  RMaps.classList.remove("disp_none");
+	        let RevolverMapsGsap = gsap.fromTo(".r_maps_container",
+	        	                        { opacity: 0 }, {
+                                          opacity: 1,
+                                         duration: 24.4287,
+                                         ease: "slow(0.7, 0.7, false)",
+                                         delay: 0.240
+	        });
+		},240)
+    })();
 
         /* Wait 2/8/180ms after page load and use gsap to fade items it, draw in from sides etc..
            Consider using parallax aswell... */
         // let h1Anime = gsap.to();  // Flame/Smoke reveal or not? fad in/ slide in?
         // let h2Anime = gsap.to();  // Fade in.
-
 
         // let navMenu = gsap.to();
 
@@ -54,7 +53,6 @@
         function P5Visual(){
 
         }P5Visual();
-
 
 		//if(!document.worker()){
 		//	console.log("::>> err somewhere");
@@ -86,7 +84,6 @@
 		    // fetch extra videos, bump others out of view..
 		  });
 	})) /* ::>> Closing Tag for the MAIN body DOMC loaded event */
-
 
 /* ::>> Use PreventDefault on all top Nav a links then use Ajax/xhr to load in other content .... */
 		//document.querySelector("#id-checkbox").addEventListener("click", function(event) {
