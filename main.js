@@ -23,15 +23,18 @@
 		// ::>> Example Only
 		// Put in a marquee style greeting message.......
 		document.addEventListener("mousemove", (e) => {
-		  let xAxis = (window.innerWidth / 2 - e.pageX);
-		  let yAxis = (window.innerHeight / 2 - e.pageY);
-          let mouseMoving = true;
+		    let xAxis = (window.innerWidth / 2 - e.pageX);
+		    let yAxis = (window.innerHeight / 2 - e.pageY);
+            let mouseMoving = true;
+				if(mouseMoving === true){
+					console.log(`X:Axis::>>${xAxis}Y:Axis::>>${yAxis}`);
+				};
+
+
               console.log(" "${xAxis}"" ${yAxis}"");
           // Handle touch events seperately.
 		});
-		if(mouseMoving === true){
-			console.log(`X:Axis::>>${xAxis}Y:Axis::>>${yAxis}`);
-		}
+
 
 		var welcome = '{ "Welcome Message" : [' +
 		                '{ "Hello":"New User" },' +      // Change these and use Math.random() + ifelse to select a random greeting.
