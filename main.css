@@ -7,6 +7,7 @@
 	font-family:"Abassy";
 	src: url(/Imgs/z.Fonts/AbbasyCalligraphy.ttf) format("truetype");
     }
+.disp_none{display:none;}
 *{
  margin:0; padding:0;
  text-decoration:none;
