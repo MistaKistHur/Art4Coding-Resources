@@ -195,7 +195,7 @@ nav ul li a:hover{
 				background:linear-gradient(145deg,transparent,black,#2e2e2e,#2e2e2e,yellow,springgreen);
 				overflow: hidden !important;
 			    }
-			#Rev-maps > div{
+			#Rev-maps > div > div{
 				overflow:hidden !important;
 			    }
 /* ::>> ... Revolver Maps Section > Hide the Scroll Bar ... ... ... ... */
