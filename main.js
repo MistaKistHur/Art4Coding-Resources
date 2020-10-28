@@ -63,8 +63,8 @@
 		        // welcome.SomeMethod?
 
     (function UnloadAnimationAssets(){
-    	require('Anime_Assets.json');
-	    const RMaps = document.getElementById("Rev-maps")
+    	// require('Anime_Assets.json');
+	    const RMaps = document.getElementById("Rev-maps");
 		setTimeout(() => {
 			  RMaps.classList.remove("disp_none");
 	        let RevolverMapsGsap = gsap.fromTo(".r_maps_container",
