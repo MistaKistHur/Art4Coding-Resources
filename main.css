@@ -106,8 +106,8 @@ h2{
 	z-index:5;
     }
 .h2italic{
-	position:relative;
-	left:134px;
+	position:absolute;
+	left:104px;
     }
 h3{
 	position:absolute;
