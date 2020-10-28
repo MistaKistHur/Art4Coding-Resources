@@ -27,7 +27,7 @@
         // ::>> Test Bench{::>>Move Around<<::}.. <<:: ::>>....................................................................<<::
            performance.now();
            let tick_two = performance.now();
-console.log(`::>> Testing, This Section Ran Ok` + ${tick_one} + `x`);
+console.log(`::>> Testing, This Section Ran Ok`) + perfomance.now();
 // console.log("::>> Testing, This Section Ran Ok" + performance.now() + "<<::" + (performance.now() - ${tick_one}));
         // ::>> Test Bench{::>>Move Around<<::}.. <<:: ::>>....................................................................<<::
 
