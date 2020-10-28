@@ -203,7 +203,7 @@ nav ul li a:hover{
 		    will-change: auto;
 		    background:black;   /* transition:transform 288ms ease-in-out 8ms;*/
 		    }
-		#RMapsBorderPatch{
+		#RMapsBorder_Patch_{
 			position:relative;
 			top:50%; left:50%;
 			transform:translate(-50%, -50%);
@@ -214,7 +214,7 @@ nav ul li a:hover{
 			border-bottom-left-radius: 2.8px;
 		    background:black;
 			}
-			#Rev-maps{
+			#Rev_Maps{
 				position:relative;
 				top:50%;left:50%;
 				transform:translate(-50%,-50%);
