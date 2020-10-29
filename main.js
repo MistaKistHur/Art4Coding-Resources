@@ -1,9 +1,5 @@
 "use-strict";
-    // this.applicationCache.onprogress; ......... <<:: Research These:
-    // this.applicationCache.ondownloading; ...... <<:: Research These:
-    // this = this || window || document;
-    // ? mozRTCPeerConnection.generateCertificate();
-    // ? HTMLAllCollection.bind
+
     const Docu = document;
 	Docu.addEventListener("DOMContentLoaded",(function(){
             // ::>> if(null)?
@@ -15,7 +11,7 @@
 		const Footer = Docu.querySelector("footer");
 		const TopNavLinx = Docu.getElementById("TopNavLinx");
 
-		      Bodi.style.display = `block !important`;
+		      Bodi.style.display = `block !important`; /* ::>> This is not getting applied or over-riding inline style? */
 		/* ::>> Notes            */
 			console.log("Js File Loaded Successfully");
 			console.log("DomC Ran Successfully");
@@ -123,8 +119,6 @@
 		// Wrap in windowResize Event
 		//
 
-
-
 /* ::>> GSap Animation Moving The Container Of The Revolver Maps ................................................................*/
 /* ::>> Create A Welcome Message ................................................................................................*/
 		var welcome = '{ "Welcome Message" : [' +
@@ -137,18 +131,15 @@
 /* ::>> Create A Welcome Message ................................................................................................*/
    console.log(`::>> Test Ran Successfully:: ref x345`);
 
-
-
-
-
     (function UnloadAnimationAssets(){
     	console.log(Docu);
     	console.log(this);
     	// require('Anime_Assets.json');
-
-
-		              // Slide in from the right menu linx
+		    // Slide in from the right menu linx
     })();
+        function P5Visual(){
+
+        }P5Visual();
 
         /* Wait 2/8/180ms after page load and use gsap to fade items it, draw in from sides etc..
            Consider using parallax aswell... */
@@ -158,9 +149,6 @@
         // let navMenu = gsap.to();
 
         // CreateA P5.js Fractal?
-        function P5Visual(){
-
-        }P5Visual();
 
 		//if(!document.worker()){
 		//	console.log("::>> err somewhere");
@@ -176,23 +164,44 @@
 			//renderer.setSize( window.innerWidth, window.innerHeight );
 			//Docu.body.appendChild( renderer.domElement );
         }ThreeActive();
-
 /* ::>> Three.js Set-up <<:: */
+
+
+// ::>> Document End <<::........................................................................................................................................................
+// ::>> Document End
+// ::>> Document End
+// ::>> Document End
+        console.log("Testing ::>> no err :: ref: x123"); // move around for testing errors.
+	})) /* ::>> Closing Tag for the MAIN body DOMC loaded event */
+// ::>> Document End
+// ::>> Document End
+// ::>> Document End
+// ::>> Document End
+// ::>> Scraps & Notes Below <<::................................................................................................................................................
+
 
 
 		  //let xhr_video = Docu.getElementsByClassName("xhr_video_request")[0];
 
 		  //xhr_video.addEventListener("mousedown",(e) => {
                  // e.preventDefault();
-                  console.log("Testing ::>> no err :: ref: x123"); // move around for testing errors.
+
                   //var vid_xhttp = new XMLHttpRequest();
                   //fetch();
 		    // fetch extra videos, bump others out of view..
 		  //});
-	})) /* ::>> Closing Tag for the MAIN body DOMC loaded event */
+
 
 /* ::>> Use PreventDefault on all top Nav a links then use Ajax/xhr to load in other content .... */
 		//document.querySelector("#id-checkbox").addEventListener("click", function(event) {
 		//         document.getElementById("output-box").innerHTML += "Sorry! <code>preventDefault()</code> won't let you check this!<br>";
 		//         event.preventDefault();
 		//}, false);
+
+    // this.applicationCache.onprogress; ......... <<:: Research These:
+    // this.applicationCache.ondownloading; ...... <<:: Research These:
+    // this = this || window || document;
+    // ? mozRTCPeerConnection.generateCertificate();
+    // ? HTMLAllCollection.bind
+    // Math.radians => degrees × Math.DEG_PER_RAD
+    // https://rwaldron.github.io/proposal-math-extensions/#sec-math.clamp
