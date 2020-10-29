@@ -20,6 +20,7 @@
 html,body{
 	display:block !important;
     font-size:calc(16.2px + 0.4vw + 0.2vmin);
+    max-width:calc(100vw - 1px + 1px);
     overflow-x:hidden !important;
     list-style-type: circle;
     scroll-behavior: smooth;
