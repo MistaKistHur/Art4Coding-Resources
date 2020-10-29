@@ -91,7 +91,7 @@ setTimeout(() => {
 			    return Math.min(Math.max(value,min),max);
 			}
 			let newValX = clamp(`${yAxis}`, 0, 275);
-			let newValY = clamp(`${yAxis}`, 0, 95);
+			let newValY = clamp(`${yAxis}`, 0, 295);
 		/* ::>> This Function Maybe used in other places so maybe make a module */
 
             let mouseMoving = true;
