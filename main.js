@@ -80,28 +80,41 @@
 		},240)
             /* ::>> This is being glitchy sort it out... */
 		setTimeout(() => {
-			Docu.addEventListener("mousemove",(e) => {
-				/* ::>> This Function Maybe used in other places so maybe make a module */
-				// ::>> From this Answer :> https://stackoverflow.com/questions/5842747/how-can-i-use-javascript-to-limit-a-number-between-a-min-max-value
-				// Create a forward facing pointer/vector which tells if the globe is right side up facing the user.
-			    let xAxis = (window.innerWidth - e.pageX);
-			    let yAxis = (window.innerHeight / 2 - e.pageY) / 2.45;
+			// Create DomMouseEnter Event so its not Jumping straight to its position.
+			Docu.addEventListener("mouseenter",(e) => {
+			  // Todo...
+			  let mouseEntered = true;
+			  RMapsOuterCard.style.transition = `transform 748ms ease-in`;
+					Docu.addEventListener("mousemove",(e) => {
+						/* ::>> This Function Maybe used in other places so maybe make a module */
+						// ::>> From this Answer :> https://stackoverflow.com/questions/5842747/how-can-i-use-javascript-to-limit-a-number-between-a-min-max-value
+						// Create a forward facing pointer/vector which tells if the globe is right side up facing the user.
+					    let xAxis = (window.innerWidth - e.pageX);
+					    let yAxis = (window.innerHeight / 2 - e.pageY) / 2.45;
 
-					function clamp(value, min, max) {
-					    return Math.min(Math.max(value,min),max);
-					}
-					let newValX = clamp(`${xAxis}`, 0, 275);
-					let newValY = clamp(`${yAxis}`, 0, 295);
-				/* ::>> This Function Maybe used in other places so maybe make a module */
+							function clamp(value, min, max) {
+							    return Math.min(Math.max(value,min),max);
+							}
+							let newValX = clamp(`${xAxis}`, 0, 275);
+							let newValY = clamp(`${yAxis}`, 0, 295);
+						/* ::>> This Function Maybe used in other places so maybe make a module */
 
-		            let mouseMoving = true;
-		        RMapsOuterCard.style.transform = `rotateX(${newValY}deg) rotateY(${newValX}deg) scale(0.885)`;
-			}); // ::>> Closing Tag for Document MouseMove evt...
+				            let mouseMoving = true;
+				        RMapsOuterCard.style.transform = `rotateX(${newValY}deg) rotateY(${newValX}deg) scale(0.885)`;
+					}); // ::>> Closing Tag for Document MouseMove evt...
+
+			  Docu.addEventListener("mouseleave",(e) => {
+			    // Todo...
+			    let mouseLeftWindow = true;
+			  });
+			});
+
+
 		            // Handle touch events seperately.
-		    Docu.addEventListener("mouseleave",(e)=>{
-		    	RMapsOuterCard.style.transition = `transform 48ms ease-in`;
-		    	RMapsOuterCard.style.transform = `rotateX(0deg) rotateY(0deg) scale(0.885)`;
-		    })
+		    //Docu.addEventListener("mouseleave",(e)=>{
+		    //	RMapsOuterCard.style
+		    //	RMapsOuterCard.style.transform = `rotateX(0deg) rotateY(0deg) scale(0.885)`;
+		    //})
 		}, 740)
 /*::>> Scrap Code bits from this block
                      // if(mouseMoving === true){
