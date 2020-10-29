@@ -108,7 +108,7 @@ console.log(`::>> Test Ran Successfully:: ref x345`);
 	        let RevolverMapsGsap = gsap.fromTo(".r_maps_container",
 	        	                        { opacity: 0 }, {
                                           opacity: 1,
-                                         duration: 24.4287,
+                                         duration: 20.4287,
                                          ease: "slow(0.7, 0.7, false)",
                                          delay: 0.240
 	        });
