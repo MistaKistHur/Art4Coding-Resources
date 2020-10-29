@@ -65,7 +65,7 @@
 
                 //}
                 /* ::>> This is being glitchy sort it out... */
-				RMapsOuterCard.addEventListener("mousemove",(e) => {
+				document.addEventListener("mousemove",(e) => {
 				    let xAxis = (window.innerWidth / 2 - e.pageX) / 24;
 				    let yAxis = (window.innerHeight / 2 - e.pageY) / 28.8;
 
