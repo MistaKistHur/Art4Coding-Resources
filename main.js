@@ -64,9 +64,17 @@
                 //RMapsOuterCard.addEventListener("mouseleave",(e) => {
 
                 //}
+                /* ::>> This is being glitchy sort it out... */
 				RMapsOuterCard.addEventListener("mousemove",(e) => {
 				    let xAxis = (window.innerWidth / 2 - e.pageX) / 24;
 				    let yAxis = (window.innerHeight / 2 - e.pageY) / 28.8;
+
+				    if(xAxis >= 360){
+				    	xAxis = 360
+				    }
+				    if(yAxis >= 360){
+				    	yAxis = 360
+				    }
 		                         let mouseMoving = true;
 
 		            // console.log("hi");
