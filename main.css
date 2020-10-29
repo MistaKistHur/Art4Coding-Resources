@@ -41,6 +41,7 @@ html,body{
 	  margin-bottom:18px;
 	  background:#2e2e2e;
 	  min-width:100%;
+	  max-width:100vw;
 	  word-wrap:none;
 	  z-index:2;
 	  }
