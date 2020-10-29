@@ -4,12 +4,12 @@
 	document.addEventListener("DOMContentLoaded",(function(){
             // ::>> if(null)?
             // ::>> modules ? require()? include()?
-		const Head   = Docu.querySelector("head");
+		const Head   = document.querySelector("head");
 		     let sts = document.styleSheets;
-		const Bodi   = Docu.querySelector("body");
-		const Header = Docu.querySelector("header");
-		const Footer = Docu.querySelector("footer");
-		const TopNavLinx = Docu.getElementById("TopNavLinx");
+		const Bodi   = document.querySelector("body");
+		const Header = document.querySelector("header");
+		const Footer = document.querySelector("footer");
+		const TopNavLinx = document.getElementById("TopNavLinx");
 
 		      Bodi.style.display = `block !important`; /* ::>> This is not getting applied or over-riding inline style? */
 		/* ::>> Notes            */
