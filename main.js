@@ -67,6 +67,39 @@
 			                    // ::>> Os, Ios etc, First Conn Time, Js-Disabled, Sensors,
 			                    // ::>> CountryLocation, Cookies? Refferer?
 	    })();
+
+	// ::>> Move these out ElseWhere maybe a module of its own[Probably better in Node not client-side]
+			if(document.referrer == "google.com"){
+			    document.body.classList.add("googleRef") //or whatever you want
+			}
+			if(document.referrer == "github.com"){
+			    document.body.classList.add("googleRef") //or whatever you want
+			}
+			if(document.referrer == "facebook.com"){
+			    document.body.classList.add("googleRef") //or whatever you want
+			}
+			if(document.referrer == "linkedin.com"){
+			    document.body.classList.add("googleRef") //or whatever you want
+			}
+			if(document.referrer == "deviantart.com"){
+			    document.body.classList.add("googleRef") //or whatever you want
+			}
+			if(document.referrer == "devto.com"){
+			    document.body.classList.add("googleRef") //or whatever you want
+			}
+	// ::>> Move these out ElseWhere maybe a module of its own
+
+
+
+
+
+
+
+
+
+
+
+
 	    let blob = document.querySelector(".blob");
 	        blob.animate({
 	        	transform: ["scale(1)","scale(1.4)"]
