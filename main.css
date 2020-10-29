@@ -281,7 +281,7 @@ nav ul li a:hover{
 		    border-radius:17.2px;
 			border-bottom-left-radius: 2.8px;
 		    will-change: auto;
-		    background:url("/Imgs/VjLoops/starsloop.mp4");   /* transition:transform 288ms ease-in-out 8ms;*/
+		    background:black;   /* transition:transform 288ms ease-in-out 8ms;*/
 		    z-index:18;
 		    }
 		#RMapsBorder_Patch_{
@@ -294,12 +294,12 @@ nav ul li a:hover{
 		    overflow:hidden;
 			border-radius:18px;
 			border-bottom-left-radius: 2.8px;
-		    background:url("/Imgs/VjLoops/starsloop.mp4");
+		    background:black;
 		    z-index:19;
 			}
 		#StarBackdrop{
 			position:absolute;
-			filter:opacity(0.5);
+			filter:opacity(0.74);
 			top:0; left:0;
 			z-index:20;
     		}
