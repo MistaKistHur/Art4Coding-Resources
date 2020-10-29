@@ -1,7 +1,7 @@
 "use-strict";
 
-    const Docu = document;
-	Docu.addEventListener("DOMContentLoaded",(function(){
+    // const Docu = document;
+	document.addEventListener("DOMContentLoaded",(function(){
             // ::>> if(null)?
             // ::>> modules ? require()? include()?
 		const Head   = Docu.querySelector("head");
@@ -36,7 +36,7 @@
 			                       // CountryLocation, Cookies? Refferer?
 	    })();
 
-	    let blob = Docu.querySelector(".blob");
+	    let blob = document.querySelector(".blob");
 	        blob.animate({
 	        	transform: ["scale(1)","scale(1.4)"]
 	        },{
@@ -51,7 +51,7 @@
 		       // Has GSAP Loaded?
 		// ::>> Example Only
 		// Put in a marquee style greeting message.......
-            const RMapsOuterCard = Docu.getElementById("RMapsHoverActivator");
+            const RMapsOuterCard = document.getElementById("RMapsHoverActivator");
 
         // ::>> Test Bench{::>>Move Around<<::}.. <<:: ::>>....................................................................<<::
 				//const t1 = performance.now();
@@ -66,7 +66,7 @@
 
                 //}
 /* ::>> GSap Animation Moving The Container Of The Revolver Maps ................................................................*/
-	    const RMaps = Docu.getElementById("Rev_Maps");
+	    const RMaps = document.getElementById("Rev_Maps");
 		setTimeout(() => {
 			  RMaps.classList.remove("disp_none");
 	        let RevolverMapsGsap = gsap.fromTo(".r_maps_container",
@@ -85,7 +85,7 @@
 			    // Todo...
 			    let mouseEntered = true;
 			    RMapsOuterCard.style.transition = `transform 748ms ease-in`;
-					Docu.addEventListener("mousemove",(e) => {
+					document.addEventListener("mousemove",(e) => {
 						/* ::>> This Function Maybe used in other places so maybe make a module */
 						// ::>> From this Answer :> https://stackoverflow.com/questions/5842747/how-can-i-use-javascript-to-limit-a-number-between-a-min-max-value
 						// Create a forward facing pointer/vector which tells if the globe is right side up facing the user.
@@ -100,10 +100,10 @@
 						/* ::>> This Function Maybe used in other places so maybe make a module */
 
 				            let mouseMoving = true;
-				        RMapsOuterCard.style.transform = `rotateX(${newValY}deg) rotateY(${newValX}deg) scale(0.885)`;
+				        RMapsOuterCard.style.transform = `rotateX(${newValY}deg) rotateY(${newValX}deg)`;
 					}); // ::>> Closing Tag for Document MouseMove evt...
 
-			        Docu.addEventListener("mouseleave",(e) => {
+			        document.addEventListener("mouseleave",(e) => {
 			            // Todo...
 			             let mouseLeftWindow = true;
 			        });
