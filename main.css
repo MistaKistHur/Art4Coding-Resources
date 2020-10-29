@@ -116,10 +116,11 @@ h2{
     }
     /* ::>> Create Star BAckground for RVMaps. Behind the Gradient... */
     .opensource_logo{
+    	content:"";
     	position:absolute;
     	width:calc(58.88px + 0.488vw);
     	top:0; left:calc(288px + 0.85vw);
-    	filter:blur(0.58px);
+    	filter:blur(0.52px);
         height:auto;
     	z-index:6;
         }
