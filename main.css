@@ -336,15 +336,15 @@ nav ul li a:hover{
 			#Rev-maps:hover{
 				filter:hue-rotate(-78deg);
 				transition:filter 840ms ease-in-out;
-			}
+				}
 			#Rev_Maps > div{z-index:22;}
 			#Rev-Maps > div > div{
-				overflow:hidden !important;
+				overflow:hidden !important; /* ::>> Hiding the scroll bar that was appearing */
 				z-index:23;
 			    }
 			#Rev-Maps > div > div > iframe{
 				z-index:24 !important;
-			}
+				}
 /* ::>> ... Revolver Maps Section > Hide the Scroll Bar ... ... ... ... */
 
 
