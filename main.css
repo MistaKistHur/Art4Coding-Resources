@@ -125,10 +125,10 @@ h2{
         }
     .opensource_logo::before{
     	content:"";
-    	position:absolute;
+    	position:relative;
     	top:8px; left:0;
     	background:white;
-    	width:55px; height:55px;
+    	width:58px; height:58px;
     	border-radius:50%;
     	filter:blur(5.8px);
     	z-index:7;
