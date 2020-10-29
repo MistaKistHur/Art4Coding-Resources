@@ -9,6 +9,7 @@
 - [ ] Find Moderators for The DeviantArt Group.
 - [ ] Create Animated Thumbnail Image for the DeviantArt Group.
 - [ ] Link to Art4Coding Deviant Art Group, For Chat and Collaboration.
+- [ ] The FUNDING.yml file does not currently contain valid funding links
 - [ ] Create a Searchable Tutorials Page Using Js.
 - [ ] Tidy Up File Structure Periodically.
 - [ ] Make and Revise A Logo.
