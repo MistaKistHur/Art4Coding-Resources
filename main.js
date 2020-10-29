@@ -64,44 +64,7 @@
                 //RMapsOuterCard.addEventListener("mouseleave",(e) => {
 
                 //}
-                /* ::>> This is being glitchy sort it out... */
-				document.addEventListener("mousemove",(e) => {
-				    let xAxis = (window.innerWidth / 2 - e.pageX) / 24;
-				    let yAxis = (window.innerHeight / 2 - e.pageY) / 28.8;
-
-				    if(xAxis >= 360){
-				    	xAxis = 360
-				    }
-				    if(yAxis >= 360){
-				    	yAxis = 360
-				    }
-		                         let mouseMoving = true;
-
-		            // console.log("hi");
-
-		            RMapsOuterCard.style.transform = `rotateX(${yAxis}deg) rotateY(${xAxis}deg) scale(0.885)`;
-						// if(mouseMoving === true){
-						//	console.log(`X:Axis::>>`+ ${xAxis}+`Y:Axis::>>`+ ${yAxis});
-						// };
-
-
-		              // console.log(" "${xAxis}"" ${yAxis}"");
-		          // Handle touch events seperately.
-				}); // ::>> Closing Tag for Document MouseMove evt...
-
-
-		var welcome = '{ "Welcome Message" : [' +
-		                '{ "Hello":"New User" },' +      // Change these and use Math.random() + ifelse to select a random greeting.
-		                '{ "Bonjour":"Partner" },' +
-		                '{ "Buenos dias":"Chica" } ]}';
-			// ::>> Then, use the JavaScript built-in function JSON.parse() to convert the string into a JavaScript object:
-		        var obj = JSON.parse(welcome);
-		        // welcome.SomeMethod?
-console.log(`::>> Test Ran Successfully:: ref x345`);
-    (function UnloadAnimationAssets(){
-    	console.log(Docu);
-    	console.log(this);
-    	// require('Anime_Assets.json');
+/* ::>> GSap Animation Moving The Container Of The Revolver Maps ................................................................*/
 	    const RMaps = Docu.getElementById("Rev_Maps");
 		setTimeout(() => {
 			  RMaps.classList.remove("disp_none");
@@ -114,6 +77,41 @@ console.log(`::>> Test Ran Successfully:: ref x345`);
 	        });
 	        // Need to retain the hue-rotate but inverse the hue of the actual globe...
 		},240)
+            /* ::>> This is being glitchy sort it out... */
+			document.addEventListener("mousemove",(e) => {
+			    let xAxis = (window.innerWidth / 2 - e.pageX) / 24;
+			    let yAxis = (window.innerHeight / 2 - e.pageY) / 28.8;
+								    if(xAxis >= 360){
+								    	xAxis = 360
+								    }
+								    if(yAxis >= 360){
+								    	yAxis = 360
+								    }
+	                         let mouseMoving = true;
+	            RMapsOuterCard.style.transform = `rotateX(${yAxis}deg) rotateY(${xAxis}deg) scale(0.885)`;
+			}); // ::>> Closing Tag for Document MouseMove evt...
+		            // Handle touch events seperately.
+/* ::>> GSap Animation Moving The Container Of The Revolver Maps ................................................................*/
+/* ::>> Create A Welcome Message ................................................................................................*/
+		var welcome = '{ "Welcome Message" : [' +
+		                '{ "Hello":"New User" },' +      // Change these and use Math.random() + ifelse to select a random greeting.
+		                '{ "Bonjour":"Partner" },' +
+		                '{ "Buenos dias":"Chica" } ]}';
+			// ::>> Then, use the JavaScript built-in function JSON.parse() to convert the string into a JavaScript object:
+		        var obj = JSON.parse(welcome);
+		        // welcome.SomeMethod?
+/* ::>> Create A Welcome Message ................................................................................................*/
+   console.log(`::>> Test Ran Successfully:: ref x345`);
+
+
+
+
+
+    (function UnloadAnimationAssets(){
+    	console.log(Docu);
+    	console.log(this);
+    	// require('Anime_Assets.json');
+
 		const TopNavLinx = Docu.getElementById("TopNavLinx");
 		              // Slide in from the right menu linx
     })();
