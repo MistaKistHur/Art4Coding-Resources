@@ -84,7 +84,7 @@
 				/* ::>> This Function Maybe used in other places so maybe make a module */
 				// ::>> From this Answer :> https://stackoverflow.com/questions/5842747/how-can-i-use-javascript-to-limit-a-number-between-a-min-max-value
 			    let xAxis = (window.innerWidth - e.pageX);
-			    let yAxis = (window.innerHeight / 2 - e.pageY) / 0.45;
+			    let yAxis = (window.innerHeight / 2 - e.pageY) / 2.45;
 
 					function clamp(value, min, max) {
 					    return Math.min(Math.max(value,min),max);
