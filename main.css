@@ -124,7 +124,7 @@ h1:hover{
 	}
 h2{
 	position:absolute;
-	left:29.8px; top:calc(57px + 0.28vh);
+	left:22.8px; top:calc(47px + 0.28vh);
 	font-family:"Black_Chancery", Verdana, Tahoma;
 	font-size:calc(38.44px + 0.08vmax) !important;
 	background:radial-gradient(circle at 60%,
