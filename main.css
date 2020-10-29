@@ -322,7 +322,7 @@ nav ul li a:hover{
 				border-bottom-left-radius: 2.8px;
 				background:linear-gradient(145deg,transparent,transparent,
 					                              transparent,transparent,
-					                           skyblue,yellow,springgreen);/*#bf1a68,*/
+					                           #bf1a68,skyblue,yellow,springgreen);/*,*/
 				overflow: hidden !important;
 				/* border:solid 4px black; */
 				padding-bottom:48px;
