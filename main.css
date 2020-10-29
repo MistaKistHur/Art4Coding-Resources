@@ -58,6 +58,13 @@ header{
       word-wrap:inherit;
 	  z-index:3;
 	  }
+	input[type=hidden]{
+		display:none;
+		visibility:hidden;
+		position:absolute;
+		width:0 !important;
+		height:0 !important;
+	    }
 		.blob{
 			position:absolute;
 			top:8px; left:8px;
@@ -89,8 +96,8 @@ h1{
         -webkit-backface-visibility:hidden;
 	    -webkit-font-smoothing:antialiased;
 	background:linear-gradient(-33deg,#bf1a68,#bf1a68,
-		                    rgb(229, 235, 52),
-		                    rgb(11, 143, 130));
+		                            rgb(229, 235, 52),
+		                            rgb(11, 143, 130));
 	        background-clip:text;
 	-webkit-background-clip:text;
 	/* transform: scaleX(1) translateX(0); */
