@@ -144,10 +144,11 @@ nav ul li a{
     background:linear-gradient(240deg, rgb(18,239,255), #bf1a68, #bf1a68);
 	text-shadow: -4px -8px 8.5px rgba(18,239,255,1);
 	transition:transform 880ms ease-in-out;
-	      -webkit-text-stroke:0.94px black;
+	      -webkit-text-stroke:0.988px black;
           -webkit-background-clip:text;
 	padding:0 8.8px 0 8.8px; /* 2.8px 2.8px 1.2px black, */
     background-clip:text;
+    font-weight:870;
     filter:blur(0.54px);
     color:transparent;
 	width:auto;
