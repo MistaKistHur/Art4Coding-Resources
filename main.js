@@ -72,8 +72,8 @@
 	        let RevolverMapsGsap = gsap.fromTo(".r_maps_container",
 	        	                        { opacity: 0 }, {
                                           opacity: 1,
-                                         duration: 20.4287,
-                                         ease: "slow(0.7, 0.7, false)",
+                                         duration: 20.2287,
+                                         ease: "slow(0.4, 0.8, false)",
                                          delay: 0.240
 	        });
 	        // Need to retain the hue-rotate but inverse the hue of the actual globe...
