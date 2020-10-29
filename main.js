@@ -2,8 +2,8 @@
     // this.applicationCache.onprogress; ......... <<:: Research These:
     // this.applicationCache.ondownloading; ...... <<:: Research These:
     // this = this || window || document;
-    const Docu = document; let fn = function;
-	Docu.addEventListener("DOMContentLoaded",(fn(){
+    const Docu = document;
+	Docu.addEventListener("DOMContentLoaded",(function(){
             // ::>> if(null)?
             // ::>> modules ? require()? include()?
 		const Head   = Docu.querySelector("head");
