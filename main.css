@@ -301,8 +301,8 @@ nav ul li a:hover{
 		#StarBackdrop{
 			position:absolute;
 			width:inherit; height:inherit;
-			filter:opacity(0.84);
-			top:0; left:0;
+			filter:opacity(0.87);
+			top:0 !important; left:0;
 			z-index:20;
     		}
 			#Rev_Maps{
