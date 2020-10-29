@@ -140,7 +140,7 @@ nav ul li a{
 	position:relative;
 	display:inline-block;
 	font-family:"Abassy", Verdana, Tahoma;
-	font-size:calc(19.8px + 0.88vmax + 0.44vw)!important;
+	font-size:calc(22.8px + 0.88vmax + 0.44vw)!important;
     background:linear-gradient(240deg, rgb(18,239,255), #bf1a68, #bf1a68);
 	text-shadow: -4px -8px 8.5px rgba(18,239,255,1);
 	transition:transform 880ms ease-in-out;
