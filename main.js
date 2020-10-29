@@ -166,12 +166,12 @@ setTimeout(() => {
 /* ::>> Three.js Set-up <<:: */
         function ThreeActive(){
              // Move three Code inside here for modularity...
-			var scene = new THREE.Scene();
-			var camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
+			//var scene = new THREE.Scene();
+			//var camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
 
-			var renderer = new THREE.WebGLRenderer();
-			renderer.setSize( window.innerWidth, window.innerHeight );
-			Docu.body.appendChild( renderer.domElement );
+			//var renderer = new THREE.WebGLRenderer();
+			//renderer.setSize( window.innerWidth, window.innerHeight );
+			//Docu.body.appendChild( renderer.domElement );
         }ThreeActive();
 
 /* ::>> Three.js Set-up <<:: */
@@ -182,7 +182,7 @@ setTimeout(() => {
 		  xhr_video.addEventListener("mousedown",(e) => {
                   e.preventDefault();
                   console.log("Testing ::>> no err :: ref: x123"); // move around for testing errors.
-                  var vid_xhttp = new XMLHttpRequest();
+                  //var vid_xhttp = new XMLHttpRequest();
                   //fetch();
 		    // fetch extra videos, bump others out of view..
 		  });
