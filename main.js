@@ -1,10 +1,10 @@
 "use-strict";
 	document.addEventListener("DOMContentLoaded",(function(){
 	// ::>> Page Element Selectors <<:: .....................................
-		const Head   = document.querySelector("head");
-		    let sts  = document.styleSheets;
-		const Bodi   = document.querySelector("body");
-		    const BodyObjectArr = HTMLDocument;
+		const Head          = document.querySelector("head");
+		  let sts           = document.styleSheets;
+		const Bodi          = document.querySelector("body");
+		const BodyObjectArr = document.all;
 		const Header     = document.querySelector("header");
 		const Footer     = document.querySelector("footer");
 		const TopNavLinx = document.getElementById("TopNavLinx");
