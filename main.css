@@ -142,7 +142,7 @@ h2{
     }
 .h2italic{
 	position:absolute;
-	top:0;left:104px;
+	top:-89px;left:104px;
 	z-index:8;
     }
     /* ::>> Create Star BAckground for RVMaps. Behind the Gradient... */
