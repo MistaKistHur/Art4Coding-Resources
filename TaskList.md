@@ -4,6 +4,8 @@
 - [ ] Create a Documentation Index.
 - [ ] Create a Social Media Preview Image.
 - [ ] Find Curators for the DeviantArt Group.
+- [ ] Re-Order this List.
+- [ ] Sort Out Media Query's.
 - [ ] Find Moderators for The DeviantArt Group.
 - [ ] Create Animated Thumbnail Image for the DeviantArt Group.
 - [ ] Link to Art4Coding Deviant Art Group, For Chat and Collaboration.
