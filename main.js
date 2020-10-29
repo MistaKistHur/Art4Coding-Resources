@@ -79,9 +79,9 @@
 	        // Need to retain the hue-rotate but inverse the hue of the actual globe...
 		},240)
             /* ::>> This is being glitchy sort it out... */
-			document.addEventListener("mousemove",(e) => {
-			    let xAxis = (window.innerWidth / 2 - e.pageX) / 24;
-			    let yAxis = (window.innerHeight / 2 - e.pageY) / 28.8;
+			Docu.addEventListener("mousemove",(e) => {
+			    let xAxis = (window.innerWidth / 2 - e.pageX);
+			    let yAxis = (window.innerHeight / 2 - e.pageY);
 								    /*if(xAxis >= 360){
 								    	xAxis = 360
 								    }
