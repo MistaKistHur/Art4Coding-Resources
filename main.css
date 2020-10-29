@@ -163,8 +163,9 @@ nav ul li a:hover{
     }
 .move_up{
 	position:absolute;
-	top:72px;
-}
+	left:62vw;
+	top:62px;
+	}
 .help_png{
 	float:right;
 	transform-origin: bottom right 60px;
