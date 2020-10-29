@@ -9,10 +9,12 @@
             // ::>> if(null)?
             // ::>> modules ? require()? include()?
 		const Head   = Docu.querySelector("head");
+		     let sts = document.styleSheets;
 		const Bodi   = Docu.querySelector("body");
 		const Header = Docu.querySelector("header");
 		const Footer = Docu.querySelector("footer");
 		const TopNavLinx = Docu.getElementById("TopNavLinx");
+
 		      Bodi.style.display = `block !important`;
 		/* ::>> Notes            */
 			console.log("Js File Loaded Successfully");
