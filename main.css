@@ -165,7 +165,7 @@ nav ul li a:hover{
 .move_up{
 	position:absolute;
 	left:2vw;
-	top:34.8px;
+	top:calc(34.85px + 1.2vh);
 	}
 .help_png{
 	float:right;
