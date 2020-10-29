@@ -34,6 +34,9 @@ html,body{
 /* ::>> Change the Layout of this to be display:grid? flex? */
 /* ::>> Test this Out filter:url(); --> function takes the location of an XML file that specifies an SVG filter, and may include an anchor to a specific filter element
 */ /* caret-color: green; */
+header{
+	overflow:hidden;
+}
 	nav{
 	  position:absolute;
 	  top:0 !important; left:0;
@@ -66,6 +69,7 @@ html,body{
 			width:24px; height:24px; left:48px;
 			z-index:4;
 			}
+}
 h1{
 	position:absolute;
 	top:0.02px; left:calc(8.88px + 0.87vw);
