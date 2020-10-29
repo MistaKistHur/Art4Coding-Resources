@@ -145,8 +145,8 @@ nav ul li a{
     background:linear-gradient(240deg, rgb(18,239,255), #bf1a68, #bf1a68);
 	text-shadow:-4px -8px 8.5px rgba(18,239,255,1);
 	transition:transform 880ms ease-in-out;
-	             text-stroke:1.1px black;
-	     -webkit-text-stroke:1.1px black;
+	             text-stroke:1.18px black;
+	     -webkit-text-stroke:1.18px black;
               -webkit-background-clip:text;
 	text-rendering:geometricPrecision;
 	padding:0 8.8px 0 8.8px; /* 2.8px 2.8px 1.2px black, */
