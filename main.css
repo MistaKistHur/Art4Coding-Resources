@@ -115,6 +115,10 @@ h2{
 	left:104px;
     }
     /* ::>> Create Star BAckground for RVMaps. Behind the Gradient... */
+    .opensource_logo{
+    	position:absolute;
+    	z-index:6;
+    }
 h3{
 	position:absolute;
 	left:42.8px; top:calc(64.98px + 0.28vh);
