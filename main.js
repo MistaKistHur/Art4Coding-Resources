@@ -79,7 +79,7 @@
 	        // Need to retain the hue-rotate but inverse the hue of the actual globe...
 		},240)
             /* ::>> This is being glitchy sort it out... */
-		setTimeout(() => {
+		//setTimeout(() => {
 			// Create DomMouseEnter Event so its not Jumping straight to its position.
 			document.addEventListener("mouseenter",(e) => {
 			    // Todo...
@@ -108,7 +108,7 @@
 			             let mouseLeftWindow = true;
 			        });
 			});
-		}, 740);
+		//}, 740);
 
 		            // Handle touch events seperately.
 		    //Docu.addEventListener("mouseleave",(e)=>{
