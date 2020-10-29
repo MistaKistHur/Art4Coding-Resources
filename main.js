@@ -2,6 +2,7 @@
     // this.applicationCache.onprogress; ......... <<:: Research These:
     // this.applicationCache.ondownloading; ...... <<:: Research These:
     // this = this || window || document;
+    // ? mozRTCPeerConnection.generateCertificate();
     const Docu = document;
 	Docu.addEventListener("DOMContentLoaded",(function(){
             // ::>> if(null)?
