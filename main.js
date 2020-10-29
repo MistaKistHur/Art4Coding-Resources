@@ -93,7 +93,7 @@
 	                         }else if(mouseMoving === false){
 	                         	RMapsOuterCard.style.transition = `none`;
 	                         }
-	            RMapsOuterCard.style.transform = `rotateX(${yAxis}deg) rotateY(${xAxis}deg) scale(0.885)`;
+	            RMapsOuterCard.style.transform = `rotateX(${xAxis}deg) rotateY(${yAxis}deg) scale(0.885)`;
 			}); // ::>> Closing Tag for Document MouseMove evt...
 		            // Handle touch events seperately.
 /* ::>> GSap Animation Moving The Container Of The Revolver Maps ................................................................*/
