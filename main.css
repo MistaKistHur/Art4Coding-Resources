@@ -299,6 +299,7 @@ nav ul li a:hover{
 			}
 		#StarBackdrop{
 			position:absolute;
+			filter:opacity(0.5);
 			top:0; left:0;
 			z-index:20;
     		}
@@ -328,9 +329,14 @@ nav ul li a:hover{
 				filter:hue-rotate(-78deg);
 				transition:filter 840ms ease-in-out;
 			}
-			#Rev-maps > div > div{
+			#Rev_Maps > div{z-index:22;}
+			#Rev-Maps > div > div{
 				overflow:hidden !important;
+				z-index:23;
 			    }
+			#Rev-Maps > div > div > iframe{
+				z-index:24 !important;
+			}
 /* ::>> ... Revolver Maps Section > Hide the Scroll Bar ... ... ... ... */
 
 
