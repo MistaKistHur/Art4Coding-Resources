@@ -40,7 +40,8 @@
 	        	transform: ["scale(1)","scale(1.4)"]
 	        },{
                 iterations: Infinity,
-                duration: 740
+                duration: 740,
+                direction: 'alternate'
                 // fill:
                 // easeing:
 	        })
