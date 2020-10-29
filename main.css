@@ -26,7 +26,7 @@ html,body{
     overflow-x:hidden !important;
     list-style-type: circle;
     scroll-behavior: smooth;
-    perspective:850px;
+    perspective:50px;
     background:black;
 	top:0; left:0;
     z-index:1;
