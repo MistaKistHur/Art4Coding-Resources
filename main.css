@@ -256,7 +256,7 @@ nav ul li a:hover{
 
 .intial_top_animation{
 	position:absolute;
-	top:calc(188px + (.87vh + .85vmax)); left:8px;
+	top:calc(178px + (.84vh + .85vmax)); left:8px;
 	background:url("/Imgs/Jpgs/snow-covered-trees-and-moon.jpg");
 	width:calc(298.8px + 27.788vh + 2.48vmax);
 	transition:all 888ms ease-in-out;
