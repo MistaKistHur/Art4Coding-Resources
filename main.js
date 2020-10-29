@@ -26,6 +26,10 @@
 			if(window.Worklet){
 				// Paint Worklets
 			}
+
+			if('serviceWorker' in navigator){
+
+			}
 	// ::>> Worker Scripts <<:: ..............................................................................................
 	// ::>> Media Querys Section <<:: ........................................................................................
 			function isSmallScreen(){
