@@ -89,7 +89,7 @@
 								    }
 	                         let mouseMoving = true;
 	                         if(mouseMoving === true){
-	                         	RMapsOuterCard.style.transition = `transform 24ms ease-in-out`;
+	                         	// RMapsOuterCard.style.transition = `transform 24ms ease-in-out`;
 	                         }else if(mouseMoving === false){
 	                         	RMapsOuterCard.style.transition = `none`;
 	                         }
