@@ -1,17 +1,26 @@
 "use-strict";
-
-    // const Docu = document;
 	document.addEventListener("DOMContentLoaded",(function(){
+	// ::>> Page Element Selectors <<:: .....................................
+		const Head   = document.querySelector("head");
+		    let sts  = document.styleSheets;
+		const Bodi   = document.querySelector("body");
+		    const BodyObjectArr = HTMLDocument;
+		const Header     = document.querySelector("header");
+		const Footer     = document.querySelector("footer");
+		const TopNavLinx = document.getElementById("TopNavLinx");
+	// ::>> Page Element Selectors <<:: .....................................
+    // ::>> Initial Reset's <<:: ............................................
+		      Bodi.style.display = "block !important"; /* ::>> This is not getting applied or over-riding inline style? */
+    // ::>> Initial Reset's <<:: ............................................
+
+
+
+
             // ::>> if(null)?
             // ::>> modules ? require()? include()?
-		const Head   = document.querySelector("head");
-		     let sts = document.styleSheets;
-		const Bodi   = document.querySelector("body");
-		const Header = document.querySelector("header");
-		const Footer = document.querySelector("footer");
-		const TopNavLinx = document.getElementById("TopNavLinx");
 
-		      Bodi.style.display = `block !important`; /* ::>> This is not getting applied or over-riding inline style? */
+
+
 		/* ::>> Notes            */
 			console.log("Js File Loaded Successfully");
 			console.log("DomC Ran Successfully");
@@ -35,7 +44,6 @@
 			                       // Os, Ios etc, First Conn Time, Js-Disabled, Sensors,
 			                       // CountryLocation, Cookies? Refferer?
 	    })();
-
 	    let blob = document.querySelector(".blob");
 	        blob.animate({
 	        	transform: ["scale(1)","scale(1.4)"]
@@ -46,6 +54,7 @@
                 // fill:
                 // easeing:
 	        })
+
 		       // Has P5 loaded successfully?
 		       // Has Three.js Loaded?
 		       // Has GSAP Loaded?
