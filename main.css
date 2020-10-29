@@ -25,6 +25,7 @@ html,body{
     scroll-behavior: smooth;
     perspective:850px;
     background:black;
+    z-index:1;
     }
 /* :: ALL Good Up2 Here <<:: Move Around When Sections are complete.. <<::.........................
 /* ::>> Change the Layout of this to be display:grid? flex? */
@@ -40,6 +41,7 @@ html,body{
 	  background:#2e2e2e;
 	  min-width:100%;
 	  word-wrap:none;
+	  z-index:2;
 	  }
 .blob{
 	position:absolute;
@@ -48,15 +50,17 @@ html,body{
 	background:springgreen;
 	border-radius:50%;
 	filter:blur(7.4px);
-	z-index:500;
+	z-index:3;
     }
 .blob::before{
 	content:"";
 	display:block;
 	position:absolute;
-	left:48px;
-	width:24px; height:24px;
-	background:radial-gradient(circle, rgb(20, 227, 199), rgb(0,7,144));
+	background:radial-gradient(ellipse at top,
+		                    rgb(20, 227, 199),
+		                        rgb(0,7,144));
+	width:24px; height:24px; left:48px;
+	z-index:4;
 	}
 h1{
 	position:absolute;
@@ -74,7 +78,7 @@ h1{
 	        background-clip:text;
 	-webkit-background-clip:text;
 	/* transform: scaleX(1) translateX(0); */
-	z-index:205 !important;
+	z-index:5 !important;
 	padding:.8px 4.8px 34.8px .2px;
 	color:transparent;
 	will-change:auto;
