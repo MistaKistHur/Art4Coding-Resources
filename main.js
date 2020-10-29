@@ -81,8 +81,8 @@
 		},240)
             /* ::>> This is being glitchy sort it out... */
 			Docu.addEventListener("mousemove",(e) => {
-			    let xAxis = (window.innerWidth / 2 - e.pageX);
-			    let yAxis = (window.innerHeight / 2 - e.pageY);
+			    let xAxis = (window.innerWidth - e.pageX);
+			    let yAxis = (window.innerHeight - e.pageY);
 								    /*if(xAxis >= 360){
 								    	xAxis = 360
 								    }
