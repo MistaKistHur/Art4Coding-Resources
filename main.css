@@ -118,6 +118,8 @@ h2{
     .opensource_logo{
     	position:absolute;
     	z-index:6;
+    	left:0; width:calc(58.8px + 0.25vw);
+    	height:auto;
     }
 h3{
 	position:absolute;
