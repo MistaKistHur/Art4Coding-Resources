@@ -80,34 +80,38 @@
 	        // Need to retain the hue-rotate but inverse the hue of the actual globe...
 		},240)
             /* ::>> This is being glitchy sort it out... */
-			Docu.addEventListener("mousemove",(e) => {
-				// Divide Page width by 360
-				// Divide Page height by 360
-				// Wrap in windowResize Event
-				//
+setTimeout(() => {
+	Docu.addEventListener("mousemove",(e) => {
+	    let xAxis = (window.innerWidth - e.pageX);
+	    let yAxis = (window.innerHeight - e.pageY);
+            let mouseMoving = true;
+        RMapsOuterCard.style.transform = `rotateX(-${yAxis}deg) rotateY(-${xAxis}deg) scale(0.885)`;
+	}); // ::>> Closing Tag for Document MouseMove evt...
+            // Handle touch events seperately.
+    Docu.addEventListener("mouseleave",(e)=>{
+    	RMapsOuterCard.style.transition = `transform 248ms ease-in 8ms`;
+    	RMapsOuterCard.style.transform = `rotateX(0deg) rotateY(0deg) scale(0.885)`;
+    })
+}, 740)
+/*::>> Scrap Code bits from this block
+                     // if(mouseMoving === true){
+                     	// RMapsOuterCard.style.transition = `transform 24ms ease-in-out`;
+                     // }else if(mouseMoving === false){
+                     	// RMapsOuterCard.style.transition = `none`;
+                     //}
+						    /*if(xAxis >= 360){
+						    	xAxis = 360
+						    }
+						    if(yAxis >= 360){
+						    	yAxis = 360
+						    }*/
+		// Divide Page width by 360
+		// Divide Page height by 360
+		// Wrap in windowResize Event
+		//
 
-			    let xAxis = (window.innerWidth - e.pageX);
-			    let yAxis = (window.innerHeight - e.pageY);
-								    /*if(xAxis >= 360){
-								    	xAxis = 360
-								    }
-								    if(yAxis >= 360){
-								    	yAxis = 360
-								    }*/
-	                         let mouseMoving = true;
-	                         if(mouseMoving === true){
-	                         	// RMapsOuterCard.style.transition = `transform 24ms ease-in-out`;
-	                         }else if(mouseMoving === false){
-	                         	RMapsOuterCard.style.transition = `none`;
-	                         }
-	            RMapsOuterCard.style.transform = `rotateX(-${yAxis}deg) rotateY(-${xAxis}deg) scale(0.885)`;
-			}); // ::>> Closing Tag for Document MouseMove evt...
-		            // Handle touch events seperately.
+*/
 
-		    Docu.addEventListener("mouseleave",(e)=>{
-		    	RMapsOuterCard.style.transition = `transform 248ms ease-in 8ms`;
-		    	RMapsOuterCard.style.transform = `rotateX(0deg) rotateY(0deg) scale(0.885)`;
-		    })
 /* ::>> GSap Animation Moving The Container Of The Revolver Maps ................................................................*/
 /* ::>> Create A Welcome Message ................................................................................................*/
 		var welcome = '{ "Welcome Message" : [' +
