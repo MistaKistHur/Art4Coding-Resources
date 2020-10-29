@@ -302,7 +302,8 @@ nav ul li a:hover{
 			position:absolute;
 			width:inherit; height:inherit;
 			filter:opacity(0.97) !important;
-			top:-50px !important; left:0;
+			top:-74px !important; left:0;
+			border-radius:17.2px;
 			z-index:20;
     		}
 			#Rev_Maps{
