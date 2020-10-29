@@ -1,12 +1,13 @@
 "use-strict";
+    // ::>>                                  ................ ::>> Document Name:: main.js >> for:: https://www.art4coding.icu <<::
 	// ::>> Note i've made two Modules folders in the github repo, delete one or merge the two into one.
 	document.addEventListener("DOMContentLoaded",(function(){
-			console.log("Js File Loaded Successfully");
-			console.log("DomC Ran Successfully");
+			 console.log("Js File Loaded Successfully");
+			 console.log("DomC Ran Successfully");
 			    const t0 = performance.now(); // Testing only.
 			    console.log(`::>>${t0}`);
 			    console.log(`::>>Test AB Ref:: X678`);
-	// ::>> Page Element Selectors <<:: .....................................
+	// ::>> Page Element Selectors <<:: ...................................................................................... <<::
 		const Head          = document.querySelector("head");
 		  let sts           = document.styleSheets;
 		const Bodi          = document.querySelector("body");
@@ -17,8 +18,8 @@
 
 			let mediaResults = window.matchMedia("(max-width: 767px)");
 			let prefs_dark   = window.matchMedia("(prefers-color-scheme: dark)");
-	// ::>> Page Element Selectors <<:: ......................................................................................
-	// ::>> Worker Scripts <<:: ..............................................................................................
+	// ::>> Page Element Selectors <<:: ...................................................................................... <<::
+	// ::>> Worker Scripts <<:: .............................................................................................. <<::
 			if(window.Worker){
 				const AnimeWorker       = new Worker('Workers/anime_worker.js');
 				const InteractiveWorker = new Worker('Workers/page_interactions.js');
@@ -28,29 +29,25 @@
 				// ::>> Paint Worklets
 			}
 
-			if('serviceWorker' in navigator){
+			if('serviceWorker' in navigator){          // ::>> Not Sure what this does yet?
 				// ::>> ? https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorker
 			}
-	// ::>> Worker Scripts <<:: ..............................................................................................
-	// ::>> Media Querys Section <<:: ........................................................................................
+	// ::>> Worker Scripts <<:: .............................................................................................. <<::
+	// ::>> Media Querys Section <<:: ........................................................................................ <<::
 			function isSmallScreen(){
+				// ::>> Would be better as a turnary or switch statement.
 				if(window.matchMedia("(max-width: 767px)").matches){
 					return true;
 				} return false;
 			}
-	// ::>> Media Querys Section <<:: ........................................................................................
+	// ::>> Media Querys Section <<:: ........................................................................................ <<::
 
-    // ::>> Initial Reset's <<:: .............................................................................................
+    // ::>> Initial Reset's <<:: ............................................................................................. <<::
 		      Bodi.style.display = "block !important";  /* ::>> This is not getting applied or over-riding inline style? */
-    // ::>> Initial Reset's <<:: .............................................................................................
-
-
-
+    // ::>> Initial Reset's <<:: ............................................................................................. <<::
 
             // ::>> if(null)?
             // ::>> modules ? require()? include()?
-
-
 
 		/* ::>> Notes            */
 
