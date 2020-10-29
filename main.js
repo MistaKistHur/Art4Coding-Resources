@@ -88,6 +88,11 @@
 								    	yAxis = 360
 								    }
 	                         let mouseMoving = true;
+	                         if(mouseMoving === true){
+	                         	RMapsOuterCard.style.transition = `transform 24ms ease-in-out 8ms`;
+	                         }else if(mouseMoving === false){
+	                         	RMapsOuterCard.style.transition = `none`;
+	                         }
 	            RMapsOuterCard.style.transform = `rotateX(${yAxis}deg) rotateY(${xAxis}deg) scale(0.885)`;
 			}); // ::>> Closing Tag for Document MouseMove evt...
 		            // Handle touch events seperately.
