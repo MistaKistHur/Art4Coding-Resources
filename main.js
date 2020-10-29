@@ -12,6 +12,7 @@
 		const Bodi   = Docu.querySelector("body");
 		const Header = Docu.querySelector("header");
 		const Footer = Docu.querySelector("footer");
+		const TopNavLinx = Docu.getElementById("TopNavLinx");
 		      Bodi.style.display = `block !important`;
 		/* ::>> Notes            */
 			console.log("Js File Loaded Successfully");
@@ -80,29 +81,29 @@
 	        // Need to retain the hue-rotate but inverse the hue of the actual globe...
 		},240)
             /* ::>> This is being glitchy sort it out... */
-setTimeout(() => {
-	Docu.addEventListener("mousemove",(e) => {
-		/* ::>> This Function Maybe used in other places so maybe make a module */
-		// ::>> From this Answer :> https://stackoverflow.com/questions/5842747/how-can-i-use-javascript-to-limit-a-number-between-a-min-max-value
-	    let xAxis = (window.innerWidth - e.pageX);
-	    let yAxis = (window.innerHeight - e.pageY);
+		setTimeout(() => {
+			Docu.addEventListener("mousemove",(e) => {
+				/* ::>> This Function Maybe used in other places so maybe make a module */
+				// ::>> From this Answer :> https://stackoverflow.com/questions/5842747/how-can-i-use-javascript-to-limit-a-number-between-a-min-max-value
+			    let xAxis = (window.innerWidth - e.pageX);
+			    let yAxis = (window.innerHeight - e.pageY);
 
-			function clamp(value, min, max) {
-			    return Math.min(Math.max(value,min),max);
-			}
-			let newValX = clamp(`${yAxis}`, 0, 275);
-			let newValY = clamp(`${yAxis}`, 0, 295);
-		/* ::>> This Function Maybe used in other places so maybe make a module */
+					function clamp(value, min, max) {
+					    return Math.min(Math.max(value,min),max);
+					}
+					let newValX = clamp(`${yAxis}`, 0, 275);
+					let newValY = clamp(`${yAxis}`, 0, 295);
+				/* ::>> This Function Maybe used in other places so maybe make a module */
 
-            let mouseMoving = true;
-        RMapsOuterCard.style.transform = `rotateX(-${newValY}deg) rotateY(-${newValX}deg) scale(0.885)`;
-	}); // ::>> Closing Tag for Document MouseMove evt...
-            // Handle touch events seperately.
-    Docu.addEventListener("mouseleave",(e)=>{
-    	RMapsOuterCard.style.transition = `transform 248ms ease-in 8ms`;
-    	RMapsOuterCard.style.transform = `rotateX(0deg) rotateY(0deg) scale(0.885)`;
-    })
-}, 740)
+		            let mouseMoving = true;
+		        RMapsOuterCard.style.transform = `rotateX(${newValY}deg) rotateY(${newValX}deg) scale(0.885)`;
+			}); // ::>> Closing Tag for Document MouseMove evt...
+		            // Handle touch events seperately.
+		    Docu.addEventListener("mouseleave",(e)=>{
+		    	RMapsOuterCard.style.transition = `transform 48ms ease-in`;
+		    	RMapsOuterCard.style.transform = `rotateX(0deg) rotateY(0deg) scale(0.885)`;
+		    })
+		}, 740)
 /*::>> Scrap Code bits from this block
                      // if(mouseMoving === true){
                      	// RMapsOuterCard.style.transition = `transform 24ms ease-in-out`;
@@ -143,7 +144,7 @@ setTimeout(() => {
     	console.log(this);
     	// require('Anime_Assets.json');
 
-		const TopNavLinx = Docu.getElementById("TopNavLinx");
+
 		              // Slide in from the right menu linx
     })();
 
@@ -177,15 +178,15 @@ setTimeout(() => {
 /* ::>> Three.js Set-up <<:: */
 
 
-		  let xhr_video = Docu.getElementsByClassName("xhr_video_request")[0];
+		  //let xhr_video = Docu.getElementsByClassName("xhr_video_request")[0];
 
-		  xhr_video.addEventListener("mousedown",(e) => {
-                  e.preventDefault();
+		  //xhr_video.addEventListener("mousedown",(e) => {
+                 // e.preventDefault();
                   console.log("Testing ::>> no err :: ref: x123"); // move around for testing errors.
                   //var vid_xhttp = new XMLHttpRequest();
                   //fetch();
 		    // fetch extra videos, bump others out of view..
-		  });
+		  //});
 	})) /* ::>> Closing Tag for the MAIN body DOMC loaded event */
 
 /* ::>> Use PreventDefault on all top Nav a links then use Ajax/xhr to load in other content .... */
