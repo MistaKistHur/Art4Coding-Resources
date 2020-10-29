@@ -82,10 +82,20 @@
             /* ::>> This is being glitchy sort it out... */
 setTimeout(() => {
 	Docu.addEventListener("mousemove",(e) => {
+		/* ::>> This Function Maybe used in other places so maybe make a module */
+		// ::>> From this Answer :> https://stackoverflow.com/questions/5842747/how-can-i-use-javascript-to-limit-a-number-between-a-min-max-value
 	    let xAxis = (window.innerWidth - e.pageX);
 	    let yAxis = (window.innerHeight - e.pageY);
+
+			function clamp(value, min, max) {
+			    return Math.min(Math.max(value,min),max);
+			}
+			let newValX = clamp(${yAxis}, -45, 275);
+			let newValY = clamp(${yAxis}, -25, 95);
+		/* ::>> This Function Maybe used in other places so maybe make a module */
+
             let mouseMoving = true;
-        RMapsOuterCard.style.transform = `rotateX(-${yAxis}deg) rotateY(-${xAxis}deg) scale(0.885)`;
+        RMapsOuterCard.style.transform = `rotateX(-${newValX}deg) rotateY(-${newValY}deg) scale(0.885)`;
 	}); // ::>> Closing Tag for Document MouseMove evt...
             // Handle touch events seperately.
     Docu.addEventListener("mouseleave",(e)=>{
