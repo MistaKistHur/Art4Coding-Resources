@@ -67,7 +67,7 @@ header{
 		width:0 !important;
 		height:0 !important;
 	    }
-		i .blob{
+		i.blob{
 			position:absolute;
 			top:8px; left:8px;
 			width:22px; height:22px;
@@ -76,7 +76,7 @@ header{
 			filter:blur(7.4px);
 			z-index:4 !important;
 		    }
-		i .blob::before{
+		i.blob::before{
 			content:"";
 			display:block;
 			position:absolute;
