@@ -11,6 +11,7 @@
 		const Bodi   = Docu.querySelector("body");
 		const Header = Docu.querySelector("header");
 		const Footer = Docu.querySelector("footer");
+		      Bodi.style.display = `block !important`;
 		/* ::>> Notes            */
 			console.log("Js File Loaded Successfully");
 			console.log("DomC Ran Successfully");
