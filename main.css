@@ -126,7 +126,7 @@ h2{
     .opensource_logo::before{
     	content:"";
     	position:relative;
-    	top:8px; left:0;
+    	top:880px; left:0;
     	background:white;
     	width:58px; height:58px;
     	border-radius:50%;
