@@ -1,5 +1,10 @@
 "use-strict";
 	document.addEventListener("DOMContentLoaded",(function(){
+			console.log("Js File Loaded Successfully");
+			console.log("DomC Ran Successfully");
+			    const t0 = performance.now(); // Testing only.
+			    console.log(`::>>${t0}`);
+			    console.log(`::>>Test AB Ref:: X678`);
 	// ::>> Page Element Selectors <<:: .....................................
 		const Head          = document.querySelector("head");
 		  let sts           = document.styleSheets;
@@ -9,20 +14,29 @@
 		const Footer     = document.querySelector("footer");
 		const TopNavLinx = document.getElementById("TopNavLinx");
 
+			let mediaResults = window.matchMedia("(max-width: 767px)");
+			let prefs_dark   = window.matchMedia("(prefers-color-scheme: dark)");
+	// ::>> Page Element Selectors <<:: ......................................................................................
+	// ::>> Worker Scripts <<:: ..............................................................................................
+			if(window.Worker){
+				const AnimeWorker = new Worker('anime_worker.js');
+				// https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Functions_and_classes_available_to_workers
+			}
+			if(window.Worklet){
 
-		let mediaResults = window.matchMedia("(max-width: 767px)");
-		let prefs_dark   = window.matchMedia("(prefers-color-scheme: dark)");
+			}
+	// ::>> Worker Scripts <<:: ..............................................................................................
+	// ::>> Media Querys Section <<:: ........................................................................................
+			function isSmallScreen(){
+				if(window.matchMedia("(max-width: 767px)").matches){
+					return true;
+				} return false;
+			}
+	// ::>> Media Querys Section <<:: ........................................................................................
 
-
-		function isSmallScreen(){
-			if(window.matchMedia("(max-width: 767px)").matches){
-				return true;
-			} return false;
-		}
-	// ::>> Page Element Selectors <<:: .....................................
-    // ::>> Initial Reset's <<:: ............................................
-		      Bodi.style.display = "block !important"; /* ::>> This is not getting applied or over-riding inline style? */
-    // ::>> Initial Reset's <<:: ............................................
+    // ::>> Initial Reset's <<:: .............................................................................................
+		      Bodi.style.display = "block !important";  /* ::>> This is not getting applied or over-riding inline style? */
+    // ::>> Initial Reset's <<:: .............................................................................................
 
 
 
@@ -33,12 +47,7 @@
 
 
 		/* ::>> Notes            */
-			console.log("Js File Loaded Successfully");
-			console.log("DomC Ran Successfully");
 
-		    const t0 = performance.now(); // Testing only.
-		    console.log(`::>>${t0}`);
-		    console.log(`::>>Test AB Ref:: X678`);
 			//console.log(tick_one);
 		//let e = e || evt || event;
 	    (function PreSetUp(){
