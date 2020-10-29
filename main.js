@@ -83,13 +83,14 @@
 			Docu.addEventListener("mousemove",(e) => {
 				/* ::>> This Function Maybe used in other places so maybe make a module */
 				// ::>> From this Answer :> https://stackoverflow.com/questions/5842747/how-can-i-use-javascript-to-limit-a-number-between-a-min-max-value
+				// Create a forward facing pointer/vector which tells if the globe is right side up facing the user.
 			    let xAxis = (window.innerWidth - e.pageX);
 			    let yAxis = (window.innerHeight / 2 - e.pageY) / 2.45;
 
 					function clamp(value, min, max) {
 					    return Math.min(Math.max(value,min),max);
 					}
-					let newValX = clamp(`${yAxis}`, 0, 275);
+					let newValX = clamp(`${xAxis}`, 0, 275);
 					let newValY = clamp(`${yAxis}`, 0, 295);
 				/* ::>> This Function Maybe used in other places so maybe make a module */
 
