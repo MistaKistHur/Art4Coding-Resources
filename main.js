@@ -21,14 +21,14 @@
 			if(window.Worker){
 				const AnimeWorker       = new Worker('anime_worker.js');
 				const InteractiveWorker = new Worker('page_interactions.js');
-				// https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Functions_and_classes_available_to_workers
+				// ::>> https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Functions_and_classes_available_to_workers
 			}
 			if(window.Worklet){
-				// Paint Worklets
+				// ::>> Paint Worklets
 			}
 
 			if('serviceWorker' in navigator){
-
+				// ::>> ? https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorker
 			}
 	// ::>> Worker Scripts <<:: ..............................................................................................
 	// ::>> Media Querys Section <<:: ........................................................................................
@@ -53,21 +53,21 @@
 
 		/* ::>> Notes            */
 
-			//console.log(tick_one);
-		//let e = e || evt || event;
+			// ::>> console.log(tick_one);
+			// ::>> let e = e || evt || event;
 	    (function PreSetUp(){
-			// Pre-loading Screen Overlay?
+			// ::>> Pre-loading Screen Overlay?
 			console.log(`::>> PreSetUp Fn Ran Successfully.`);
-			 let UsrMetrix = [];     // Unsure to use an array for this Json or Object might be better...
+			 let UsrMetrix = [];     			// ::>> Unsure to use an array for this Json or Object might be better...
 			 let MenuItems = [];
-			 let PageActions = [];   // ?
-			 let ScrollAmnt = undefined;   // Activatecertain animations based on Scroll Ammount/ Parallex.
-			 let IframeConn = undefined;   // Github Pages does not support server side stuff Use iframe merged?
-			 let MaxConcuIframes = null;   // Max number of iframes, if more generate remove prev.
+			 let PageActions = [];   			// ?
+			 let ScrollAmnt = undefined;   		// ::>> Activatecertain animations based on Scroll Ammount/ Parallex.
+			 let IframeConn = undefined;   		// ::>> Github Pages does not support server side stuff Use iframe merged?
+			 let MaxConcuIframes = null;   		// ::>> Max number of iframes, if more generate remove prev.
 			 let AssetCrate = {};
 			    // ::>> UsrMetrix - - Device width, Device Height, User Agent : browser,
-			                       // Os, Ios etc, First Conn Time, Js-Disabled, Sensors,
-			                       // CountryLocation, Cookies? Refferer?
+			                    // ::>> Os, Ios etc, First Conn Time, Js-Disabled, Sensors,
+			                    // ::>> CountryLocation, Cookies? Refferer?
 	    })();
 	    let blob = document.querySelector(".blob");
 	        blob.animate({
@@ -80,9 +80,9 @@
                 // easeing:
 	        })
 
-		       // Has P5 loaded successfully?
-		       // Has Three.js Loaded?
-		       // Has GSAP Loaded?
+		       // ::>> Has P5 loaded successfully?
+		       // ::>> Has Three.js Loaded?
+		       // ::>> Has GSAP Loaded?
 		// ::>> Example Only
 		// Put in a marquee style greeting message.......
             const RMapsOuterCard = document.getElementById("RMapsHoverActivator");
