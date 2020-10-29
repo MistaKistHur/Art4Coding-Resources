@@ -84,7 +84,12 @@ header{
 			width:24px; height:24px; left:48px;
 			z-index:5;
 			}
-}
+		#MainLogo{
+			/* Hidden For Now */
+			display:none !important;
+			position:absolute;
+			top:0; left:0;
+		    }
 h1{
 	position:absolute;
 	top:0.02px; left:calc(8.88px + 0.87vw);
