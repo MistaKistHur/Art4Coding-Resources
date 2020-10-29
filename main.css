@@ -301,7 +301,7 @@ nav ul li a:hover{
 		#StarBackdrop{
 			position:absolute;
 			width:inherit; height:inherit;
-			filter:opacity(0.87);
+			filter:opacity(0.97) !important;
 			top:-50px !important; left:0;
 			z-index:20;
     		}
