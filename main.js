@@ -8,13 +8,15 @@
 			    console.log(`::>>${t0}`);
 			    console.log(`::>>Test AB Ref:: X678`);
 	// ::>> Page Element Selectors <<:: ...................................................................................... <<::
-		const Head          = document.querySelector("head");
-		  let sts           = document.styleSheets;
-		const Bodi          = document.querySelector("body");
-		const BodyObjectArr = document.all;
-		const Header     = document.querySelector("header");
-		const Footer     = document.querySelector("footer");
-		const TopNavLinx = document.getElementById("TopNavLinx");
+		    (function getSelectors(){
+				const Head          = document.querySelector("head");
+				  let sts           = document.styleSheets;
+				const Bodi          = document.querySelector("body");
+				const BodyObjectArr = document.all;
+				const Header     = document.querySelector("header");
+				const Footer     = document.querySelector("footer");
+				const TopNavLinx = document.getElementById("TopNavLinx");
+		    }();
 
 			let mediaResults = window.matchMedia("(max-width: 767px)");
 			let prefs_dark   = window.matchMedia("(prefers-color-scheme: dark)");
