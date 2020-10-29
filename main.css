@@ -161,7 +161,7 @@ nav ul li a:hover{
 	will-change:auto;
     }
 .move_up{
-	top:-50px;
+	top:-55px !important;
 }
 .help_png{
 	float:right;
