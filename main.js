@@ -34,6 +34,16 @@
 			                       // Os, Ios etc, First Conn Time, Js-Disabled, Sensors,
 			                       // CountryLocation, Cookies? Refferer?
 	    })();
+
+	    let blob = Docu.querySelector(".blob");
+	        blob.animate({
+	        	transform: ["scale(1)","scale(1.4)"]
+	        },{
+                iterations: Infinity,
+                duration: 740
+                // fill:
+                // easeing:
+	        })
 		       // Has P5 loaded successfully?
 		       // Has Three.js Loaded?
 		       // Has GSAP Loaded?
