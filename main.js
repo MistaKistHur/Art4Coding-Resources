@@ -110,7 +110,7 @@ setTimeout(() => {
 		// Wrap in windowResize Event
 		//
 
-*/
+
 
 /* ::>> GSap Animation Moving The Container Of The Revolver Maps ................................................................*/
 /* ::>> Create A Welcome Message ................................................................................................*/
