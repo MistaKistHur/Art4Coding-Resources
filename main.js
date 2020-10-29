@@ -81,7 +81,7 @@
             /* ::>> This is being glitchy sort it out... */
 		setTimeout(() => {
 			// Create DomMouseEnter Event so its not Jumping straight to its position.
-			Docu.addEventListener("mouseenter",(e) => {
+			document.addEventListener("mouseenter",(e) => {
 			    // Todo...
 			    let mouseEntered = true;
 			    RMapsOuterCard.style.transition = `transform 748ms ease-in`;
