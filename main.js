@@ -90,12 +90,12 @@ setTimeout(() => {
 			function clamp(value, min, max) {
 			    return Math.min(Math.max(value,min),max);
 			}
-			let newValX = clamp(`${yAxis}`, -45, 275);
-			let newValY = clamp(`${yAxis}`, -25, 95);
+			let newValX = clamp(`${yAxis}`, 0, 275);
+			let newValY = clamp(`${yAxis}`, 0, 95);
 		/* ::>> This Function Maybe used in other places so maybe make a module */
 
             let mouseMoving = true;
-        RMapsOuterCard.style.transform = `rotateX(-${newValX}deg) rotateY(-${newValY}deg) scale(0.885)`;
+        RMapsOuterCard.style.transform = `rotateX(-${newValY}deg) rotateY(-${newValX}deg) scale(0.885)`;
 	}); // ::>> Closing Tag for Document MouseMove evt...
             // Handle touch events seperately.
     Docu.addEventListener("mouseleave",(e)=>{
