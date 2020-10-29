@@ -3,6 +3,7 @@
     // this.applicationCache.ondownloading; ...... <<:: Research These:
     // this = this || window || document;
     // ? mozRTCPeerConnection.generateCertificate();
+    // ? HTMLAllCollection.bind
     const Docu = document;
 	Docu.addEventListener("DOMContentLoaded",(function(){
             // ::>> if(null)?
