@@ -127,6 +127,7 @@
 		                '{ "Buenos dias":"Chica" } ]}';
 			// ::>> Then, use the JavaScript built-in function JSON.parse() to convert the string into a JavaScript object:
 		        var obj = JSON.parse(welcome);
+		        console.log(obj);
 		        // welcome.SomeMethod?
 /* ::>> Create A Welcome Message ................................................................................................*/
    console.log(`::>> Test Ran Successfully:: ref x345`);
