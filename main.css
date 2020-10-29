@@ -169,7 +169,10 @@ nav ul li a:hover{
 	}
 .nudgeXpx{
 	left:calc(124px + 2.82vw);
-}
+	}
+.nudegXpx2{
+	left:calc(248px + 2.828vw);
+	}
 .help_png{
 	float:right;
 	transform-origin: bottom right 60px;
