@@ -21,7 +21,7 @@ html,body{
 	position:absolute;
 	display:block !important;
     font-size:calc(16.2px + 0.4vw + 0.2vmin);
-    min-height:calc(100vw + 1280px)!important;
+    min-height:calc(100vh + 1280px)!important;
     min-height:minmax(100vh, 2880px);
     overflow-x:hidden !important;
     min-width:100% !important;
