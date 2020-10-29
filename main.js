@@ -8,6 +8,17 @@
 		const Header     = document.querySelector("header");
 		const Footer     = document.querySelector("footer");
 		const TopNavLinx = document.getElementById("TopNavLinx");
+
+
+		let mediaResults = window.matchMedia("(max-width: 767px)");
+		let prefs_dark   = window.matchMedia("(prefers-color-scheme: dark)");
+
+
+		function isSmallScreen(){
+			if(window.matchMedia("(max-width: 767px)").matches){
+				return true;
+			} return false;
+		}
 	// ::>> Page Element Selectors <<:: .....................................
     // ::>> Initial Reset's <<:: ............................................
 		      Bodi.style.display = "block !important"; /* ::>> This is not getting applied or over-riding inline style? */
