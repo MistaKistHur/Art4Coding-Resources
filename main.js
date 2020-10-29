@@ -1,4 +1,5 @@
 "use-strict";
+	// ::>> Note i've made two Modules folders in the github repo, delete one or merge the two into one.
 	document.addEventListener("DOMContentLoaded",(function(){
 			console.log("Js File Loaded Successfully");
 			console.log("DomC Ran Successfully");
@@ -19,8 +20,8 @@
 	// ::>> Page Element Selectors <<:: ......................................................................................
 	// ::>> Worker Scripts <<:: ..............................................................................................
 			if(window.Worker){
-				const AnimeWorker       = new Worker('anime_worker.js');
-				const InteractiveWorker = new Worker('page_interactions.js');
+				const AnimeWorker       = new Worker('Workers/anime_worker.js');
+				const InteractiveWorker = new Worker('Workers/page_interactions.js');
 				// ::>> https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Functions_and_classes_available_to_workers
 			}
 			if(window.Worklet){
