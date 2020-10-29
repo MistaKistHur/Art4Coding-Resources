@@ -160,6 +160,9 @@ nav ul li a:hover{
 	transform:scale(1.2);
 	will-change:auto;
     }
+.move_up{
+	top:-50px;
+}
 .help_png{
 	float:right;
 	transform-origin: bottom right 60px;
