@@ -82,9 +82,9 @@
 		setTimeout(() => {
 			// Create DomMouseEnter Event so its not Jumping straight to its position.
 			Docu.addEventListener("mouseenter",(e) => {
-			  // Todo...
-			  let mouseEntered = true;
-			  RMapsOuterCard.style.transition = `transform 748ms ease-in`;
+			    // Todo...
+			    let mouseEntered = true;
+			    RMapsOuterCard.style.transition = `transform 748ms ease-in`;
 					Docu.addEventListener("mousemove",(e) => {
 						/* ::>> This Function Maybe used in other places so maybe make a module */
 						// ::>> From this Answer :> https://stackoverflow.com/questions/5842747/how-can-i-use-javascript-to-limit-a-number-between-a-min-max-value
@@ -103,19 +103,19 @@
 				        RMapsOuterCard.style.transform = `rotateX(${newValY}deg) rotateY(${newValX}deg) scale(0.885)`;
 					}); // ::>> Closing Tag for Document MouseMove evt...
 
-			  Docu.addEventListener("mouseleave",(e) => {
-			    // Todo...
-			    let mouseLeftWindow = true;
-			  });
+			        Docu.addEventListener("mouseleave",(e) => {
+			            // Todo...
+			             let mouseLeftWindow = true;
+			        });
 			});
-
+		}, 740);
 
 		            // Handle touch events seperately.
 		    //Docu.addEventListener("mouseleave",(e)=>{
 		    //	RMapsOuterCard.style
 		    //	RMapsOuterCard.style.transform = `rotateX(0deg) rotateY(0deg) scale(0.885)`;
 		    //})
-		}, 740)
+
 /*::>> Scrap Code bits from this block
                      // if(mouseMoving === true){
                      	// RMapsOuterCard.style.transition = `transform 24ms ease-in-out`;
