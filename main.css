@@ -286,21 +286,21 @@ nav ul li a:hover{
 		    height:calc(358px + 0.4vh + 0.4vmin);
 		    border-radius:17.2px;
 			border-bottom-left-radius: 2.8px;
+			background:transparent;   /* transition:transform 288ms ease-in-out 8ms;*/
 		    will-change: auto;
-		    background:transparent;   /* transition:transform 288ms ease-in-out 8ms;*/
 		    z-index:18;
 		    }
 		#RMapsBorder_Patch_{
 			position:relative;
 			top:50%; left:50%;
+			border-radius:18px;
 			transform:translate(-50%, -50%);
+			border-bottom-left-radius: 2.8px;
 			width:calc(344px + 0.5vw + 0.2vmax);
 		    height:calc(350px + 0.4vh + 0.2vmin);
 		    box-shadow: inset 0 0 2.25px 4.8px black;
-		    overflow:hidden;
-			border-radius:18px;
-			border-bottom-left-radius: 2.8px;
-		    background:black;
+			background:black;
+			overflow:hidden;
 		    z-index:19;
 			}
 		#StarBackdrop{
@@ -313,25 +313,20 @@ nav ul li a:hover{
     		}
 			#Rev_Maps{
 				position:relative;
-				top:50%;left:50%;
+				top:50%;left:50%;		/* filter:opacity(0); Gsap works via inline styles Thiswas over-riding that. */
+				border-radius:18px;
 				transform:translate(-50%,-50%);
+				border-bottom-left-radius: 2.8px;
 				width:calc(342px + 0.5vw + 0.2vmax);
 			    height:calc(348px + 0.4vh + 0.2vmin);
-			    /* filter:opacity(0); Gsap works via inline styles Thiswas over-riding that. */
-				border-radius:18px;
-				border-bottom-left-radius: 2.8px;
 				background:linear-gradient(145deg,transparent,transparent,
 					                              transparent,transparent,
-					                           #bf1a68,skyblue,yellow,springgreen);/*,*/
-				overflow: hidden !important;
-				/* border:solid 4px black; */
-				padding-bottom:48px;
-				filter:hue-rotate(0deg);
+					                   #bf1a68,skyblue,yellow,springgreen);		/*,*/
 				transition:filter 840ms ease-in-out;
-				z-index:21;/*
-				box-shadow: inset 0 0 2.25px -.8px black,
-				                 0 0 .05px 1.2px black,
-				               inset 0 0 .15px 0 black;*/
+				overflow: hidden !important;
+				filter:hue-rotate(0deg);		/* border:solid 4px black; */
+				padding-bottom:48px;
+				z-index:21;						/* box-shadow: inset 0 0 2.25px -.8px black, 0 0 .05px 1.2px black, inset 0 0 .15px 0 black;*/
 			    }
 			#Rev-maps:hover{
 				filter:hue-rotate(-78deg);
