@@ -1,5 +1,5 @@
 "use-strict";
-
+document.body.style.visibility = "visible";
 	document.addEventListener("DOMContentLoaded",(e)=>{
 				  console.log("Js File Loaded Successfully");
 				  console.log("DomC Ran Successfully");
@@ -17,7 +17,7 @@
 
 		Bodi.style.display ="block !important";
 	});
-document.body.style.visibility = "visible";
+
 
 
 
