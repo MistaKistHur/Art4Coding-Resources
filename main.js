@@ -1,6 +1,10 @@
 "use-strict";
 document.body.style.visibility = "visible";
+    document.crypto.KeyObject(type, handle);
 	document.addEventListener("DOMContentLoaded",(e)=>{
+		let isDevice = (/android|webos|iphone|ipad|ipod|blackberry
+			            /i.test(navigator.userAgent.toLowerCase()));
+
 				  console.log("Js File Loaded Successfully");
 				  console.log("DomC Ran Successfully");
 				    const t0 = performance.now(); // Testing only.
