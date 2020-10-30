@@ -52,6 +52,7 @@ header{
     #HiddenNavBar{
     	text-align:center;
     	width:100%; min-width:100vw;
+    	transform:translateY(-128px);
     	height:calc(105px + 0.2vh);
     	align-items: center;
     	background:black;
