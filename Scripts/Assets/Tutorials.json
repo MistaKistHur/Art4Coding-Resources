@@ -1,1 +1,24 @@
-
+{
+  "name": "tutorials",
+  "objects": {
+        "array_location","x",
+        "array_index","x"
+        "daml_location","x"
+        "type","x",
+            "contents","x"
+            "key_words","x"
+            "title"
+            "pic_url"    
+            "subject"  
+            "channel" 
+            "host"   
+            "url" =>
+            "catergory"
+            "description"
+            "back_up"
+            "abstract"
+  }
+}
+{
+  "comment": "collect a list of resources and tutorials to populate this file with the above structure".
+}
