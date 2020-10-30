@@ -17,6 +17,15 @@
 				const Footer     = document.querySelector("footer");
 				const TopNavLinx = document.getElementById("TopNavLinx");
 		    }();
+		    function eventDispatch(target, key, value, options){
+		    	// ::>> What do i want happen if some action is taken on the page?
+		    	// ::>> change an element on the page?
+		    	// ::>> pass it to a web Worker?
+		    	// ::>> fetch some resources?
+		    	// ::>> send to Worklet?
+		    	// ::>> log some info?
+
+		    }
 
 			let mediaResults = window.matchMedia("(max-width: 767px)");
 			let prefs_dark   = window.matchMedia("(prefers-color-scheme: dark)");
