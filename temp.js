@@ -1,6 +1,6 @@
 // Move code over here, add back line by line until you find whats causing the issue.
 
-"use-strict";
+"use-strict"; // headers().append ? console/mdn/w3c
     // ::>>                                  ................ ::>> Document Name:: main.js >> for:: https://www.art4coding.icu <<::
 	// ::>> Note i've made two Modules folders in the github repo, delete one or merge the two into one.
 	document.addEventListener("DOMContentLoaded",(function(){
