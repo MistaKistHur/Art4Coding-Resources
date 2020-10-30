@@ -58,7 +58,12 @@ header{
         }
     #HiddenNavBar input[type=text]{
     	width:582px; height:40px;
-    }
+    	margin-top:18px;
+        }
+    #HiddenNavBar input[type=text]::placeholder{
+    	font-size:calc(1.1rem + 0.85vw + .75px);
+    	font-weight:788;
+        }
 	nav{
 	  position:absolute;
 	  top:0 !important; left:0;
