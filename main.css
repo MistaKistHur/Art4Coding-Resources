@@ -59,15 +59,16 @@ header{
         }
     #HiddenNavBar input[type=text]{
     	width:582px; height:40px;
+    	border-radius:4.28px;
     	margin-top:18px;
         }
     #HiddenNavBar input[type=text]::placeholder{
     	font-size:calc(1.08rem + 0.64vw + .72px);
     	font-family:"Black_Chancery", Verdana, Tahoma;
-    	border-radius:4px;
-    	font-weight:748;
-    	transform:translateZ(60px);
+    	transform:translateZ(60px) !important;
     	z-index:50 !important;
+    	font-weight:748;
+    	color:black;
         }
 	nav{
 	  position:absolute;
