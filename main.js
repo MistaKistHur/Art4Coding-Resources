@@ -17,3 +17,8 @@
 
 		Bodi.style.display ="block !important";
 	});
+document.body.style.visibility = "visible";
+
+
+
+
