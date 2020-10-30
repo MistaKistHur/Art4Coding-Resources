@@ -61,10 +61,11 @@ header{
     	margin-top:18px;
         }
     #HiddenNavBar input[type=text]::placeholder{
-    	font-size:calc(1.08rem + 0.75vw + .72px);
+    	font-size:calc(1.08rem + 0.64vw + .72px);
     	font-family:"Black_Chancery", Verdana, Tahoma;
     	border-radius:4px;
     	font-weight:748;
+    	transform:translateZ(60px);
     	z-index:50 !important;
         }
 	nav{
