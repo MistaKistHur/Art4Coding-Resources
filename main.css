@@ -56,6 +56,9 @@ header{
     	align-items: center;
     	background:black;
         }
+    #HiddenNavBar input[type=text]{
+    	width:582px; height:40px;
+    }
 	nav{
 	  position:absolute;
 	  top:0 !important; left:0;
