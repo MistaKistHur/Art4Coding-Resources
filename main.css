@@ -49,6 +49,13 @@ header{
 	word-wrap:none;
 	z-index:2;
     }
+    #HiddenNavBar{
+    	text-align:center;
+    	width:100%; min-width:100vw;
+    	height:calc(105px + 0.2vh);
+    	align-items: center;
+    	background:black;
+        }
 	nav{
 	  position:absolute;
 	  top:0 !important; left:0;
