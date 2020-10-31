@@ -1,10 +1,111 @@
 {
   "name": "tutorials",
   "objects": {
-        "array_location","x",
-        "array_index","x"
-        "daml_location","x"
-        "type","x",
+    "array_location" :  "x",
+    "array_index":      "x",
+    "daml_location" :   "x",
+    "type" :            "x",
+    "videos" : {
+        "00001": {
+            "host"             : "youtube",
+            "author"           : "daniel shiffman",
+            "channel"          : "The Coding Train",
+            "title"            : "Introduction - Perlin Noise and p5.js Tutorial",
+            "channel_url"      : "https://www.youtube.com/user/shiffman",
+            "video_url"        : "https://www.youtube.com/watch?v=Qf4dIN99e2w",
+            "key_words"        : "p5, p5.js, perlin noise, image manipulation, imagery, procedural, algorythm",
+            "channel_img_url"  : "https://yt3.ggpht.com/a/AATXAJzsuBQEVwEvfj3ti2gZQCVWpFc4e38IfMsPgYGCxw=s176-c-k-c0x00ffffff-no-rj"
+               "comment"       : " ::>> Maybe use bitly url Shortener for the image Url's^ or look at youtube api?"
+            "alternate_url"    : "x?",
+            "external_website" : "x?",
+            "catergory"        : "x?",
+            "subject"          : "x?"
+        },
+        "00002": {
+            "host":"",
+            "author":"",
+            "channel":"",
+            "title":"",
+            "channel_url":"",        
+            "video_url":"",        
+            "key_words":"",       
+            "channel_img_url":"",        
+            "alternate_url":"",       
+            "external_website":"",        
+            "catergory":"",       
+            "subject":""        
+        },
+        "00003": {
+            "host":"",
+            "author":"",
+            "channel":"",
+            "title":"",
+            "channel_url":"",        
+            "video_url":"",        
+            "key_words":"",       
+            "channel_img_url":"",        
+            "alternate_url":"",       
+            "external_website":"",        
+            "catergory":"",       
+            "subject":""
+        },
+        "00004": {
+            "host":"",
+            "author":"",
+            "channel":"",
+            "title":"",
+            "channel_url":"",        
+            "video_url":"",        
+            "key_words":"",       
+            "channel_img_url":"",        
+            "alternate_url":"",       
+            "external_website":"",        
+            "catergory":"",       
+            "subject":""
+        },
+        "00005": {
+            "host":"",
+            "author":"",
+            "channel":"",
+            "title":"",
+            "channel_url":"",        
+            "video_url":"",        
+            "key_words":"",       
+            "channel_img_url":"",        
+            "alternate_url":"",       
+            "external_website":"",        
+            "catergory":"",       
+            "subject":""
+        },
+        "00006": {
+              "host":"",
+              "author":"",
+              "channel":"",
+              "title":"",
+              "channel_url":"",        
+              "video_url":"",        
+              "key_words":"",       
+              "channel_img_url":"",        
+              "alternate_url":"",       
+              "external_website":"",        
+              "catergory":"",       
+              "subject":""
+        },
+        "00007": {
+              "host":"",
+              "author":"",
+              "channel":"",
+              "title":"",
+              "channel_url":"",        
+              "video_url":"",        
+              "key_words":"",       
+              "channel_img_url":"",        
+              "alternate_url":"",       
+              "external_website":"",        
+              "catergory":"",       
+              "subject":""
+        },
+    }
             "contents","x"
             "key_words","x"
             "title"
@@ -18,6 +119,16 @@
             "back_up"
             "abstract"
   }
+}
+
+{
+  "type": [
+    "videos"
+      "0001" : {
+      }
+    }
+    "pdf"
+  ]
 }
 {
   "comment": "collect a list of resources and tutorials to populate this file with the above structure".
