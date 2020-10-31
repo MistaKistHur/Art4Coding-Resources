@@ -1,10 +1,23 @@
 {
- "root": {
-     "name": "art4coding.icu",
-     "url": "https://www.art4coding.icu",
-     "start-date": "20 Oct 2020",
-     "contributors","",
-     "", "",
-     "status": "?"
- }
+	"root": {
+	    "name": "art4coding.icu",
+	    "url": "https://www.art4coding.icu",
+	    "start-date": "20 Oct 2020",
+	    "version": "01.10.01",
+	    "contributors":"",
+	    "comment":"",
+	    "status": "?",
+	    "function=>": "",
+	    "domains": {
+	    	"page_tree": {
+	    		"homepage": "",
+	    		"Search": "",
+	    		"Assets": ""
+	    	}
+	    }
+	}{
+    "actions": {
+
+            }
+    }
 }
