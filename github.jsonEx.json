@@ -1,0 +1,119 @@
+{
+  "name": "tutorials",
+  "objects": {
+    "array_location" :  "x",
+    "array_index":      "x",
+    "daml_location" :   "x",
+    "type" :            "x",
+    "videos" : {
+      "00001": {
+          "host"             : "youtube",
+          "author"           : "daniel shiffman",
+          "channel"          : "The Coding Train",
+          "title"            : "Introduction - Perlin Noise and p5.js Tutorial",
+          "channel_url"      : "https://www.youtube.com/user/shiffman",
+          "video_url"        : "https://www.youtube.com/watch?v=Qf4dIN99e2w",
+          "key_words"        : "p5, p5.js, perlin noise, image manipulation, imagery,",
+          "alternate_url"    : "x?",
+          "external_website" : "x?",
+          "catergory"        : "x?",
+          "subject"          : "x?",
+      },
+      "00002": {
+
+          "channel_img_url"  : ""
+      },
+      "00003": {
+          "host"             :"",
+          "author"           :"",
+          "channel"          :"",
+          "title"            :"",
+          "channel_url"      :"",
+          "video_url"        :"",
+          "key_words"        :"",
+          "alternate_url"    :"",
+          "external_website" :"",
+          "catergory"        :"",
+          "subject"          :"",
+          "channel_img_url"  :""
+      },
+      "00004": {
+          "host"             :"",
+          "author"           :"",
+          "channel"          :"",
+          "title"            :"",
+          "channel_url"      :"",
+          "video_url"        :"",
+          "key_words"        :"",
+          "alternate_url"    :"",
+          "external_website" :"",
+          "catergory"        :"",
+          "subject"          :"",
+          "channel_img_url"  :""
+      },
+      "00005": {
+          "host"             :"",
+          "author"           :"",
+          "channel"          :"",
+          "title"            :"",
+          "channel_url"      :"",
+          "video_url"        :"",
+          "key_words"        :"",
+          "alternate_url"    :"",
+          "external_website" :"",
+          "catergory"        :"",
+          "subject"          :"",
+          "channel_img_url"  :""
+      },
+      "00006": {
+          "host"             :"",
+          "author"           :"",
+          "channel"          :"",
+          "title"            :"",
+          "channel_url"      :"",
+          "video_url"        :"",
+          "key_words"        :"",
+          "alternate_url"    :"",
+          "external_website" :"",
+          "catergory"        :"",
+          "subject"          :"",
+          "channel_img_url"  :""
+      },
+      "00007": {
+          "title": "",
+          "channel": "",
+          "channel_url": "",
+          "host": "youtube"
+      },
+
+
+
+
+    }
+            "contents","x"
+            "key_words","x"
+            "title"
+            "pic_url"    
+            "subject"  
+            "channel" 
+            "host"   
+            "url" =>
+            "catergory"
+            "description"
+            "back_up"
+            "abstract"
+  }
+}
+
+{
+  "type": [
+    "videos"
+      "0001" : {
+      }
+    }
+    "pdf"
+  ]
+}
+{
+  "comment": "collect a list of resources and tutorials to populate this file with the above structure".
+}
