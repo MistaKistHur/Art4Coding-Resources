@@ -269,14 +269,19 @@ nav ul li a:hover{
     }
 .upload_btn{
 	position:absolute;
-	top:8vh; left:8px;
-	width:255px; height:58px;
+	width:205px; height:48px;
+	top:calc(132.8px + (0.87vh + 0.224vmax)); left:8px;
+	background:linear-gradient(115deg,#4fcf70,#fad648,#a767e5,#12bcfe,#44ce7b);
+	border-radius:8px;
 	z-index:15;
 	}
 .upload_btn button{
-	width:255px;
-	height:58px;
-	background:white;
+	position:absolute;
+	top:50%; left:50%;
+	width:197px; height:32px;
+	transform:translate(-50%, -50%);
+	border-radius:8px;
+	background:black;
 	}
 
 
