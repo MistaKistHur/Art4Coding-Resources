@@ -270,7 +270,7 @@ nav ul li a:hover{
 .upload_btn{
 	position:absolute;
 	width:84.8px; height:44.8px;
-	top:calc(132.8px + (0.87vh + 0.224vmax)); left:8px;
+	top:calc(138.8px + (0.87vh + 0.224vmax)); left:8px;
 	background:linear-gradient(115deg,#4fcf70,#fad648,#a767e5,#12bcfe,#44ce7b);
 	filter:hue-rotate(5deg);
 	padding:.8px;
@@ -282,7 +282,8 @@ nav ul li a:hover{
 	top:50%; left:50%;
 	width:78px; height:40px;
 	transform:translate(-50%, -50%);
-	font-family:"Black_Chancery", Verdana, Tahoma;
+	font-family:"Abassy", Verdana, Tahoma;"
+	font-size:calc(1.08rem + 0.08vw);
 	border-radius:8px;
 	border:none;
 	background:black;
