@@ -269,7 +269,12 @@ nav ul li a:hover{
     }
 .upload_btn{
 	z-index:15;
-}
+	}
+.upload_btn button{
+	width:255px;
+	height:58px;
+	background:white;
+	}
 
 
 
