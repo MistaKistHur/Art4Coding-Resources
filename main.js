@@ -9,7 +9,7 @@ document.body.style.visibility = "visible";
 		const Head   = document.querySelector("head");
 		  let sts    = document.styleSheets;
 		  if(isDevice){
-		  	// Use Mobile/Tablet Stylesheet & Media Query's
+		  	// Use Mobile/Tablet Stylesheet & Media Query's..
 		  }
 
 
