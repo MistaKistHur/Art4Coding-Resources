@@ -57,6 +57,7 @@ header{
     	height:calc(105px + 0.2vh);
     	align-items: center;
     	background:black;
+    	z-index:;
         }
     #HiddenNavBar input[type=text]{
     	width:582px; height:40px;
@@ -266,6 +267,11 @@ nav ul li a:hover{
 	filter:blur(0.27px) hue-rotate(-47deg);
 	transition:all 648ms ease-out;
     }
+.upload_btn{
+	z-index:15;
+}
+
+
 
 .face_group{
 	position:absolute;
