@@ -82,6 +82,7 @@ header{
       word-wrap:inherit;
 	  z-index:3;
 	  }
+	/* ::>> NavBar & its contents need to be higher up in z-index than the initial content of the lower page. */
 	input[type=hidden]{
 		display:none;
 		visibility:hidden;
