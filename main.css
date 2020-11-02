@@ -273,6 +273,7 @@ nav ul li a:hover{
 	top:calc(132.8px + (0.87vh + 0.224vmax)); left:8px;
 	background:linear-gradient(115deg,#4fcf70,#fad648,#a767e5,#12bcfe,#44ce7b);
 	filter:hue-rotate(5deg);
+	padding:.8px;
 	border-radius:8px;
 	z-index:15;
 	}
@@ -283,6 +284,7 @@ nav ul li a:hover{
 	transform:translate(-50%, -50%);
 	font-family:"Black_Chancery", Verdana, Tahoma;
 	border-radius:8px;
+	border:none;
 	background:black;
 	color:springgreen;
 	}
