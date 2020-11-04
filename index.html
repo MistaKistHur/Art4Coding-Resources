@@ -69,16 +69,54 @@
 <!-- Notes ::>>
 
 -->
-<body style="visibility:hidden; width:100%; min-width:100vw !important; min-height:100vh;"
+<body style="visibility:hidden;
+             width:100%; min-width:100vw !important;
+             min-height:calc(100vh + 2888px);"
       class="bodz" width="100%" height="auto">
 <!-- ::>> Notes::   onchange="//${change}"
                    onhashchange="//x1" onoffline="//x2"
                    contextmenu="//x3"  onbeforeunload="//x4"                                                       -->
 <!-- ::>> Notes::                                                         -->
 	<header id="header" class="">
+
+<!-- ::>> fade/slide navbar in if search term entered -->
 		<div id="HiddenNavBar" height="105">
+			<input type="hidden" class="disp_none" value="">
 			<input type="text" aria-label="Search" value="" placeholder="Search">
+
+			<svg viewBox="0 0 208.51721 1.5955585" version="1.1" id="svg8"
+			     width="208.51721mm" height="1.5955585mm" xmlns="http://www.w3.org/2000/svg"
+			     sodipodi:docname="hue_space_bar.svg" xmlns:svg="http://www.w3.org/2000/svg"
+			     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/"
+			     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+			     xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+			     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			     inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+			     xmlns:cc="http://creativecommons.org/ns#">
+			    <defs id="defs2"/>
+			    <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666"
+			                        borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2"
+			                        inkscape:zoom="0.98994949" inkscape:cx="396.84993" inkscape:cy="45.208726"
+			                        inkscape:document-units="mm" inkscape:current-layer="layer1" showgrid="false"
+			                        inkscape:window-width="1288" inkscape:window-height="754" inkscape:window-x="156"
+			                        inkscape:window-y="156" inkscape:window-maximized="0"/>
+					  <metadata id="metadata5">
+					    <rdf:RDF>
+					      <cc:Work rdf:about="">
+					        <dc:format>image/svg+xml</dc:format>
+					        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+					        <dc:title/>
+					      </cc:Work>
+					    </rdf:RDF>
+					  </metadata>
+			  <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" transform="translate(-0.41000891,-0.47546211)">
+			    <image y="0.47546211" x="0.41000891" id="image3721" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/7QA2UGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAABkcAmcAFHZX ei1vODJ5WVJ0QjJZVmlhNHBkAP/bAEMAAwMDAwMDBAQEBAUFBQUFBwcGBgcHCwgJCAkICxELDAsL DAsRDxIPDg8SDxsVExMVGx8aGRofJiIiJjAtMD4+VP/bAEMBAwMDAwMDBAQEBAUFBQUFBwcGBgcH CwgJCAkICxELDAsLDAsRDxIPDg8SDxsVExMVGx8aGRofJiIiJjAtMD4+VP/CABEIAAMB4AMBIgAC EQEDEQH/xAAaAAEAAwEBAQAAAAAAAAAAAAAAAgQFAwYH/8QAGwEAAgMBAQEAAAAAAAAAAAAABAUC AwYAAQj/2gAMAwEAAhADEAAAAfog3Pyq5Hss/GGLjH8wP9NkYBodZnBnrLN0F2FsCsV8pZ2d0X6L rAFfc4lhUuhTFSEcogEgFfSkL4ypCX2IS3w6Cvr3UXg2tUUr9beM/nuoBCu+hAVN2QrU2RVTSoB6 OEQhXKBGP//EAB0QAAIDAQADAQAAAAAAAAAAAAACAQMQIAQwMkL/2gAIAQEAAQUC4cYsLBx9UUjF xDx/mO59E91ilYu1lZHE6x+D/8QAGhEAAgMBAQAAAAAAAAAAAAAAAAQCAxAFIP/aAAgBAwEBPwEi KiAkc4UxYUKdp8U7IZG8d18qLj//xAAaEQADAAMBAAAAAAAAAAAAAAAABBABAgMy/9oACAECAQE/ ATAuKCs2rZrOgzGPUfjEbGYzeN//xAAUEAEAAAAAAAAAAAAAAAAAAABQ/9oACAEBAAY/AnP/xAAa EAADAQEBAQAAAAAAAAAAAAAAATEQIEFR/9oACAEBAAE/IeI3p5s+nuILFdXoeOCzwvlY+SFD3gzt EcrxkCx//9oADAMBAAIAAwAAABAMGJ0PzwIByB6GD7z4EP15yEPz/wAceA//xAAZEQACAwEAAAAA AAAAAAAAAAAgQQABEDH/2gAIAQMBAT8QDIEsSKW9XO8dDbT/xAAbEQACAgMBAAAAAAAAAAAAAAAQ QQAgATAxgf/aAAgBAgEBPxAOInk5D2Hq20RkKf/EABYQAAMAAAAAAAAAAAAAAAAAAAEQUP/aAAgB AQABPxBmzbMFT8cxDYf/2Q== "
+			            style="image-rendering:optimizeQuality" preserveAspectRatio="none" height="1.5955585" width="208.51721"/>
+			  </g>
+			</svg>
+
 		</div>
+<!-- ::>> End of hidden Navbar -->
 		<nav id="TopNav">
 	    <input type="hidden" display="none" id="CSRF"
 	           style="display:none !important; visibility:hidden !important;"><!-- CSRF -->
