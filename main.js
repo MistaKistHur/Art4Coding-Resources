@@ -11,6 +11,7 @@ document.body.style.visibility = "visible";
 		  let sts    = document.styleSheets;
 		  if(isDevice){
 		  	// ::>> Use Mobile/Tablet Stylesheet & Media Query's..
+		  	console.log(`portable device in use.`);
 		  }
 
 
