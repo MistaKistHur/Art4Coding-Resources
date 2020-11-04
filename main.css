@@ -50,6 +50,7 @@ header{
 	word-wrap:none;
 	z-index:2;
     }
+
     #HiddenNavBar{
     	text-align:center;
     	width:100%; min-width:100vw;
@@ -139,6 +140,11 @@ h1{
 	color:transparent;
 	will-change:auto;
     }
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+ 	h1{
+ 	 font-size:86px;
+ 	}
+}
 h1:hover{
 	transition:all 980ms ease-in-out 8ms;
 	filter:blur(0.82px) hue-rotate(-200deg);
