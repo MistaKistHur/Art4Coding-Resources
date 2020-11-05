@@ -123,7 +123,7 @@ h1{
 	position:absolute;
 	top:0.02px; left:calc(8.88px + 0.87vw);
 	font-family:"Black_Chancery", Verdana, Tahoma;
-	font-size:calc(22.95px + 2.28vw);
+	font-size:calc(24.95px + 2.08vw);
 	transition:all 980ms ease-in-out 8ms;
 	filter:blur(0.54px) hue-rotate(0deg);
 	text-rendering: geometricPrecision;
