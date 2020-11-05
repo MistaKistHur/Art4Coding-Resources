@@ -152,7 +152,7 @@ h1{
 
 			  /* Small screen, non-retina changed from 320px to 375 for iphone X/Xs, also changed min-to-max */
                  h1{
-                 	font-size:64.7px;
+                 	font-size:calc(44.7px + 0.85vw);
                  }
                  h2{
                  	left:8.8px; top:calc(48.8px + 0.48vh);
