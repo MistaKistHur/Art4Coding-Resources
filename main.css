@@ -161,7 +161,7 @@ h2, .h2italic{
 	background:radial-gradient(circle at 60%,
 		                  rgba(18,239,255,1),
 		                  rgba(18,239,255,1),
-		             #bf1a68,#bf1a68,#bf1a68,gold);
+		       #bf1a68,#bf1a68,#bf1a68,gold);
 	background-clip:text; -webkit-background-clip:text;
 	background-size:contain;
 	padding:8.8px;
@@ -301,7 +301,7 @@ nav ul li a:hover{
                   word-wrap: none; /* not valid syntax */
                 }
                 .h2italic{
-	              top:calc(14.88px + (0.948vh + 0.284vw)); left:-47px;
+	              top:calc(14.98px + (0.978vh + 0.484vw)); left:-47px;
 	              font-size:calc(17.945px + (2.485vw + 0.0188rem));
 				  width:calc(388px + 0.8vw);
 	              white-space:nowrap;
