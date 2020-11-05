@@ -294,11 +294,11 @@ nav ul li a:hover{
 
 			  /* Small screen, non-retina changed from 320px to 375 for iphone X/Xs, also changed min-to-max */
                 h1{
-                  font-size:calc(47.98px + (1.985vw + 0.0288rem));
+                  font-size:calc(48.98px + (2.985vw + 0.0288rem));
                 }
                 h2{
                   left:8.8px; top:calc(38.88px + 0.542vh);
-                  font-size:calc(17.87px + (2.785vw + 0.028rem));
+                  font-size:calc(17.985px + (2.985vw + 0.0288rem));
                   white-space: nowrap;
                   word-wrap: none; /* not valid syntax */
                 }
