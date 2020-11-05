@@ -164,8 +164,9 @@ h2, .h2italic{
 		             #bf1a68,#bf1a68,#bf1a68,
 		                   rgba(50,168,82,1),
 		                  rgba(204,145,16,1),
-		                  rgba(7,176,159,1));
+		                  rgba(7,176,159,1),gold);
 	background-clip:text; -webkit-background-clip:text;
+	background-size:contain;
 	padding:8.8px;
 	font-weight:850;
 	color:transparent;
@@ -175,6 +176,7 @@ h2, .h2italic{
 	position:absolute;
 	top:-20.4px; left:77px;
 	width:calc(388px + 0.8vw);
+	filter:hue-rotate(-33deg);
 	white-space:nowrap;
 	z-index:8;
     }
