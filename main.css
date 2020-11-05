@@ -297,6 +297,7 @@ nav ul li a:hover{
                  }
                  h2{
                  	left:8.8px; top:calc(48.8px + 0.48vh);
+                 	white-space: nowrap;
                  	word-wrap: none;
                  }
                  #HiddenNavBar{        /* ::>> Only temporary, hidding these for mobile. */
