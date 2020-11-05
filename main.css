@@ -231,7 +231,7 @@ h2{
 	position:absolute;
 	left:22.8px; top:calc(47px + 0.28vh);
 	font-family:"Black_Chancery", Verdana, Tahoma;
-	font-size:calc(38.44px + 0.08vmax) !important;
+	font-size:calc(38.44px + 0.08vmax);
 	background:radial-gradient(circle at 60%,
 		                  rgba(18,239,255,1),
 		                  rgba(18,239,255,1),
