@@ -1,4 +1,5 @@
 /* 231.64 + 105.28 */
+/* ::>> Media Querys to be done in sections ie Header/ToNav, 1/4 body, 1/2 body, footer etc.. */
 @font-face {
 	font-family:"Black_Chancery";
 	src: url(/Imgs/z.Fonts/BlkChcry.ttf) format("truetype");
@@ -297,7 +298,7 @@ nav ul li a:hover{
                  }
                  h2{
                  	left:8.8px; top:calc(38.8px + 0.52vh);
-                 	font-size:calc(14.97px + 1.27vw);
+                 	font-size:calc(14.97px + 2.27vw);
                  	white-space: nowrap;
                  	word-wrap: none; /* not valid syntax */
                  }
