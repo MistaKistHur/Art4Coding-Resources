@@ -156,6 +156,7 @@ h1{
                  }
                  h2{
                  	left:8.8px; top:calc(48.8px + 0.48vh);
+                 	word-wrap: none;
                  }
                  #HiddenNavBar{        /* ::>> Only temporary, hidding these for mobile. */
                  	filter:opacity(0);
