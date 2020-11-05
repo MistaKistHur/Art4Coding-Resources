@@ -3,8 +3,8 @@
 document.body.style.visibility = "visible";
     // ::>> document.crypto.KeyObject(type, handle);
 	document.addEventListener("DOMContentLoaded",(e)=>{
-			 console.log("Js File Loaded Successfully");
-			 console.log("DomC Ran Successfully");
+			 console.log("::>> Js File Loaded Successfully");
+			 console.log("::>> DomC Ran Successfully");
 
 		let isDevice = (/android|webos|iphone|ipad|ipod|blackberry/i.test(navigator.userAgent.toLowerCase()));
 		const Head   = document.querySelector("head");
@@ -30,6 +30,16 @@ document.body.style.visibility = "visible";
 
 		Bodi.style.display ="block !important";
 	});
+
+	/* ::>> debugging.
+			debugger;
+			console.debug(), console.warn() and console.error()
+			console.trace()
+			console.profile()
+			console.time()
+			console.table()
+
+	*/
 
 
 
