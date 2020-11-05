@@ -173,11 +173,10 @@ h2, .h2italic{
     }
 .h2italic{
 	position:absolute;
-	top:-20.4px;left:77px;
+	top:-20.4px; left:77px;
 	word-wrap:none;
 	width:calc(388px + 0.8vw);
 	z-index:8;
-	color:black;
     }
     /* ::>> Create Star BAckground for RVMaps. Behind the Gradient... */
     .opensource_logo{
