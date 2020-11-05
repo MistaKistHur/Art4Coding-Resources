@@ -296,7 +296,8 @@ nav ul li a:hover{
                  	font-size:calc(44.7px + 0.85vw);
                  }
                  h2{
-                 	left:8.8px; top:calc(48.8px + 0.48vh);
+                 	left:8.8px; top:calc(38.8px + 0.48vh);
+                 	font-size:calc(14.8px + 0.27vw);
                  	white-space: nowrap;
                  	word-wrap: none; /* not valid syntax */
                  }
