@@ -154,6 +154,9 @@ h1{
                  h1{
                  	font-size:64.7px;
                  }
+                 h2{
+                 	left:8.8px; top:calc(48.8px + 0.48vh);
+                 }
                  #HiddenNavBar{        /* ::>> Only temporary, hidding these for mobile. */
                  	filter:opacity(0);
                  }
