@@ -154,6 +154,12 @@ h1{
                  h1{
                  	font-size:64.7px;
                  }
+                 #HiddenNavBar{        /* ::>> Only temporary, hidding these for mobile. */
+                 	filter:opacity(0);
+                 }
+                 #TopNavLinx{
+                 	display:none;
+                 }
 			}
 
 			@media
