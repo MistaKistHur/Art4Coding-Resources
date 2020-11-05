@@ -141,82 +141,7 @@ h1{
 	will-change:auto;
     }
 
-/* ::>> ....Media Queries Section - from Css Tricks .....................................
-			@media only screen and (min-device-width : 320px)
-			                   and (max-device-width : 480px) {
-			 	h1{
-			 	 font-size:86px;
-			 	}
-			}*/
-			@media only screen and (max-width: 385px) {
 
-			  /* Small screen, non-retina changed from 320px to 375 for iphone X/Xs, also changed min-to-max */
-                 h1{
-                 	font-size:calc(44.7px + 0.85vw);
-                 }
-                 h2{
-                 	left:8.8px; top:calc(48.8px + 0.48vh);
-                 	word-wrap: none;
-                 }
-                 #HiddenNavBar{        /* ::>> Only temporary, hidding these for mobile. */
-                 	filter:opacity(0);
-                 }
-                 #TopNavLinx{
-                 	display:none;
-                 }
-			}
-
-			@media
-			only screen and (-webkit-min-device-pixel-ratio: 2)      and (max-width: 385px),
-			only screen and (   min--moz-device-pixel-ratio: 2)      and (max-width: 385px),
-			only screen and (     -o-min-device-pixel-ratio: 2/1)    and (max-width: 385px),
-			only screen and (        min-device-pixel-ratio: 2)      and (max-width: 385px),
-			only screen and (                min-resolution: 192dpi) and (max-width: 385px),
-			only screen and (                min-resolution: 2dppx)  and (max-width: 385px) {
-                 h1{
-                 	font-size:64.7px;
-                 }
-			  /* Small screen, retina, stuff to override above media query */
-
-			}
-
-			@media only screen and (min-width: 700px) {
-
-			  /* Medium screen, non-retina */
-
-			}
-
-			@media
-			only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 700px),
-			only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 700px),
-			only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 700px),
-			only screen and (        min-device-pixel-ratio: 2)      and (min-width: 700px),
-			only screen and (                min-resolution: 192dpi) and (min-width: 700px),
-			only screen and (                min-resolution: 2dppx)  and (min-width: 700px) {
-
-			  /* Medium screen, retina, stuff to override above media query */
-
-			}
-
-			@media only screen and (min-width: 1300px) {
-
-			  /* Large screen, non-retina */
-
-			}
-
-			@media
-			only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 1300px),
-			only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 1300px),
-			only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 1300px),
-			only screen and (        min-device-pixel-ratio: 2)      and (min-width: 1300px),
-			only screen and (                min-resolution: 192dpi) and (min-width: 1300px),
-			only screen and (                min-resolution: 2dppx)  and (min-width: 1300px) {
-
-			  /* Large screen, retina, stuff to override above media query */
-
-			}
-/* ::>> ....Media Queries Section - from Css Tricks .....................................*/
-/* ::>> ....Media Queries Section - from Css Tricks .....................................*/
 
 h1:hover{
 	transition:all 980ms ease-in-out 8ms;
@@ -356,6 +281,88 @@ nav ul li a:hover{
 	border-radius:8px;
 	z-index:15;
 	}
+
+/* ::>> ....Media Queries Section - from Css Tricks .....................................
+			@media only screen and (min-device-width : 320px)
+			                   and (max-device-width : 480px) {
+			 	h1{
+			 	 font-size:86px;
+			 	}
+			}*/
+			@media only screen and (max-width: 385px) {
+
+			  /* Small screen, non-retina changed from 320px to 375 for iphone X/Xs, also changed min-to-max */
+                 h1{
+                 	font-size:calc(44.7px + 0.85vw);
+                 }
+                 h2{
+                 	left:8.8px; top:calc(48.8px + 0.48vh);
+                 	word-wrap: none;
+                 }
+                 #HiddenNavBar{        /* ::>> Only temporary, hidding these for mobile. */
+                 	filter:opacity(0);
+                 }
+                 #TopNavLinx{
+                 	display:none;
+                 }
+			}
+
+			@media
+			only screen and (-webkit-min-device-pixel-ratio: 2)      and (max-width: 385px),
+			only screen and (   min--moz-device-pixel-ratio: 2)      and (max-width: 385px),
+			only screen and (     -o-min-device-pixel-ratio: 2/1)    and (max-width: 385px),
+			only screen and (        min-device-pixel-ratio: 2)      and (max-width: 385px),
+			only screen and (                min-resolution: 192dpi) and (max-width: 385px),
+			only screen and (                min-resolution: 2dppx)  and (max-width: 385px) {
+                 h1{
+                 	font-size:64.7px;
+                 }
+			  /* Small screen, retina, stuff to override above media query */
+
+			}
+
+			@media only screen and (min-width: 700px) {
+
+			  /* Medium screen, non-retina */
+
+			}
+
+			@media
+			only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 700px),
+			only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 700px),
+			only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 700px),
+			only screen and (        min-device-pixel-ratio: 2)      and (min-width: 700px),
+			only screen and (                min-resolution: 192dpi) and (min-width: 700px),
+			only screen and (                min-resolution: 2dppx)  and (min-width: 700px) {
+
+			  /* Medium screen, retina, stuff to override above media query */
+
+			}
+
+			@media only screen and (min-width: 1300px) {
+
+			  /* Large screen, non-retina */
+
+			}
+
+			@media
+			only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 1300px),
+			only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 1300px),
+			only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 1300px),
+			only screen and (        min-device-pixel-ratio: 2)      and (min-width: 1300px),
+			only screen and (                min-resolution: 192dpi) and (min-width: 1300px),
+			only screen and (                min-resolution: 2dppx)  and (min-width: 1300px) {
+
+			  /* Large screen, retina, stuff to override above media query */
+
+			}
+/* ::>> ....Media Queries Section - from Css Tricks .....................................*/
+/* ::>> ....Media Queries Section - from Css Tricks .....................................*/
+
+
+
+
+
 .upload_btn button{
 	position:absolute;
 	top:50%; left:50%;
