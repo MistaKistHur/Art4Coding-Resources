@@ -301,6 +301,11 @@ nav ul li a:hover{
                   white-space: nowrap;
                   word-wrap: none; /* not valid syntax */
                 }
+                .h2italic{
+	              top:calc(88.88px + (0.848vh + 0.274vw)); left:24px;
+				  width:calc(388px + 0.8vw);
+	              white-space:nowrap;
+                }
                 #HiddenNavBar{        /* ::>> Only temporary, hidding these for mobile. */
                   filter:opacity(0);
                 }
