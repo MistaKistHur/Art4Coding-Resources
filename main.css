@@ -303,6 +303,7 @@ nav ul li a:hover{
                 }
                 .h2italic{
 	              top:calc(88.88px + (0.848vh + 0.274vw)); left:24px;
+	              font-size:calc(17.945px + (2.485vw + 0.0188rem));
 				  width:calc(388px + 0.8vw);
 	              white-space:nowrap;
                 }
