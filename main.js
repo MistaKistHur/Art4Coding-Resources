@@ -37,6 +37,7 @@ document.body.style.visibility = "visible";
 			console.trace()
 			console.profile()
 			console.time()
+			console.timeLog()
 			console.table()
 
 	*/
