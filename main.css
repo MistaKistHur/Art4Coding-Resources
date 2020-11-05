@@ -148,21 +148,21 @@ h1{
 			 	 font-size:86px;
 			 	}
 			}*/
-			@media only screen and (min-width: 320px) {
+			@media only screen and (min-width: 375px) {
 
-			  /* Small screen, non-retina */
+			  /* Small screen, non-retina changed from 320px to 375 for iphone X/Xs*/
                  h1{
                  	font-size:78px;
                  }
 			}
 
 			@media
-			only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 320px),
-			only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 320px),
-			only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 320px),
-			only screen and (        min-device-pixel-ratio: 2)      and (min-width: 320px),
-			only screen and (                min-resolution: 192dpi) and (min-width: 320px),
-			only screen and (                min-resolution: 2dppx)  and (min-width: 320px) {
+			only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 375px),
+			only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 375px),
+			only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 375px),
+			only screen and (        min-device-pixel-ratio: 2)      and (min-width: 375px),
+			only screen and (                min-resolution: 192dpi) and (min-width: 375px),
+			only screen and (                min-resolution: 2dppx)  and (min-width: 375px) {
                  h1{
                  	font-size:78px;
                  }
