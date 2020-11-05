@@ -5,7 +5,59 @@ document.body.style.visibility = "visible";
     // ::>> document.crypto.KeyObject(type, handle);
 	document.addEventListener("DOMContentLoaded",(e)=>{
 		console.log("::>> DomC Ran Successfully");
-		document.body.setAttribute("token", "x");
+		 document.body.setAttribute("token", "x");
+
+
+
+
+
+		function Page(){
+
+		}
+/* ::>> Constructor Function for Asset Cards ....... */
+// ::>> Move this into its own module...............
+		function AssetCard(){
+			this.type      = Asset;
+			this.licence   = License;
+			this.creator   = Creator;
+			this.vendor    = Vendor;
+			this.xLink     = XLink;     	// XPath or Url......
+			this.date      = AssetDate; 	// Upload or Creation Date.
+			this.jsonIndex = JsonIndex;
+			this.preview   = undefined;  	// is the item previewable inside the browser?
+			// ::>> Generic Card Dimensions? 340x340px?
+
+        /* ::>> What kind of functions would an asset card have? */
+			function flip3D(){
+				// Transform CardX 180deg, preserve 3D.
+			}
+			function cardBackInfo(){
+
+			}
+			function showSource(){
+				// Show Author, Creator, Vendor or External Source.
+			}
+			function download(){
+
+			}
+			function share(){
+
+			}
+		}
+/* ::>> Constructor Function for Asset Cards ....... */
+
+		  var this,
+		  select = function(elem) {
+		    return document.querySelector(elem);
+		  },
+
+
+		  selectAll = function(elem) {
+		    return document.querySelectorAll(elem);
+		  };
+
+
+
 
 		const Bodi       = document.querySelector("body");
 		const Head       = document.querySelector("head");
@@ -22,7 +74,7 @@ document.body.style.visibility = "visible";
 		  if(isDevice){
 		  	// ::>> Use Mobile/Tablet Stylesheet & Media Query's..
 		  	console.log(`portable device in use.`);
-		  	pushToHead();  // ::>> Add Mobile styleSheet's.
+		  	// pushToHead();  // ::>> Add Mobile styleSheet's.
 		  }
 
 
