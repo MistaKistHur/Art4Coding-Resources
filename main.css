@@ -291,7 +291,7 @@ nav ul li a:hover{
 			 	 font-size:86px;
 			 	}
 			}*/
-			@media only screen and (max-width: 385px) {
+			@media only screen and (max-width: 420px) {
 
 			  /* Small screen, non-retina changed from 320px to 375 for iphone X/Xs, also changed min-to-max */
                 h1{
@@ -321,12 +321,12 @@ nav ul li a:hover{
 			}
 
 			@media
-			only screen and (-webkit-min-device-pixel-ratio: 2)      and (max-width: 385px),
-			only screen and (   min--moz-device-pixel-ratio: 2)      and (max-width: 385px),
-			only screen and (     -o-min-device-pixel-ratio: 2/1)    and (max-width: 385px),
-			only screen and (        min-device-pixel-ratio: 2)      and (max-width: 385px),
-			only screen and (                min-resolution: 192dpi) and (max-width: 385px),
-			only screen and (                min-resolution: 2dppx)  and (max-width: 385px) {
+			only screen and (-webkit-min-device-pixel-ratio: 2)      and (max-width: 420px),
+			only screen and (   min--moz-device-pixel-ratio: 2)      and (max-width: 420px),
+			only screen and (     -o-min-device-pixel-ratio: 2/1)    and (max-width: 420px),
+			only screen and (        min-device-pixel-ratio: 2)      and (max-width: 420px),
+			only screen and (                min-resolution: 192dpi) and (max-width: 420px),
+			only screen and (                min-resolution: 2dppx)  and (max-width: 420px) {
                  h1{
                  	font-size:64.7px;
                  }
