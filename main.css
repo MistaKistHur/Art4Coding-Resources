@@ -293,21 +293,24 @@ nav ul li a:hover{
 			@media only screen and (max-width: 385px) {
 
 			  /* Small screen, non-retina changed from 320px to 375 for iphone X/Xs, also changed min-to-max */
-                 h1{
-                 	font-size:calc(47.85px + (1.985vw + 0.0288rem));
-                 }
-                 h2{
-                 	left:8.8px; top:calc(38.8px + 0.52vh);
-                 	font-size:calc(16.97px + (2.47vw + 0.027rem));
-                 	white-space: nowrap;
-                 	word-wrap: none; /* not valid syntax */
-                 }
-                 #HiddenNavBar{        /* ::>> Only temporary, hidding these for mobile. */
-                 	filter:opacity(0);
-                 }
-                 #TopNavLinx{
-                 	display:none;
-                 }
+                h1{
+                  font-size:calc(47.98px + (1.985vw + 0.0288rem));
+                }
+                h2{
+                  left:8.8px; top:calc(38.8px + 0.52vh);
+                  font-size:calc(16.97px + (2.47vw + 0.027rem));
+                  white-space: nowrap;
+                  word-wrap: none; /* not valid syntax */
+                }
+                #HiddenNavBar{        /* ::>> Only temporary, hidding these for mobile. */
+                  filter:opacity(0);
+                }
+                #TopNavLinx{
+                  display:none;
+                }
+                .opensource_logo{
+                  display:none;
+                }
 			}
 
 			@media
