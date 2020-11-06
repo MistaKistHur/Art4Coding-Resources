@@ -1,50 +1,15 @@
 "use-strict";
+import AssetCard from '/Modules/module.asset_card.js';
+
+
 // ::>> Create node.js App & use modules mocha & chai for unit testing...
 document.body.style.visibility = "visible";
 	console.log("::>> Js File Loaded Successfully");
+
     // ::>> document.crypto.KeyObject(type, handle);
 	document.addEventListener("DOMContentLoaded",(e)=>{
 		console.log("::>> DomC Ran Successfully");
 		 document.body.setAttribute("token", "x");
-
-
-
-
-
-		function Page(){
-
-		}
-/* ::>> Constructor Function for Asset Cards ....... */
-// ::>> Move this into its own module...............
-		function AssetCard(){
-			this.type      = Asset;
-			this.licence   = License;
-			this.creator   = Creator;
-			this.vendor    = Vendor;
-			this.xLink     = XLink;     	// XPath or Url......
-			this.date      = AssetDate; 	// Upload or Creation Date.
-			this.jsonIndex = JsonIndex;
-			this.preview   = undefined;  	// is the item previewable inside the browser?
-			// ::>> Generic Card Dimensions? 340x340px?
-
-        /* ::>> What kind of functions would an asset card have? */
-			function flip3D(){
-				// Transform CardX 180deg, preserve 3D.
-			}
-			function cardBackInfo(){
-
-			}
-			function showSource(){
-				// Show Author, Creator, Vendor or External Source.
-			}
-			function download(){
-
-			}
-			function share(){
-
-			}
-		}
-/* ::>> Constructor Function for Asset Cards ....... */
 
 		  var this,
 		  select = function(elem) {
