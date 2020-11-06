@@ -1,5 +1,7 @@
 "use-strict";
-import AssetCard from '/Modules/module.asset_card.js';
+
+ import Core from '/Modules/core_module.js';
+ import AssetCard from '/Modules/module.asset_card.js';
 
 
 // ::>> Create node.js App & use modules mocha & chai for unit testing...
