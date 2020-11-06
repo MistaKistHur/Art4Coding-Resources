@@ -11,7 +11,7 @@ document.body.style.visibility = "visible";
 		console.log("::>> DomC Ran Successfully");
 		 document.body.setAttribute("token", "x");
 
-		  var this,
+		  let
 		  select = function(elem) {
 		    return document.querySelector(elem);
 		  },
