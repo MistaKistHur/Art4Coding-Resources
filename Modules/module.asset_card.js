@@ -26,6 +26,17 @@ export default class AssetCard {
 		// Create A Div Element for the Card to be nested in,
 		let CContainer = document.createElement("div");
 		    CContainer.setAttribute("id", "XCard-" + this.card_name);   // ${Asset_Card_Name}
+
+		    CContainer.style = {
+		    	"position"      : "relative",
+		    	"width"         : "calc(288px + 2.2vw)",
+		    	"height"        : "calc(288px + 4.7vh)",
+		    	"border-radius" : "8.8px",
+		    	"float"         : "left",
+		    	"margin"        : "8px"
+		    }
+		    // ::>> Study https://stackoverflow.com/questions/42358585/css-styling-from-json
+		    // CContainer.bind(this);
 		// Select the right section to be nested ie, tutorials, pdf, vectors, 3d, textures etc....
 		// Grab the Asset_Type from above, & select the right area from the Dom.
 	})();
