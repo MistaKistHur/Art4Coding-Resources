@@ -22,9 +22,10 @@ export default class AssetCard {
 	// ::>> Methods ::>>.........................<<
     // ::>> x
 	(function createContainerObj(){
+		// Select the right container from the page.........
 		// Create A Div Element for the Card to be nested in,
 		let CContainer = document.createElement("div");
-		    CContainer.setAttribute("id", "XCard-" + ${Asset_Card_Name});
+		    CContainer.setAttribute("id", "XCard-" + this.card_name);   // ${Asset_Card_Name}
 		// Select the right section to be nested ie, tutorials, pdf, vectors, 3d, textures etc....
 		// Grab the Asset_Type from above, & select the right area from the Dom.
 	})();
@@ -33,6 +34,7 @@ export default class AssetCard {
 		  	document.getElementById(`XCard-` + ${Asset_Card_Name}).addEventListener("mouseenter",(e) => {
 		  	    // ::>> Todo...
 		  	    this.style.transform = `rotateX(180deg)`;
+		  	    // or e.traget?
 		  	    // ::>> Transition + preserve 3D...
 		  	});
 		}
