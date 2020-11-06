@@ -53,83 +53,27 @@ export default class AssetCard {
 
 }
 
-
-
-
-
-
-
-
-
-
 /* ::>> Junk Code Snippets ................................ */
-/*
-
+	/*
 		// ::>> Use Via the code below....
 		Card = new AssetCard(x,y,z,a,b,c);
 
+	*/
 
+/*29 + 6 + 6 + granola +
 
-*/
-
-
-
-
-29 + 6 + 6 + granola + 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		class AssetCrate extends AssetCard{
+/*		class AssetCrate extends AssetCard{
 			// ::>> Svg Box/Crate... Bundled Assets.
 		}
 //..........................................................
 
-
-
-
-				function Page(){
+/*				function Page(){
 
 				}
 //....................................
 /* ::>> Constructor Function for Asset Cards ....... */
 // ::>> Move this into its own module...............
-		function AssetCard(){
+/*		function AssetCard(){
 			this.type      = Asset;
 			this.licence   = License;
 			this.creator   = Creator;
@@ -141,7 +85,7 @@ export default class AssetCard {
 			// ::>> Generic Card Dimensions? 340x340px?
 
         /* ::>> What kind of functions would an asset card have? */
-			function flip3D(){
+/*			function flip3D(){
 				// Transform CardX 180deg, preserve 3D.
 			}
 			function cardBackInfo(){
