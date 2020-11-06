@@ -24,13 +24,13 @@ export default class AssetCard {
 	(function createContainerObj(){
 		// Create A Div Element for the Card to be nested in,
 		let CContainer = document.createElement("div");
-		    CContainer.setAttribute("id", "x");
+		    CContainer.setAttribute("id", "XCard-" + ${Asset_Card_Name});
 		// Select the right section to be nested ie, tutorials, pdf, vectors, 3d, textures etc....
 		// Grab the Asset_Type from above, & select the right area from the Dom.
 	})();
 		function flip3D(){
 		  	// ::>> Flip Card & Show meta Data on reverse of Card? <<:: DoubleClick/Tap or Hover?
-		  	document.getElementById(${card_name}).addEventListener("mouseenter",(e) => {
+		  	document.getElementById(`XCard-` + ${Asset_Card_Name}).addEventListener("mouseenter",(e) => {
 		  	    // ::>> Todo...
 		  	    this.style.transform = `rotateX(180deg)`;
 		  	    // ::>> Transition + preserve 3D...
