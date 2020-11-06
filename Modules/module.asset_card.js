@@ -31,7 +31,7 @@ export default class AssetCard {
 	})();
 		function flip3D(){
 		  	// ::>> Flip Card & Show meta Data on reverse of Card? <<:: DoubleClick/Tap or Hover?
-		  	document.getElementById(`XCard-` + ${Asset_Card_Name}).addEventListener("mouseenter",(e) => {
+		  	document.getElementById(`XCard-` + this.card_name).addEventListener("mouseenter",(e) => {
 		  	    // ::>> Todo...
 		  	    this.style.transform = `rotateX(180deg)`;
 		  	    // or e.traget?
