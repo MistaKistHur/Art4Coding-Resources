@@ -9,15 +9,22 @@
 		<noscript contenteditable="false">	                         <!--  id="" token="" readonly Id must not be empty && token is not allowed on noscript -->
 			<iframe src="https://www.art4coding.icu/no_script.html?no_script" class="noscript_frame"
 			        id="x1" width="100" height="100"
-			        style="background:black;">			             <!-- token="" Not sure if iframes are allowed in noscript -->
-			</iframe>
-		</noscript>
+			        style="background:black;
+			               width:100vw; height:100vh;">			     <!-- token="" Not sure if iframes are allowed in noscript -->
+			</iframe>											     <!--  data-rh="true"-->
+		</noscript>		   <!-- Create a very basic page that ask's to enable javascript or update your browser to brave or firefox -->
 
     <!-- ::>> Styles -->
 	<link rel="stylesheet" type="text/css" href="main.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" async/>
-	  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <meta name="theme-color" content="crimson"/><!--  data-rh="true"-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+	      <meta name="theme-color" content="crimson"/>
+	 <!-- <meta name="theme-color" content="springgreen"/>    	-->
+	 <!-- <meta name="theme-color" content="night_mode"/>     	-->
+	 <!-- <meta name="theme-color" content="preffers_dark"/>  	-->
+	 <!-- <meta name="theme-color" content="preffers_light"/> 	-->
+
     <!-- ::>> Styles -->
 
     <meta name="keywords" content="Art, Coding, Animation, Resources, Stock, Images, Developer,
@@ -30,11 +37,11 @@
 	    <script type="application/ld+json" id="json_root_config_file">
 				{
 					"root"            :  "art4coding.icu",
-					"public_ip"       :  "",
-					"private_ip"      :  "",
-					"router"          :  "",
-					"proxy"           :  "",
-					"middleware"      :  "",
+					"public_ip"       :  "?",
+					"private_ip"      :  "?",
+					"router"          :  "? :node: ?",
+					"proxy"           :  "? :node: ?",
+					"middleware"      :  "? :spam_assasin etc: ?",
 					"token"           :  "x4785987bdix4zdsfii122112",
 					"value"           :  "open_source_initiative",
 					"contact"         :  "https://www.deviantart.com/coding-artists",
@@ -132,11 +139,13 @@
 
 <!-- ::>> fade/slide navbar in if search term entered -->
 		<div id="HiddenNavBar" height="105">
-			<form action="" method="">
-				<input type="hidden" class="disp_none" value="">
+			<form id="" action="" method="">
+				<input type="hidden" class="disp_none" value=""> <!-- :csrf: -->
+				<div class="search_overflow">
 				<input type="text" id="" class="" aria-label="Search"
 				       tabindex="1" value="" placeholder="Search">
-				    <label for="">Hide x results: <input type="checkbox" checked=""></label>
+				</div>
+				    <label for="Filter">Hide x results: <input type="checkbox" id="Filter" checked=""></label>
 			</form>
 			<!-- ::>> Embed this svg within the bottom of the search bar and add a search/magnifier glass to the left or right hand suide. -->
 			<svg id="svg8" viewBox="0 0 208.51721 1.5955585" version="1.1"
