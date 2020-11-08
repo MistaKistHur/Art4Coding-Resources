@@ -262,7 +262,13 @@ nav ul li a:hover{
         Main styles inline in svg [:This Container not Svg]....... Expr with order....
 		Maybe Tablet, Search, Deskt, Cog    **GET EVT Lstnrs sorted....**
         */
-
+	#TopNavSvgIcons{ 				    /* ::>>..Section Selector..<<:: */
+		position:absolute;
+		top:0 !important;
+		right:0 !important;
+		width:calc(355px + 2.2vw);
+		height:auto;
+		}
 	#DesktopSvgIcon{
 
 	}
@@ -271,7 +277,7 @@ nav ul li a:hover{
 	}
 	#ProfileCog{
 		position:absolute;
-		top:8px;right:8px;
+		top:0;right:0;
 		}
 	#SearchIcon{
 		position:absolute;
