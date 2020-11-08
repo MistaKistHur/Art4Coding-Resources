@@ -32,7 +32,7 @@
 		console.log("::>> DomC Ran Successfully");
 		 document.body.setAttribute("token", "x");
 
-		  let
+		  /*let
 		  select = function(elem) {
 		    return document.querySelector(elem);
 		  },
@@ -40,7 +40,7 @@
 
 		  selectAll = function(elem) {
 		    return document.querySelectorAll(elem);
-		  };
+		  };*/
 
 
 
