@@ -1,4 +1,4 @@
-/* 231.64 + 105.28 */
+/* ::>> Make into Sections....................  */
 /* ::>> Media Querys to be done in sections ie Header/ToNav, 1/4 body, 1/2 body, footer etc.. */
 @font-face {
 	font-family:"Black_Chancery";
@@ -10,7 +10,7 @@
     }
     .disp_none{display:none;}.disp_block{display:block;}
     .vis_hidden{visibility:hidden;}.pad8{padding:8px;}
-/* https://www.youtube.com/watch?v=XK7T3mY1V-w */
+    /* https://www.youtube.com/watch?v=XK7T3mY1V-w */
 *{
  margin:0; padding:0;
  text-decoration:none;
@@ -263,11 +263,12 @@ nav ul li a:hover{
 		top:-8px;right:8px;
 		transform:scale(0.702);
 		filter:hue-rotate(0deg) blur(0.22px);
-		transition:filter 488ms ease-in-out 2ms;
+		transition:filter 488ms ease-in-out 2ms !important;    /* + import :: for some reason not active on mouse_out */
 		}
 		#Profile_Cog:hover{
 			filter:hue-rotate(-42deg) blur(0.1px);
 			transition:filter 488ms ease-in-out 2ms;
+			cursor: pointer;
 			}
 /* ::>> Top Right NavBar Main Settings Icon & Search Activator ........... */
 
