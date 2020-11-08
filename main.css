@@ -266,7 +266,7 @@ nav ul li a:hover{
 		transition:filter 488ms ease-in-out 2ms;
 		}
 		#Profile_Cog:hover{
-			filter:hue-rotate(-12deg) blur(0.1px);
+			filter:hue-rotate(-42deg) blur(0.1px);
 			transition:filter 488ms ease-in-out 2ms;
 			}
 /* ::>> Top Right NavBar Main Settings Icon & Search Activator ........... */
