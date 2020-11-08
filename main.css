@@ -211,7 +211,7 @@ h3{
 nav ul{
 	position:absolute;
 	background:transparent;
-	top:0px; right:0px;
+	top:0px; right:78px;
 	max-width:74vw; max-height:calc(128.8px + 5vh);
 	margin-right:calc(18.8px + 0.8vw);
 	margin-top:0.1vh;
