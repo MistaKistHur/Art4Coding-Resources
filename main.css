@@ -262,10 +262,13 @@ nav ul li a:hover{
 		top:8px;right:8px;
 		transform:scale(0.702);
 		filter:blur(0.22px);
+
+		}
+	#Profile_Cog{
 		color:transparent;
 		background:linear-gradient(-33deg,springgreen,#0080FF,crimson);
-		background-clip:text;
-		}
+		background-clip:text;		
+	}
 .help_png{
 	float:right;
 	transform-origin: bottom right 60px;
