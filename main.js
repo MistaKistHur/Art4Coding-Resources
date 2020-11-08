@@ -48,12 +48,19 @@
 		const Bodi       = document.querySelector("body");
 		const Head       = document.querySelector("head");
 		const Header     = document.querySelector("header");
+		const HidNav     = document.getElementById('HiddenNavBar');
 		const Footer     = document.querySelector("footer");
 		const TopNavLinx = document.getElementById("TopNavLinx");
 		      let sts    = document.styleSheets;
 		      const BodyObjectArr = document.all;
+		    const ProSettingCog = document.getElementById("Profile_Cog");
 		// ::>> V:: this is not executing?.........
 		Bodi.style.display ="block !important";
+
+		ProSettingCog.addEventListener('mousedown',(e) => {
+		  // hidden nav transform...
+		  HidNavBar.style.transform = `translateY:128px;`;
+		});
 
 		let isDevice = (/android|webos|iphone|ipad|ipod|blackberry/i.test(navigator.userAgent.toLowerCase()));
 

@@ -55,7 +55,7 @@ header{
     #HiddenNavBar{
     	text-align:center;
     	width:100%; min-width:100vw;
-    	/* transform:translateY(-128px);*/
+    	transform:translateY(-128px);
     	height:calc(105px + 0.2vh);
     	align-items: center;
     	background:black;
@@ -211,6 +211,7 @@ h3{
 nav ul{
 	position:absolute;
 	background:transparent;
+	visibility: hidden;
 	top:0px; right:78px;
 	max-width:74vw; max-height:calc(128.8px + 5vh);
 	margin-right:calc(18.8px + 0.8vw);
