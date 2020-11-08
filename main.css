@@ -264,6 +264,11 @@ nav ul li a:hover{
 		position:absolute;
 		top:-8px;right:8px;
 		}
+	#SearchIcon{
+		position:absolute;
+		top:8px; right:calc(48px + 0.75vw);
+		filter:hue-rotate(-42deg);
+		}
 /* ::>> Top Right NavBar Main Settings Icon & Search Activator ........... */
 
 .help_png{
