@@ -264,11 +264,11 @@ nav ul li a:hover{
 		}
 		#Profile_Cog{
 		transform:scale(0.702);
-		filter:hue-rotate(0deg) blur(0.22px);
+		filter:hue-rotate(-42deg) blur(0.22px);
 		transition:filter 488ms ease-in-out 2ms;
 		}
 		#Profile_Cog:hover{
-			filter:hue-rotate(-42deg) blur(0.1px);
+			filter:hue-rotate(0deg) blur(0.1px);
 			transition:filter 488ms ease-in-out 2ms;
 			cursor: pointer;
 			}
