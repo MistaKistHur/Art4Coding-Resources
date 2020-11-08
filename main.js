@@ -1,14 +1,15 @@
 "use-strict";
  import Core from '/Modules/core_module.js';
  import AssetCard from '/Modules/module.asset_card.js';
+		(function hiding_body_override(){
+			document.body.style.visibility = "visible";
+		})();
 	console.log("::>> Js File Loaded Successfully");
 	document.addEventListener("DOMContentLoaded",(e)=>{
 		console.log("::>> DomC Ran Successfully");
 		 document.body.setAttribute("token", "x");
 
-			(function hiding_body_override(){
-				document.body.style.visibility = "visible";
-			})();
+
 
 //  ::>> Create node.js App & use modules mocha & chai for unit testing..
 // ::
