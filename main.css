@@ -261,9 +261,11 @@ nav ul li a:hover{
 	#ProfileCog{
 		position:absolute;
 		top:-8px;right:8px;
+		}
+		#Profile_Cog{
 		transform:scale(0.702);
 		filter:hue-rotate(0deg) blur(0.22px);
-		transition:filter 488ms ease-in-out 2ms !important;    /* + import :: for some reason not active on mouse_out */
+		transition:filter 488ms ease-in-out 2ms;
 		}
 		#Profile_Cog:hover{
 			filter:hue-rotate(-42deg) blur(0.1px);
