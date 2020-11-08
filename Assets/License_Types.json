@@ -1,1 +1,15 @@
-
+{
+  "Licenses": [
+    {
+    "Comment"           :   "CreateA list of Common licenses, with a value of a url to the licence agreement",
+    "::>> Note"         :   "File Needs Validating once Complete",
+    "Creative-Commons"  :   "https://github.com.......readme.md",
+    "Public-Domain"     :   "https://github.com.......readme.md",
+    "Mozilla"           :   "https://github.com.......readme.md",
+    "No-Attribution"    :   "https://github.com.......readme.md",
+    "Share-Alike"       :   "https://github.com.......readme.md",
+    "Mit"               :   "https://github.com.......readme.md",
+    "BSD"               :   "https://github.com.......readme.md",
+    }
+  ]
+}
