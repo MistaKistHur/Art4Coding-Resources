@@ -259,10 +259,10 @@ nav ul li a:hover{
 		}
 	#ProfileCog{
 		position:absolute;
-		right:0px;
-		transform:scale(0.72);
+		top:8px;right:8px;
+		transform:scale(0.702);
 		filter:blur(0.22px);
-	}
+		}
 .help_png{
 	float:right;
 	transform-origin: bottom right 60px;
