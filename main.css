@@ -259,7 +259,16 @@ nav ul li a:hover{
 		left:calc(248px + 2.828vw);
 		}
 /* ::>> Top Right NavBar Main Settings Icon & Search Activator ....
-        Main styles inline in svg [:This Container not Svg]....... */
+        Main styles inline in svg [:This Container not Svg]....... Expr with order....
+		Maybe Tablet, Search, Deskt, Cog
+        */
+
+	#DesktopSvgIcon{
+
+	}
+	#TabletSvgIcon{
+
+	}
 	#ProfileCog{
 		position:absolute;
 		top:-8px;right:8px;
@@ -269,6 +278,8 @@ nav ul li a:hover{
 		top:8px; right:calc(88px + 0.8895vw + 0.002vh);
 		filter:hue-rotate(-42deg);
 		}
+
+
 /* ::>> Top Right NavBar Main Settings Icon & Search Activator ........... */
 
 .help_png{
