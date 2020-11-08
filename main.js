@@ -8,7 +8,22 @@
 				document.body.style.visibility = "visible";
 			})();
 
-// ::>> Create node.js App & use modules mocha & chai for unit testing...
+//  ::>> Create node.js App & use modules mocha & chai for unit testing..
+// ::
+//  ::>> ............. Touch Screen Events ..............................
+     var el = document.getElementById("canvas");
+		  el.addEventListener("touchstart", handleStart, false);
+		  el.addEventListener("touchend", handleEnd, false);
+		  el.addEventListener("touchcancel", handleCancel, false);
+		  el.addEventListener("touchmove", handleMove, false);
+//  ::>> ............. Touch Screen Events ..............................
+// ::    ?? https://developer.mozilla.org/en-US/docs/Web/API/Touch_events
+//  ::>> ................. Click Events .................................
+
+//  ::>> ................. Click Events .................................
+// ::
+
+
 
 
 

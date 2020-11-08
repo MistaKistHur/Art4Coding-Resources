@@ -29,7 +29,4 @@
 	    document.getElementById("svg54583").appendChild(svg1);
 
 
-
-
-
 	 }
