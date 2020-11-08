@@ -1,0 +1,16 @@
+{
+  "Fetch": [
+    {
+      "init"           : "",
+      "apps"           : "",
+      "codez"          : "",
+      "scripts"        : "",
+      "security"       : "",      
+      "manifest"       : "",      
+      "pre-requisites" : "",
+      "key-values"     : "",      
+      "iframes"        : "",
+      "api-keys"       : ""      
+    }
+  ]
+}
