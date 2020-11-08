@@ -1,9 +1,11 @@
 "use-strict";
-
-	         console.log("::>> Js File Loaded Successfully");
-
  import Core from '/Modules/core_module.js';
  import AssetCard from '/Modules/module.asset_card.js';
+	console.log("::>> Js File Loaded Successfully");
+	document.addEventListener("DOMContentLoaded",(e)=>{
+		console.log("::>> DomC Ran Successfully");
+		 document.body.setAttribute("token", "x");
+
 			(function hiding_body_override(){
 				document.body.style.visibility = "visible";
 			})();
@@ -11,11 +13,11 @@
 //  ::>> Create node.js App & use modules mocha & chai for unit testing..
 // ::
 //  ::>> ............. Touch Screen Events ..............................
-     var el = document.getElementById("canvas");
+/*     var el = document.getElementById("canvas");
 		  el.addEventListener("touchstart", handleStart, false);
 		  el.addEventListener("touchend", handleEnd, false);
 		  el.addEventListener("touchcancel", handleCancel, false);
-		  el.addEventListener("touchmove", handleMove, false);
+		  el.addEventListener("touchmove", handleMove, false);*/
 //  ::>> ............. Touch Screen Events ..............................
 // ::    ?? https://developer.mozilla.org/en-US/docs/Web/API/Touch_events
 //  ::>> ................. Click Events .................................
@@ -28,9 +30,7 @@
 
 
     // ::>> document.crypto.KeyObject(type, handle);
-	document.addEventListener("DOMContentLoaded",(e)=>{
-		console.log("::>> DomC Ran Successfully");
-		 document.body.setAttribute("token", "x");
+
 
 		  /*let
 		  select = function(elem) {
