@@ -1,3 +1,4 @@
+// Create a module that combines All Usables Ui Svg icons into one file or sprite sheet.
 "use-strict";
 	 export default class Svg{
 		constructor(){
