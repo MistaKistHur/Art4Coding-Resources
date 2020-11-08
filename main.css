@@ -415,7 +415,7 @@ nav ul li a:hover{
 .face_group{
 	position:absolute;
 	top:62px; right:calc(18.8px + 0.25vw)!important;
-	display:none;
+	display:none !important; /* Temp important */
 	z-index:15;
     }
 /* ::>> Kofi Donate Button & Container */
