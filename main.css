@@ -260,7 +260,7 @@ nav ul li a:hover{
 		}
 /* ::>> Top Right NavBar Main Settings Icon & Search Activator ....
         Main styles inline in svg [:This Container not Svg]....... Expr with order....
-		Maybe Tablet, Search, Deskt, Cog
+		Maybe Tablet, Search, Deskt, Cog    **GET EVT Lstnrs sorted....**
         */
 
 	#DesktopSvgIcon{
