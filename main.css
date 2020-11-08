@@ -257,21 +257,12 @@ nav ul li a:hover{
 	.nudegXpx2{
 		left:calc(248px + 2.828vw);
 		}
-/* ::>> Top Right NavBar Main Settings Icon & Search Activator ........... */
+/* ::>> Top Right NavBar Main Settings Icon & Search Activator ....
+        Main styles inline in svg [:This Container not Svg]....... */
 	#ProfileCog{
 		position:absolute;
 		top:-8px;right:8px;
 		}
-		#Profile_Cog{
-		transform:scale(0.702);
-		filter:hue-rotate(-42deg) blur(0.22px);
-		transition:filter 488ms ease-in-out 2ms;
-		}
-		#Profile_Cog:hover{
-			filter:hue-rotate(0deg) blur(0.1px);
-			transition:filter 488ms ease-in-out 2ms;
-			cursor: pointer;
-			}
 /* ::>> Top Right NavBar Main Settings Icon & Search Activator ........... */
 
 .help_png{
