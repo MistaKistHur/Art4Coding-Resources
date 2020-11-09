@@ -1,0 +1,14 @@
+{
+ "Apis_List" : {
+      "thewaybackmachine_api" : "https://archive.org/help/wayback_api.php",
+      "deviantart_github"     : "https://github.com/wix-incubator/DeviantArt-API",
+      "deviantart_oembed"     : "https://www.deviantart.com/developers/oembed",  
+      "shutterstock"          : "https://api.shutterstock.com/v2/images/search",   
+      "" : "",   
+      "" : "", 
+      "" : "",      
+      "" : "",      
+      
+   
+ }
+}
