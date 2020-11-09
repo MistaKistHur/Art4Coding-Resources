@@ -1,7 +1,12 @@
 "use-strict";
  // import Core from '/Modules/core_module.js';
  // import AssetCard from '/Modules/module.asset_card.js';
-	   console.log("::>> Js File Loaded Successfully");
+	console.log("::>> Js File Loaded Successfully");
+	window.addEventListener("DOMContentLoaded", (event) => {
+		console.log("::>> DomC Ran Successfully");
+		 document.body.setAttribute("token", "x");
+
+
 	    // navigator.sendBeacon('https://www.art4coding.icu/Scripts/Secondary/makesumfile.log/html/js/pyt', 'beacon_script');
 	    // navigator.serviceWorker('?');
 	    // ::>> Notes:                 //
@@ -21,9 +26,7 @@ function getWikiArt(){
 	})
 }
 
-	window.addEventListener("DOMContentLoaded", (event) => {
-		console.log("::>> DomC Ran Successfully");
-		 document.body.setAttribute("token", "x");
+
 
 
 			//JSON.parse({
