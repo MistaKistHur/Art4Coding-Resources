@@ -1,1 +1,44 @@
+{
+  "Discord_Servers": {
+      "Developer_Servers" : {}
+      "Artist_Servers"    : {}
+             "Specific_Categories" : {}
+                  "Blender":"",
+                  "Unity":"",
+                  "UnrealEngine":"",
+                  "Python":"",
+                  "Javascript":"",
+                  "Resin_Art":"",
+                  "Sculpting":"",
+                  "3D_Modelling":"",
+                  "Animation":"",
 
+
+
+
+           ""  :  "https://discord.me/coding",
+           ""  :  "https://discord.me/devcord",
+           ""  :  "https://discord.me/speakjs",
+           ""  :  "https://discord.me/codesupport",
+           ""  :  "https://discord.com/invite/python",
+
+
+
+           ""  :  "https://disforge.com/server/4837/lazy-developers",
+           ""  :  "https://disboard.org/server/395520812347686912",   
+           ""  :  "https://discord.com/invite/ph",
+
+           ""  :  "",   
+           ""  :  "",
+           ""  :  "",
+           ""  :  "",  
+           ""  :  "",
+           ""  :  "",
+           ""  :  "",    
+    
+    
+    
+    
+    
+  }
+}
