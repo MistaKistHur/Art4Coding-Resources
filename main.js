@@ -5,9 +5,13 @@
 	    // navigator.serviceWorker('?');
 	    // ::>> Notes:                 //
 		(function hiding_body_override(){
+			// Setting inline styles back to an empty array.
 			document.body.style = [];
 		})();
-
+	console.log("::>> Js File Loaded Successfully");
+	document.addEventListener("DOMContentLoaded",(e)=>{
+		console.log("::>> DomC Ran Successfully");
+		 document.body.setAttribute("token", "x");
 
 
 			//JSON.parse({
@@ -16,10 +20,7 @@
 			//	"visibility":"visible"
 			//});
 
-	console.log("::>> Js File Loaded Successfully");
-	document.addEventListener("DOMContentLoaded",(e)=>{
-		console.log("::>> DomC Ran Successfully");
-		 document.body.setAttribute("token", "x");
+
 /*
 ::>> Page Item Selectors
 		let
