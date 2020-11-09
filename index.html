@@ -131,10 +131,14 @@
 <!-- Notes ::>>
 
 -->
-<body style="visibility:hidden;
+<body style="visibility:hidden; display:none; opacity:0;
              width:100%; min-width:100vw !important;
              min-height:calc(100vh + 2888px);"
-      class="bodz" width="100%" height="auto">
+      class="bodz" width="100%" height="auto"
+      onloadedmetadata="func1()" ontimeupdate="func2()"
+      onbeforeunload="" onoffline="" onhashchange="">
+<section id="Body_Preview"></section>
+	<div id="LoadingScreen"></div>
 <!-- ::>> Notes::   onchange="//${change}"
                    onhashchange="//x1" onoffline="//x2"
                    contextmenu="//x3"  onbeforeunload="//x4"                                                       -->
