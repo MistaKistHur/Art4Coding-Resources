@@ -10,7 +10,7 @@
 			document.body.style = [];
 		})();
 
-	window.addEventListener("DOMContentLoaded", (e) => {
+	window.addEventListener("DOMContentLoaded", (event) => {
 		console.log("::>> DomC Ran Successfully");
 		 document.body.setAttribute("token", "x");
 
