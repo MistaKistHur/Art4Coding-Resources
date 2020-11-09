@@ -5,8 +5,8 @@
 	    // navigator.serviceWorker('?');
 	    // ::>> Notes:                 //
 		(function hiding_body_override(){
-			document.body.style = [`display:block;`,`visibility:visible;`,`opacity:1;`];
-
+			document.body.style = [];
+		})();
 
 
 
@@ -15,7 +15,7 @@
 			//	"opacity"   :"1",
 			//	"visibility":"visible"
 			//});
-		})();
+
 	console.log("::>> Js File Loaded Successfully");
 	document.addEventListener("DOMContentLoaded",(e)=>{
 		console.log("::>> DomC Ran Successfully");
