@@ -16,7 +16,7 @@
 		})();
 
 			function getWikiArt(){
-				fetch('https://www.wikiart.org/')
+				fetch('https://www.wikiart.org/en/App/home?json=2&amp;param=artwork-of-the-day')
 				.then((res)=> res.text())
 				.then((data)=> {
 					console.log(data);
