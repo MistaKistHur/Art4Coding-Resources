@@ -5,11 +5,11 @@
 	    // navigator.serviceWorker('?');
 	    // ::>> Notes:                 //
 		(function hiding_body_override(){
-			document.body.style = {
+			document.body.style = JSON.parse({
 				"display":"block",
 				"opacity":"1",
 				"visibility":"visible"
-			}
+			});
 		})();
 	console.log("::>> Js File Loaded Successfully");
 	document.addEventListener("DOMContentLoaded",(e)=>{
