@@ -10,6 +10,17 @@
 			document.body.style = [];
 		})();
 
+function getWikiArt(){
+	fetch('https://www.wikiart.org/')
+	.then((res)=> res.text())
+	.then((data)=> {
+		console.log(data);
+	})
+	.catch((err)=>{
+		console.log(err);
+	})
+}
+
 	window.addEventListener("DOMContentLoaded", (event) => {
 		console.log("::>> DomC Ran Successfully");
 		 document.body.setAttribute("token", "x");
