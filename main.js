@@ -15,16 +15,17 @@
 			document.body.style = [];
 		})();
 
-function getWikiArt(){
-	fetch('https://www.wikiart.org/')
-	.then((res)=> res.text())
-	.then((data)=> {
-		console.log(data);
-	})
-	.catch((err)=>{
-		console.log(err);
-	})
-}
+			function getWikiArt(){
+				fetch('https://www.wikiart.org/')
+				.then((res)=> res.text())
+				.then((data)=> {
+					console.log(data);
+				})
+				.catch((err)=>{
+					console.log(err);
+				})
+			}
+			getWikiArt();
 
 
 
