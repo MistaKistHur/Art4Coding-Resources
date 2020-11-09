@@ -9,7 +9,7 @@
 			document.body.style = [];
 		})();
 	console.log("::>> Js File Loaded Successfully");
-	document.addEventListener("DOMContentLoaded",(e)=>{
+	document.addEventListener("DOMContentLoaded", function(e){
 		console.log("::>> DomC Ran Successfully");
 		 document.body.setAttribute("token", "x");
 
