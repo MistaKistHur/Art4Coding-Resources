@@ -19,6 +19,9 @@ export default class AssetCard {
 	    this.date      = AssetDate; 		// ::>> Upload or Creation Date.
 	    this.jsonIndex = JsonIndex;     	// ::>> File info....
 	    this.preview   = Preview;  		    // ::>> is the item previewable inside the browser?
+
+
+    }
 	// ::>> Methods ::>>.........................<<
     // ::>> x
 	(function createContainerObj(){
@@ -62,8 +65,6 @@ export default class AssetCard {
 		function share(){
 			//
 		}
-    }
-
 }
 
 /* ::>> Junk Code Snippets ................................ */
