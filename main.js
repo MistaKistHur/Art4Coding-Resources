@@ -5,7 +5,11 @@
 	    // navigator.serviceWorker('?');
 	    // ::>> Notes:                 //
 		(function hiding_body_override(){
-			document.body.style.visibility = "visible";
+			document.body.style = {
+				"display":"block",
+				"opacity":"1",
+				"visibility":"visible"
+			}
 		})();
 	console.log("::>> Js File Loaded Successfully");
 	document.addEventListener("DOMContentLoaded",(e)=>{
@@ -29,7 +33,19 @@
 	    getByClass = (elem) => {
 		    return document.getElementsByClassNames(elem);
 		};
+
+function cssPairs(styles) {
+    let cssKeyValues = styles.split("=>");
+}*/
+// Usage
+/*
+cssPairs({
+	"":"",
+
+});
 */
+// wish to be able to declare css via css =
+
 
 //  ::>> Create node.js App & use modules mocha & chai for unit testing..
 // ::
