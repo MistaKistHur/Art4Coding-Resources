@@ -20,7 +20,6 @@ export default class AssetCard {
 	    this.jsonIndex = JsonIndex;     	// ::>> File info....
 	    this.preview   = Preview;  		    // ::>> is the item previewable inside the browser?
 
-
     }
 	// ::>> Methods ::>>.........................<<
     // ::>> x
@@ -28,6 +27,7 @@ export default class AssetCard {
 		// Select the right container from the page.........
 		// Create A Div Element for the Card to be nested in,
 		let CContainer = document.createElement("div");
+		//let
 		    CContainer.setAttribute("id", "XCard-" + this.card_name);   // ${Asset_Card_Name}
 
 		    CContainer.style = {

@@ -81,7 +81,7 @@ cssPairs({
 		      const BodyObjectArr = document.all;
 		    const ProSettingCog = document.getElementById("Profile_Cog");
 		// ::>> V:: this is not executing?.........
-		Bodi.style.display ="block !important";
+		Bodi.style.display = "block !important";
 
 		ProSettingCog.addEventListener('mousedown',(e) => {
 		  // hidden nav transform...
