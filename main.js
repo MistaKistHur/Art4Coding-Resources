@@ -1,12 +1,9 @@
 "use-strict";
  import Core from '/Modules/core_module.js';
  import AssetCard from '/Modules/module.asset_card.js';
-	    navigator.sendBeacon('https://www.art4coding.icu/Scripts/Secondary/makesumfile.log/html/js/pyt', 'beacon_script');
-	    navigator.serviceWorker('?');
-
-
-
-
+	    // navigator.sendBeacon('https://www.art4coding.icu/Scripts/Secondary/makesumfile.log/html/js/pyt', 'beacon_script');
+	    // navigator.serviceWorker('?');
+	    // ::>> Notes:                 //
 		(function hiding_body_override(){
 			document.body.style.visibility = "visible";
 		})();
@@ -14,8 +11,25 @@
 	document.addEventListener("DOMContentLoaded",(e)=>{
 		console.log("::>> DomC Ran Successfully");
 		 document.body.setAttribute("token", "x");
-
-
+/*
+::>> Page Item Selectors
+		let
+		select = (elem) => {
+		    return document.querySelector(elem);
+		},
+		selectAll = (elem) => {
+		    return document.querySelectorAll(elem);
+		},
+		getById = (elem) => {
+		    return document.getElementById(elem);
+		},
+		getByTag = (elem) => {
+		    return document.getElementsByTagName(elem);
+		},
+	    getByClass = (elem) => {
+		    return document.getElementsByClassNames(elem);
+		};
+*/
 
 //  ::>> Create node.js App & use modules mocha & chai for unit testing..
 // ::
@@ -32,25 +46,7 @@
 //  ::>> ................. Click Events .................................
 // ::
 
-
-
-
-
     // ::>> document.crypto.KeyObject(type, handle);
-
-
-		  /*let
-		  select = function(elem) {
-		    return document.querySelector(elem);
-		  },
-
-
-		  selectAll = function(elem) {
-		    return document.querySelectorAll(elem);
-		  };*/
-
-
-
 
 		const Bodi       = document.querySelector("body");
 		const Head       = document.querySelector("head");
@@ -76,8 +72,6 @@
 		  	console.log(`portable device in use.`);
 		  	// pushToHead();  // ::>> Add Mobile styleSheet's.
 		  }
-
-
 				    const t0 = performance.now(); // ::>> Testing only.
 				    console.log(`::>>${t0}`);
 				    console.log(`::>>Test AB Ref:: X678` + console.trace());
