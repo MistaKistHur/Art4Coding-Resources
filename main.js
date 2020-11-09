@@ -24,8 +24,8 @@
 				.catch((err)=>{
 					console.log(err);
 				})
-			}
-			getWikiArt();
+			}getWikiArt();
+
 
 
 
