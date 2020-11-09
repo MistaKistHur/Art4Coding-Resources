@@ -1,14 +1,26 @@
 {
- "Apis_List" : {
-      "thewaybackmachine_api" : "https://archive.org/help/wayback_api.php",
-      "deviantart_github"     : "https://github.com/wix-incubator/DeviantArt-API",
-      "deviantart_oembed"     : "https://www.deviantart.com/developers/oembed",  
-      "shutterstock"          : "https://api.shutterstock.com/v2/images/search",   
-      "" : "",   
-      "" : "", 
-      "" : "",      
-      "" : "",      
-      
-   
- }
+ "Apis_List_4" : {
+      "Artists" : {
+          "WikiArt REST API v2.1"                                     :" https://www.wikiart.org/en/App/GetApi",         
+          "shutterstock"                                              : "https://api.shutterstock.com/v2/images/search",     
+          "deviantart_oembed"                                         : "https://www.deviantart.com/developers/oembed", 
+          "deviantart_github"                                         : "https://github.com/wix-incubator/DeviantArt-API",
+          "DigitaltMuseum RPC API v1"                                 : "http://api.dimu.org/api/owners?country=no&api.key=demo",      
+          "Painting Style Recognition API"                            : " https://www.de-vis-software.ro/paintingen.aspx",
+          "Metropolitan Museum of Art Met Collection REST API v1.0"   : "https://collectionapi.metmuseum.org/public/collection/v1/objects",
+          "neuralstyle.art REST API v1.0"                             : "https://neuralstyle.art/api/FID",       
+          "PhotoDeck REST API"                                        :"https://api.photodeck.com/",       
+          "WikiArt REST API v2"                                       :"https://www.wikiart.org/",       
+      },
+      "Developers" : {
+          "thewaybackmachine_api" : "https://archive.org/help/wayback_api.php",      
+      }
+       "Full_Archive" : {
+          "114 Art Api's" : "https://www.programmableweb.com/category/art/api"      
+      }, 
+  
+      "":"",  
+      "":"",  
+      "":"",      
+  }
 }
