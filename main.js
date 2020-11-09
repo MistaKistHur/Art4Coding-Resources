@@ -1,6 +1,7 @@
 "use-strict";
  import Core from '/Modules/core_module.js';
  import AssetCard from '/Modules/module.asset_card.js';
+	   console.log("::>> Js File Loaded Successfully");
 	    // navigator.sendBeacon('https://www.art4coding.icu/Scripts/Secondary/makesumfile.log/html/js/pyt', 'beacon_script');
 	    // navigator.serviceWorker('?');
 	    // ::>> Notes:                 //
@@ -8,7 +9,7 @@
 			// Setting inline styles back to an empty array.
 			document.body.style = [];
 		})();
-	console.log("::>> Js File Loaded Successfully");
+
 	window.addEventListener("DOMContentLoaded", (e) => {
 		console.log("::>> DomC Ran Successfully");
 		 document.body.setAttribute("token", "x");
