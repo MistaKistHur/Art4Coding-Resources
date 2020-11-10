@@ -531,9 +531,10 @@ nav ul li a:hover{
 
 #Discord_Svr{
 	position:absolute;
+	text-align:center;
 	top:calc(682px - 2vh); left:8px;
-	filter:hue-rotate(-10l--4deg);
-}
+	filter:hue-rotate(-104deg);
+    }
 .video_embeds{
 	position:relative; left:8px;
 	width:78vw;
