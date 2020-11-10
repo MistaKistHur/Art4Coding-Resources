@@ -23,34 +23,34 @@
 		})();
 
 
-	function getWikiArt(){
-		if (XMLHttpRequest)
-		{
+	//function getWikiArt(){
+		//if (XMLHttpRequest)
+		//{
 		// Create a request variable and assign a new XMLHttpRequest object to it.
-			var request = new XMLHttpRequest()
+			//var request = new XMLHttpRequest()
 			// Open a new connection, using the GET request on the URL endpoint
 
-			request.open('GET', 'https://cors-anywhere.herokuapp.com/https://www.wikiart.org/', true)
+			//request.open('GET', 'https://cors-anywhere.herokuapp.com/https://www.wikiart.org/', true)
 			// Block by cors try herokuapp proxy
 			// request.open('GET', 'https://www.wikiart.org/', true)
 
 			//request.setHeaders()
 
-			request.onload = function () {
+			//request.onload = function () {
 			// Begin accessing JSON data here
 				// Begin accessing JSON data here
-				var data = JSON.parse(this.response)
-				console.log(data);
+				//var data = JSON.parse(this.response)
+				//console.log(data);
 
-				data.forEach((movie) => {
+				//data.forEach((movie) => {
 				  // Log each movie's title
-				  console.log(movie.title)
-				})
-			}
+				  //console.log(movie.title)
+				//})
+			//}
 			// Send request
-			request.send()
-		}
-	}getWikiArt();
+			//request.send()
+		//}
+	//}getWikiArt();
 
 
 /*
