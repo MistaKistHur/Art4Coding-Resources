@@ -51,29 +51,31 @@ header{
 	word-wrap:none;
 	z-index:2;
     }
-
+/* ::>> Hiden Nav Searchar & Settings <<:: */
     #HiddenNavBar{
-    	text-align:center;
+    	position:absolute;
     	width:100%; min-width:100vw;
-    	transform:translateY(-128px);
+    	transform:translateY(-148px);
     	height:calc(105px + 0.2vh);
-    	align-items: center;
+    	align-items:center;
+    	text-align:center;
     	background:black;
     	z-index:;
         }
-    #HiddenNavBar input[type=text]{
-    	width:582px; height:40px;
-    	border-radius:4.28px;
-    	margin-top:18px;
-        }
-    #HiddenNavBar input[type=text]::placeholder{
-    	font-size:calc(1.08rem + 0.64vw + .72px);
-    	font-family:"Black_Chancery", Verdana, Tahoma;
-    	transform:translateZ(60px) !important;
-    	z-index:50 !important;
-    	font-weight:748;
-    	color:black;
-        }
+	    #HiddenNavBar input[type=text]{
+	    	width:582px; height:40px;
+	    	border-radius:4.28px;
+	    	margin-top:18px;
+	        }
+	    #HiddenNavBar input[type=text]::placeholder{
+	    	font-size:calc(1.08rem + 0.64vw + .72px);
+	    	font-family:"Black_Chancery", Verdana, Tahoma;
+	    	transform:translateZ(60px) !important;
+	    	z-index:50 !important;
+	    	font-weight:748;
+	    	color:black;
+	        }
+/* ::>> Hiden Nav Searchar & Settings <<:: */
 	nav{
 	  position:absolute;
 	  top:0 !important; left:0;
