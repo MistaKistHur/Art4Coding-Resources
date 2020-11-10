@@ -243,16 +243,30 @@
 <!-- .............................................. TopNavSvgIcons Menu ............................................................. -->
 <section id="TopNavSvgIcons">
 <!-- Tablet -->
-	<svg id="TabletSvgIcon" width="82px" height="82px" fill="url(#lin_grad1)" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-	     version="1.1" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 82 82" xml:space="preserve"
-	     style="filter:blur(0.21px) hue-rotate(-42deg);">
+	<svg id="TabletSvgIcon" width="82px" height="82px" fill="url(#lin_grad1)"
+         viewBox="0 0 100 100" x="0px" y="0px" xml:space="preserve"
+         version="1.1"  enable-background="new 0 0 82 82"
+	     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	     style="">
 	     	<defs>
-	     		<style>
+	     		<style>      /* ::>> The graphics within the Tablet are set to Gold, As the Hue has been changed this reset's the inner Graphics back to gold.. */
 	     			.reverse_hue{
 	     				filter:hue-rotate(42deg);
 	     			}
-
 	     		</style>
+			    <linearGradient id="lin_grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+			      <stop offset="0%"   style="stop-color:rgb(0,255,127); stop-opacity:1" />	<!-- SpringGreen  gradientTransform="rotate(33)" -->
+			      <stop offset="54%"  style="stop-color:rgb(0,128,255); stop-opacity:1" />	<!-- Dodger Blue -->
+			      <stop offset="100%" style="stop-color:rgb(220,20,60); stop-opacity:1" /> 	<!-- Crimson -->
+			    </linearGradient>
+			    <radialGradient id="rad_grad2" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+			      <stop offset="0%"   style="stop-color:rgb(0,255,127); stop-opacity:1" />	<!-- SpringGreen -->
+			      <stop offset="64%"  style="stop-color:rgb(0,128,255); stop-opacity:1" />	<!-- Dodger Blue -->
+				  <stop offset="78%"  style="stop-color:rgb(220,20,60); stop-opacity:1" /> 	<!-- Crimson -->
+			      <stop offset="84%"  style="stop-color:rgb(0,255,127); stop-opacity:1" />	<!-- SpringGreen -->
+			      <stop offset="92%"  style="stop-color:rgb(0,128,255); stop-opacity:1" />	<!-- Dodger Blue -->
+				  <stop offset="100%" style="stop-color:rgb(220,20,60); stop-opacity:1" /> 	<!-- Crimson -->
+	            </radialGradient>
 	     	</defs>
 	     <g><path fill="none" d="M45.939,8.364h6.934c0.578,0,1.047-0.471,1.047-1.049c0-0.577-0.469-1.048-1.047-1.048h-6.934 c-0.578,
 	     	                     0-1.048,0.471-1.048,1.048C44.892,7.894,45.361,8.364,45.939,8.364z"/>
@@ -354,11 +368,11 @@
 <!-- Search -->
 <!-- Desktop -->
 	<svg id="DesktopSvgIcon" width="84px" height="84px" fill="url(#lin_grad1)"
+         viewBox="0 0 100 100" x="0px" y="0px" enable-background="new 0 0 84 84"
+         version="1.1" class="svg svg_icon menu_item" xml:space="preserve"
 	     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-	     version="1.1" class="svg svg_icon menu_item" x="0px" y="0px"
-	     viewBox="0 0 100 100" xml:space="preserve" enable-background="new 0 0 84 84"
-	     tabindex="" aria-label="" contenteditable="true"
-	     style="filter:blur(0.21px) hue-rotate(-42deg);">
+	     tabindex="3" aria-label="" contenteditable="true"
+	     style="">
 	    <defs>
 		    <linearGradient id="lin_grad1" x1="0%" y1="0%" x2="100%" y2="0%">
 		      <stop offset="0%"   style="stop-color:rgb(0,255,127); stop-opacity:1" />	<!-- SpringGreen  gradientTransform="rotate(33)" -->
@@ -399,8 +413,10 @@
 <!-- Svg Cog Menu Activator -->
 	<div id="ProfileCog_Dv">  <!-- Linx 2 ::>> Profile, Settings, Users, Admins, Preferances, Themes, Uploads, UserDefined_Assets... -->
 		<svg id="Profile_Cog" width='84px' height='84px' fill="url(#lin_grad1)"
+             viewBox="0 0 94 97" x="0px" y="0px" xml:space="preserve"
+             tabindex="4" aria-label="" contenteditable="true"
 		     xmlns="http://www.w3.org/2000/svg" data-name="Layer 1"
-		     viewBox="0 0 94 97" x="0px" y="0px">
+		     >
 		    <title>Profile Cog</title>
 			  <defs>
 
