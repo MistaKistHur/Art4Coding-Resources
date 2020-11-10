@@ -24,6 +24,7 @@
 			// Open a new connection, using the GET request on the URL endpoint
 
 			request.open('GET', 'https://www.wikiart.org/', true)
+			request.setHeaders()
 
 			request.onload = function () {
 			// Begin accessing JSON data here
