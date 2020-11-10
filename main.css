@@ -281,7 +281,7 @@ nav ul li a:hover{
 		}
 	#SearchIcon{
 		position:absolute;
-		top:8px; right:178px;
+		top:8px; right:calc(178.8px + 0.8vw);
 		filter:hue-rotate(-42deg);
 		}
 	#ProfileCog_Dv{
