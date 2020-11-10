@@ -530,7 +530,10 @@ nav ul li a:hover{
 				}
 /* ::>> ... Revolver Maps Section > Hide the Scroll Bar ... ... ... ... */
 
-
+#Discord_Svr{
+	position:absolute;
+	top:880px; left:8px;
+}
 .video_embeds{
 	position:relative; left:8px;
 	width:78vw;
