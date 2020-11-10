@@ -273,11 +273,15 @@ nav ul li a:hover{
 		}
 	#TabletSvgIcon{
 		position:absolute;
-		right:calc(222px + 1.840vw);filter:blur(0.21px) hue-rotate(-42deg);
+		right:calc(222px + 1.840vw);
+		filter:blur(0.21px) hue-rotate(-42deg);
+		top:calc(7.4px + 0.08vh);
 		}
-	#DesktopSvgIcon{position:absolute; top:7.4px;
-		position:absolute;filter:blur(0.21px) hue-rotate(-42deg);
+	#DesktopSvgIcon{
+		position:absolute;
+        filter:blur(0.21px) hue-rotate(-42deg);
 		right:calc(88px + 0.8895vw + 0.002vh);
+		top:calc(7.4px + 0.08vh);
 		}
 	#SearchIcon{
 		position:absolute;
