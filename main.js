@@ -6,7 +6,12 @@
 		console.log("::>> DomC Ran Successfully");
 		 document.body.setAttribute("token", "x");
 
-
+	if ('pictureInPictureEnabled' in document) { // not sure how to select the css background image.
+		console.trace();
+		console.log(this);
+		console.log("::>> Picture in Picture enabled");
+		// currently unwated picture in picture icon on the stars background. remove it...
+	}
 	    // navigator.sendBeacon('https://www.art4coding.icu/Scripts/Secondary/makesumfile.log/html/js/pyt', 'beacon_script');
 	    // navigator.serviceWorker('?');
 	    // ::>> Notes:                 //
