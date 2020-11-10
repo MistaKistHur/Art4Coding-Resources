@@ -23,7 +23,10 @@
 			var request = new XMLHttpRequest()
 			// Open a new connection, using the GET request on the URL endpoint
 
-			request.open('GET', 'https://www.wikiart.org/', true)
+			request.open('GET', 'https://cors-anywhere.herokuapp.com/https://www.wikiart.org/', true)
+			// Block by cors try herokuapp proxy
+			// request.open('GET', 'https://www.wikiart.org/', true)
+
 			request.setHeaders()
 
 			request.onload = function () {
