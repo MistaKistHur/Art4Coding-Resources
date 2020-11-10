@@ -273,7 +273,7 @@ nav ul li a:hover{
 		}
 	#TabletSvgIcon{
 		position:absolute;
-		right:calc(222px + 1.840vw);
+		right:calc(228px + 0.840vw);
 		filter:blur(0.21px) hue-rotate(-42deg);
 		top:calc(7.4px + 0.08vh);
 		}
