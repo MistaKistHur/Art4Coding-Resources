@@ -286,7 +286,7 @@ nav ul li a:hover{
 		}
 	#ProfileCog_Dv{
 		position:absolute;
-		top:0;right:0;
+		top:0;right:calc(.8px + 0.08vw);
 		}
 
 /* ::>> Top Right NavBar Main Settings Icon & Search Activator ........... */
