@@ -27,7 +27,7 @@
 			// Block by cors try herokuapp proxy
 			// request.open('GET', 'https://www.wikiart.org/', true)
 
-			request.setHeaders()
+			//request.setHeaders()
 
 			request.onload = function () {
 			// Begin accessing JSON data here
