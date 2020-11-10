@@ -280,7 +280,7 @@ nav ul li a:hover{
 	#DesktopSvgIcon{
 		position:absolute;
         filter:blur(0.21px) hue-rotate(-42deg);
-		right:calc(88px + 0.8895vw + 0.002vh);
+		right:calc(102px + 0.4895vw + 0.0002vh);
 		top:calc(7.4px + 0.08vh);
 		}
 	#SearchIcon{
