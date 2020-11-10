@@ -11,6 +11,8 @@
 		console.log(this);
 		console.log("::>> Picture in Picture enabled");
 		// currently unwated picture in picture icon on the stars background. remove it...
+	}else{
+		console.log("::>> Picture in Picture not in Current Document");
 	}
 	    // navigator.sendBeacon('https://www.art4coding.icu/Scripts/Secondary/makesumfile.log/html/js/pyt', 'beacon_script');
 	    // navigator.serviceWorker('?');
