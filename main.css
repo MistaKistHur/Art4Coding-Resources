@@ -533,6 +533,7 @@ nav ul li a:hover{
 #Discord_Svr{
 	position:absolute;
 	top:880px; left:8px;
+	filter:hue-rotate(-174deg);
 }
 .video_embeds{
 	position:relative; left:8px;
