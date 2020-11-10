@@ -15,38 +15,39 @@
 			document.body.style = [];
 		})();
 
-	// Create a request variable and assign a new XMLHttpRequest object to it.
-		var request = new XMLHttpRequest()
-		// Open a new connection, using the GET request on the URL endpoint
-		request.open('GET', 'https://www.wikiart.org/', true)
 
-		request.onload = function () {
+function getWikiArt(){
+// Create a request variable and assign a new XMLHttpRequest object to it.
+	var request = new XMLHttpRequest()
+	// Open a new connection, using the GET request on the URL endpoint
+	request.open('GET', 'https://www.wikiart.org/', true)
+
+	request.onload = function () {
+	// Begin accessing JSON data here
 		// Begin accessing JSON data here
-			// Begin accessing JSON data here
-			var data = JSON.parse(this.response)
+		var data = JSON.parse(this.response)
+		console.log(data);
 
-			data.forEach((movie) => {
-			  // Log each movie's title
-			  console.log(movie.title)
+		data.forEach((movie) => {
+		  // Log each movie's title
+		  console.log(movie.title)
+		})
+	}
+	// Send request
+	request.send()
+}getWikiArt();
+/*
+
+			fetch('https://www.wikiart.org/en/App/home?json=2&amp;param=artwork-of-the-day')
+			.then((res)=> res.text())
+			.then((data)=> {
+				console.log(data);
 			})
-		}
-		// Send request
-		request.send()
+			.catch((err)=>{
+				console.log(err + console.trace());
+			})
 
-
-
-
-			function getWikiArt(){
-				fetch('https://www.wikiart.org/en/App/home?json=2&amp;param=artwork-of-the-day')
-				.then((res)=> res.text())
-				.then((data)=> {
-					console.log(data);
-				})
-				.catch((err)=>{
-					console.log(err + console.trace());
-				})
-			}getWikiArt();
-
+*/
 
 
 
