@@ -16,26 +16,32 @@
 		})();
 
 
-function getWikiArt(){
-// Create a request variable and assign a new XMLHttpRequest object to it.
-	var request = new XMLHttpRequest()
-	// Open a new connection, using the GET request on the URL endpoint
-	request.open('GET', 'https://www.wikiart.org/', true)
+	function getWikiArt(){
+		if (XMLHttpRequest)
+		{
+		// Create a request variable and assign a new XMLHttpRequest object to it.
+			var request = new XMLHttpRequest()
+			// Open a new connection, using the GET request on the URL endpoint
 
-	request.onload = function () {
-	// Begin accessing JSON data here
-		// Begin accessing JSON data here
-		var data = JSON.parse(this.response)
-		console.log(data);
+			request.open('GET', 'https://www.wikiart.org/', true)
 
-		data.forEach((movie) => {
-		  // Log each movie's title
-		  console.log(movie.title)
-		})
-	}
-	// Send request
-	request.send()
-}getWikiArt();
+			request.onload = function () {
+			// Begin accessing JSON data here
+				// Begin accessing JSON data here
+				var data = JSON.parse(this.response)
+				console.log(data);
+
+				data.forEach((movie) => {
+				  // Log each movie's title
+				  console.log(movie.title)
+				})
+			}
+			// Send request
+			request.send()
+		}
+	}getWikiArt();
+
+
 /*
 
 			fetch('https://www.wikiart.org/en/App/home?json=2&amp;param=artwork-of-the-day')
