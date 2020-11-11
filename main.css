@@ -268,7 +268,7 @@ nav ul li a:hover{
 		position:absolute;
 		top:0 !important;
 		right:0 !important;
-		width:calc(355px + 2.2vw);
+		width:calc(378px + 2.2vw);
 		height:calc(104px + 2.2vh);
 		}
 		.nav_arrow{
@@ -314,7 +314,7 @@ nav ul li a:hover{
         transition:filter 488ms ease-in-out 2ms,
                    transform 644ms ease-in-out 1ms;
 		}
-	svg defs{
+	/*svg defs{
 		display:none;
 	}   /* ::>> According to the docs for svg 2 defs should always be display none in the css see below */
 	    /* ::>> 5.4.2 defs < https://www.w3.org/TR/SVG2/struct.html#DefsElement */
