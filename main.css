@@ -287,7 +287,7 @@ nav ul li a:hover{
 			z-index:50;
 		    }
 	   .nav_arrow:hover{
-			transform:rotateZ(180deg);
+			transform:rotateZ(180deg) scale(1.22);
 			transition:all 317ms ease-in .8ms;
 			left:calc(37.98px + 0.098vw); top:calc(8.97px + .87vh);
 			box-shadow:4px 4.8px 4.88px -.78px rgb(3,119,252);
