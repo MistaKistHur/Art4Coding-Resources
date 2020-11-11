@@ -293,7 +293,7 @@ nav ul li a:hover{
 			box-shadow:4px 4.8px 4.88px -.78px rgb(3,119,252);
 			border:12.8px solid transparent;
 			border-bottom:12.8px solid red;
-			border-radius:14.2px;
+			border-radius:7.2px;
 			filter:blur(0.62px);
 			width:0; height:0;
 			cursor:pointer;
