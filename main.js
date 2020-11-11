@@ -27,7 +27,7 @@
 		  			HidNav.style.transform = "translateY(-378px) !important";
 		    });
 		if ('pictureInPictureEnabled' in document) { // not sure how to select the css background image.
-			console.trace(this);
+			console.trace(this || err);
 			console.log(this);
 			console.log("::>> Picture in Picture enabled");
 			// currently unwated picture in picture icon on the stars background. remove it...
