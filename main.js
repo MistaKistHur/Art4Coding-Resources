@@ -3,6 +3,10 @@
  // import AssetCard from '/Modules/module.asset_card.js';
 	console.log("::>> Js File Loaded Successfully");
 	window.addEventListener("DOMContentLoaded", (event) => {
+		(function hiding_body_override(){
+			// Setting inline styles back to an empty array.
+			document.body.style = [];
+		})();
 		console.log("::>> DomC Ran Successfully");
 		 document.body.setAttribute("token", "x");
 
@@ -34,10 +38,7 @@
 		// window.addEventListener("onresize", changePerspective({"x":"y"})=>{
 
 		// })
-		(function hiding_body_override(){
-			// Setting inline styles back to an empty array.
-			document.body.style = [];
-		})();
+
 
 		// ::>> V:: this is not executing?.........
 		Bodi.style.display = "block !important";
