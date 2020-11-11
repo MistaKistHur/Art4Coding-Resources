@@ -271,11 +271,11 @@ nav ul li a:hover{
 		width:calc(378px + 2.2vw);
 		height:calc(104px + 2.2vh);
 		}
-		.nav_arrow{
+       .nav_arrow{
 			display:block;
 			position:relative;
 			transform:rotateZ(90deg);
-			left:24px; top:8px;
+			left:calc(24.98px + 0.098vw); top:8px;
 			width:0; height:0;
 			border:12.4px solid transparent;
 			border-bottom:12.4px solid gold;
