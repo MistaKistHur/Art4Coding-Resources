@@ -183,7 +183,6 @@ h2, .h2italic{
 	background-clip:text;
 	white-space:nowrap;
 	color:transparent;
-
 	z-index:6;
     }
     /* ::>> Create Star BAckground for RVMaps. Behind the Gradient... */
