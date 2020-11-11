@@ -272,11 +272,13 @@ nav ul li a:hover{
 		height:calc(104px + 2.2vh);
 		}
 		.nav_arrow{
+			display:block;
 			position:relative;
 			left:0; top:8px;
 			width:0; height:0;
-			border:8px transparent;
-			border-bottom:8px solid gold;
+			border:18px solid transparent;
+			border-bottom:18px solid gold;
+			z-index:50;
 		    }
 	#TabletSvgIcon{
 		position:absolute;
