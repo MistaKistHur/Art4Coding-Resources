@@ -16,9 +16,55 @@
 		      const BodyObjectArr = document.all;
 		    const ProSettingCog = document.getElementById("Profile_Cog");
 
+		let nav_arr = document.querySelector('.nav_arrow');
+		    console.log(nav_arr);
+		    nav_arr.addEventListener('mosedown',(e) => {
+		  			// Todo...
+		  			HidNav.style.transform = "translateY(-378px) !important";
+		    });
+		if ('pictureInPictureEnabled' in document) { // not sure how to select the css background image.
+			console.trace();
+			console.log(this);
+			console.log("::>> Picture in Picture enabled");
+			// currently unwated picture in picture icon on the stars background. remove it...
+		}else{
+			console.log("::>> Picture in Picture not in Current Document");
+		}
+
 		// window.addEventListener("onresize", changePerspective({"x":"y"})=>{
 
 		// })
+		(function hiding_body_override(){
+			// Setting inline styles back to an empty array.
+			document.body.style = [];
+		})();
+
+		// ::>> V:: this is not executing?.........
+		Bodi.style.display = "block !important";
+
+		ProSettingCog.addEventListener('mousedown',(e) => {
+		  // hidden nav transform...
+		  HidNavBar.style.transform = `translateY(128px)`;
+		});
+
+		let isDevice = (/android|webos|iphone|ipad|ipod|blackberry/i.test(navigator.userAgent.toLowerCase()));
+
+		  if(isDevice){
+		  	// ::>> Use Mobile/Tablet Stylesheet & Media Query's..
+		  	console.log(`portable device in use.`);
+		  	// pushToHead();  // ::>> Add Mobile styleSheet's.
+		  };
+				    const t0 = performance.now(); // ::>> Testing only.
+				    console.log(`::>>${t0}`);
+				    console.log(`::>>Test AB Ref:: X678` + console.trace(this));
+
+	}); //::>> Closing Tag for the main DOMC event listener. ...................
+
+
+
+
+
+
 
 
 		    //window.onresize() = changePerspective({"":""})=>{
@@ -28,28 +74,13 @@
 
 
 
-		let nav_arr = document.querySelector('.nav_arrow');
-		    console.log(nav_arr);
-		    nav_arr.addEventListener('mosedown',(e) => {
-		  			// Todo...
-		  			HidNav.style.transform = "translateY(-378px) !important";
-		    });
 
-	if ('pictureInPictureEnabled' in document) { // not sure how to select the css background image.
-		console.trace();
-		console.log(this);
-		console.log("::>> Picture in Picture enabled");
-		// currently unwated picture in picture icon on the stars background. remove it...
-	}else{
-		console.log("::>> Picture in Picture not in Current Document");
-	}
+
+
 	    // navigator.sendBeacon('https://www.art4coding.icu/Scripts/Secondary/makesumfile.log/html/js/pyt', 'beacon_script');
 	    // navigator.serviceWorker('?');
 	    // ::>> Notes:                 //
-		(function hiding_body_override(){
-			// Setting inline styles back to an empty array.
-			document.body.style = [];
-		})();
+
 
 
 	//function getWikiArt(){
@@ -155,26 +186,7 @@ cssPairs({
     // ::>> document.crypto.KeyObject(type, handle);
 
 
-		// ::>> V:: this is not executing?.........
-		Bodi.style.display = "block !important";
 
-		ProSettingCog.addEventListener('mousedown',(e) => {
-		  // hidden nav transform...
-		  HidNavBar.style.transform = `translateY:128px;`;
-		});
-
-		let isDevice = (/android|webos|iphone|ipad|ipod|blackberry/i.test(navigator.userAgent.toLowerCase()));
-
-		  if(isDevice){
-		  	// ::>> Use Mobile/Tablet Stylesheet & Media Query's..
-		  	console.log(`portable device in use.`);
-		  	// pushToHead();  // ::>> Add Mobile styleSheet's.
-		  }
-				    const t0 = performance.now(); // ::>> Testing only.
-				    console.log(`::>>${t0}`);
-				    console.log(`::>>Test AB Ref:: X678` + console.trace());
-
-	}); //::>> Closing Tag for the main DOMC event listener. ...................
 
 	/* ::>> debugging.
 			debugger;
