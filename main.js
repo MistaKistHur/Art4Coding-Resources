@@ -24,7 +24,11 @@
 		    console.log(nav_arr);
 		    nav_arr.addEventListener('mousedown',(e) => {
 		  			// Todo...
-		  			HidNav.style.transform = "translateY(-378px) !important";
+		  		let cs = HidNav.getComputedStyles();
+		  		console.log(cs);
+
+
+		  			// HidNav.style.transform = "translateY(-378px) !important";
 		    });
 		if ('pictureInPictureEnabled' in document) { // not sure how to select the css background image.
 			console.trace(this || err);
