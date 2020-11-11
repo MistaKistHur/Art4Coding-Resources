@@ -24,7 +24,7 @@
 		    console.log(nav_arr);
 		    nav_arr.addEventListener('mousedown',(e) => {
 		  			// Todo...
-		  		let cs = getComputedStyles("HidNav");
+		  		let cs = getComputedStyles(HidNav);
 		  		console.log(cs);
 
 
