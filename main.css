@@ -175,6 +175,10 @@ h2, .h2italic{
 	position:absolute;
 	top:27.4px; left:7px;
 	width:calc(388px + 0.8vw);
+	background:radial-gradient(circle at 60%,
+		                  rgba(18,239,255,1),
+		                  rgba(18,239,255,1),
+		       #bf1a68,#bf1a68,#bf1a68,gold,gold,orange);
 	filter:hue-rotate(-33deg);
 	white-space:nowrap;
 	z-index:8;
