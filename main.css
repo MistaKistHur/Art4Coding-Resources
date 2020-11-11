@@ -280,7 +280,7 @@ nav ul li a:hover{
 			border:12.4px solid transparent;
 			border-bottom:12.4px solid gold;
 			filter:blur(0.32px);
-			box-shadow:-2.8px -8px 2.88px -.78px springgreen;
+			box-shadow:-4px -4.8px 2.88px -.78px springgreen;
 			border-radius:2.8px;
 			z-index:50;
 		    }
