@@ -275,7 +275,7 @@ nav ul li a:hover{
 			display:block;
 			position:relative;
 			transform:rotateZ(90deg);
-			left:0; top:8px;
+			left:24px; top:8px;
 			width:0; height:0;
 			border:12.4px solid transparent;
 			border-bottom:12.4px solid gold;
