@@ -296,6 +296,7 @@ nav ul li a:hover{
 			border-radius:27.2px;
 			filter:blur(0.62px);
 			width:0; height:0;
+			cursor:pointer;
 			z-index:50;
 	        }
 	#TabletSvgIcon{
