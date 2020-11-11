@@ -16,6 +16,10 @@
 		      const BodyObjectArr = document.all;
 		    const ProSettingCog = document.getElementById("Profile_Cog");
 
+		    window.onresize() = ({"":""})=>{
+
+		    }
+
 
 
 
