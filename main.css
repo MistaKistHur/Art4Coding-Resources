@@ -280,7 +280,7 @@ nav ul li a:hover{
 			border:12.4px solid transparent;
 			border-bottom:12.4px solid gold;
 			filter:blur(0.32px);
-			box-shadow:-8px 0 2px 2px springgreen;
+			box-shadow:0 -8px 2px -.8px springgreen;
 			z-index:50;
 		    }
 	#TabletSvgIcon{
