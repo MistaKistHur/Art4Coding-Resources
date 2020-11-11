@@ -276,25 +276,27 @@ nav ul li a:hover{
 			position:relative;
 			transform:rotateZ(90deg);
 			left:calc(24.98px + 0.098vw); top:8px;
-			width:0; height:0;
+			box-shadow:-4px -4.8px 2.88px -.78px springgreen;
+			transition:all 600ms ease-in .8ms;
 			border:12.4px solid transparent;
 			border-bottom:12.4px solid gold;
-			filter:blur(0.32px);
-			box-shadow:-4px -4.8px 2.88px -.78px springgreen;
 			border-radius:2.8px;
+			filter:blur(0.32px);
+			width:0; height:0;
 			z-index:50;
 		    }
 	   .nav_arrow:hover{
 			transform:rotateZ(180deg);
+			transition:all 600ms ease-in .8ms;
 			left:calc(24.98px + 0.098vw); top:8.8px;
-			width:0; height:0;
+			box-shadow:-4px -4.8px 2.88px -.78px skyblue;
 			border:12.8px solid transparent;
 			border-bottom:12.8px solid red;
-			filter:blur(0.30px);
-			box-shadow:-4px -4.8px 2.88px -.78px skyblue;
 			border-radius:2.2px;
+			filter:blur(0.30px);
+			width:0; height:0;
 			z-index:50;
-	   }
+	        }
 	#TabletSvgIcon{
 		position:absolute;
 		right:calc(248px + 0.840vw);
