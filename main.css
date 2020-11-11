@@ -173,7 +173,7 @@ h2, .h2italic{
     }
 .h2italic{
 	position:absolute;
-	top:-20.4px; left:77px;
+	top:27.4px; left:77px;
 	width:calc(388px + 0.8vw);
 	filter:hue-rotate(-33deg);
 	white-space:nowrap;
