@@ -22,9 +22,8 @@
 		let nav_arr = document.querySelector('.nav_arrow');
 		    nav_arr.addEventListener('mosedown',(e) => {
 		  			// Todo...
-		  			HidNav.style.transform = `translateY(178px)`;
+		  			HidNav.style.transform = `translateY(178px)!important`;
 		    });
-
 
 	if ('pictureInPictureEnabled' in document) { // not sure how to select the css background image.
 		console.trace();
