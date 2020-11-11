@@ -28,7 +28,7 @@
 
 
 
-		let nav_arr = document.querySelector('.nav_arrow')[0];
+		let nav_arr = document.querySelector('.nav_arrow');
 		    console.trace();
 		    nav_arr.addEventListener('mosedown',(e) => {
 		  			// Todo...
