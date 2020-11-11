@@ -285,13 +285,13 @@ nav ul li a:hover{
 			z-index:50;
 		    }
 	   .nav_arrow:hover{
-			transform:rotateZ(0deg);
+			transform:rotateZ(180deg);
 			left:calc(24.98px + 0.098vw); top:8.8px;
 			width:0; height:0;
 			border:12.8px solid transparent;
-			border-bottom:12.8px solid gold;
+			border-bottom:12.8px solid red;
 			filter:blur(0.30px);
-			box-shadow:-4px -4.8px 2.88px -.78px red;
+			box-shadow:-4px -4.8px 2.88px -.78px skyblue;
 			border-radius:2.2px;
 			z-index:50;
 	   }
