@@ -22,7 +22,7 @@
 		let nav_arr = document.querySelector('.nav_arrow');
 		    nav_arr.addEventListener('mosedown',(e) => {
 		  			// Todo...
-		  			HidNav.style.transform = `translateY(128px)`;
+		  			HidNav.style.transform = `translateY(178px)`;
 		    });
 
 
