@@ -294,7 +294,7 @@ nav ul li a:hover{
 			border:12.8px solid transparent;
 			border-bottom:12.8px solid red;
 			border-radius:2.2px;
-			filter:blur(0.30px);
+			filter:blur(0.62px);
 			width:0; height:0;
 			z-index:50;
 	        }
