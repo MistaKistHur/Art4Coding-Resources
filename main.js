@@ -16,9 +16,14 @@
 		      const BodyObjectArr = document.all;
 		    const ProSettingCog = document.getElementById("Profile_Cog");
 
-		    window.onresize() = changePerspective({"":""})=>{
+		window.addEventListener("onresize", changePerspective({"x":"y"})=>{
 
-		    }
+		    })
+
+
+		    //window.onresize() = changePerspective({"":""})=>{
+
+		    //}
 
 
 
