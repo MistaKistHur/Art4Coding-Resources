@@ -183,7 +183,7 @@ h2, .h2italic{
     .opensource_logo{
     	position:absolute;
     	width:calc(58.88px + 0.488vw);
-    	top:0; left:calc(288px + 0.85vw);
+    	top:0; left:calc(488px + 0.85vw);
     	filter:blur(0.49px);
         height:auto;
     	z-index:9;
