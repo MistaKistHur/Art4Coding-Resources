@@ -180,8 +180,10 @@ h2, .h2italic{
 		                  rgba(18,239,255,1),
 		#bf1a68,#bf1a68,#bf1a68,orange,gold);
 	filter:hue-rotate(-33deg);
-	color:transparent;
+	background-clip:text;
 	white-space:nowrap;
+	color:transparent;
+
 	z-index:8;
     }
     /* ::>> Create Star BAckground for RVMaps. Behind the Gradient... */
