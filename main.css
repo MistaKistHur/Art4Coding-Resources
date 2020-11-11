@@ -178,8 +178,9 @@ h2, .h2italic{
 	background:radial-gradient(circle at 60%,
 		                  rgba(18,239,255,1),
 		                  rgba(18,239,255,1),
-		       #bf1a68,#bf1a68,#bf1a68,gold,gold,orange);
+		       #bf1a68,#bf1a68,#bf1a68,orange,gold);
 	filter:hue-rotate(-33deg);
+	color:transparent;
 	white-space:nowrap;
 	z-index:8;
     }
