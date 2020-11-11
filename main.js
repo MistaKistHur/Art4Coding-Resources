@@ -6,6 +6,27 @@
 		console.log("::>> DomC Ran Successfully");
 		 document.body.setAttribute("token", "x");
 
+		const Bodi       = document.querySelector("body");
+		const Head       = document.querySelector("head");
+		const Header     = document.querySelector("header");
+		const HidNav     = document.getElementById('HiddenNavBar');
+		const Footer     = document.querySelector("footer");
+		const TopNavLinx = document.getElementById("TopNavLinx");
+		      let sts    = document.styleSheets;
+		      const BodyObjectArr = document.all;
+		    const ProSettingCog = document.getElementById("Profile_Cog");
+
+
+
+
+		 let nav_arr = document.querySelector('.nav_arrow');
+		 let
+		nav_arr.addEventListener('mosedown',(e) => {
+		  // Todo...
+		  HidNav.style.transform = `translateY:128px`;
+		});
+
+
 	if ('pictureInPictureEnabled' in document) { // not sure how to select the css background image.
 		console.trace();
 		console.log(this);
@@ -125,15 +146,7 @@ cssPairs({
 
     // ::>> document.crypto.KeyObject(type, handle);
 
-		const Bodi       = document.querySelector("body");
-		const Head       = document.querySelector("head");
-		const Header     = document.querySelector("header");
-		const HidNav     = document.getElementById('HiddenNavBar');
-		const Footer     = document.querySelector("footer");
-		const TopNavLinx = document.getElementById("TopNavLinx");
-		      let sts    = document.styleSheets;
-		      const BodyObjectArr = document.all;
-		    const ProSettingCog = document.getElementById("Profile_Cog");
+
 		// ::>> V:: this is not executing?.........
 		Bodi.style.display = "block !important";
 
