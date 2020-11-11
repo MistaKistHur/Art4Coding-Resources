@@ -282,6 +282,7 @@ nav ul li a:hover{
 			border-bottom:12.4px solid gold;
 			border-radius:2.8px;
 			filter:blur(0.32px);
+			will-change:auto;
 			width:0; height:0;
 			z-index:50;
 		    }
@@ -289,7 +290,7 @@ nav ul li a:hover{
 			transform:rotateZ(180deg);
 			transition:all 600ms ease-in .8ms;
 			left:calc(24.98px + 0.098vw); top:8.8px;
-			box-shadow:-4px -4.8px 2.88px -.78px skyblue;
+			box-shadow:4px 4.8px 2.88px -.78px skyblue;
 			border:12.8px solid transparent;
 			border-bottom:12.8px solid red;
 			border-radius:2.2px;
