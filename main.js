@@ -24,7 +24,7 @@
 		    console.log(nav_arr);
 		    nav_arr.addEventListener('mousedown',(e) => {
 		  			// Todo...
-		  		let cs = window.getComputedStyle(HidNav, null);
+		  		let cs = window.getComputedStyle("HidNav", null).getPropertyValue("transform");;
 		  		console.log(cs);
 
 
