@@ -275,7 +275,7 @@ nav ul li a:hover{
 			display:block;
 			position:relative;
 			transform:rotateZ(90deg);
-			left:calc(37.98px + 0.098vw); top:calc(8.97px + .87vh);
+			left:calc(39.98px + 0.104vw); top:calc(8.97px + .87vh);
 			box-shadow:-4px -4.8px 2.88px -.78px springgreen;
 			transition:all 788ms ease-in .8ms;
 			border:12.4px solid transparent;
@@ -289,7 +289,7 @@ nav ul li a:hover{
 	   .nav_arrow:hover{
 			transform:rotateZ(180deg) scale(1.22);
 			transition:all 307ms ease-in 24ms;
-			left:calc(37.98px + 0.098vw); top:calc(8.97px + .87vh);
+			left:calc(39.98px + 0.104vw); top:calc(8.97px + .87vh);
 			box-shadow:4px 4.8px 4.88px -.78px rgb(3,119,252);
 			border:12.8px solid transparent;
 			border-bottom:12.8px solid red;
