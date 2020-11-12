@@ -38,7 +38,8 @@ html,body{
 /* ::>> The 4 Link States <<:: CSS Tricks Referance ** L.O.V.E H.A.T.E > lv > ha */
     body a{
     	user-select:all;
-    	transition:all 1800ms ease-out 80ms;
+    	transition:all 4800ms ease-out 80ms;
+    	will-change: auto;
     	}
 	body a:link{
 		color:;
