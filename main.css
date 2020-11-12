@@ -35,6 +35,28 @@ html,body{
 	top:0; left:0;
     z-index:1;
     }
+/* ::>> The 4 Link States <<:: CSS Tricks Referance ** L.O.V.E H.A.T.E > lv > ha */
+	body a:link{
+		color:;
+		text-
+	}
+	body a:visited{
+		color:;
+		text-decoration:underline wavy green;
+		text-decoration-thickness:2px;
+	}
+	body a:hover{
+		color:;
+	}
+	body a:hover::selection{
+		background:linear-gradient(-33deg,green,blue);
+	}
+	body a:active{
+		color:;
+	}
+/* ::>> The 4 Link States <<:: */
+
+
 /* :: ALL Good Up2 Here <<:: Move Around When Sections are complete.. <<::.........................
 /* ::>> Change the Layout of this to be display:grid? flex? */
 /* ::>> Test this Out filter:url(); --> function takes the location of an XML file that specifies an SVG filter, and may include an anchor to a specific filter element
