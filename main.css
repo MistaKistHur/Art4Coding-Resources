@@ -72,8 +72,7 @@ html,body{
     	text-rendering:geometricPrecision;
 		}
 	svg text{
-		color:white;
-		fill:white;
+		fill:rgba(146,59,147,1);
 		font-size:calc(16.2px + 0.85vw);
     	text-rendering:geometricPrecision;
 		}
