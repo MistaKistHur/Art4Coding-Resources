@@ -38,6 +38,7 @@ html,body{
 /* ::>> The 4 Link States <<:: CSS Tricks Referance ** L.O.V.E H.A.T.E > lv > ha */
     body a{
     	user-select:all;
+    	transition:all 1800ms ease-out 80ms;
     	}
 	body a:link{
 		color:;
@@ -49,7 +50,7 @@ html,body{
 		}
 	body a:hover{
 		color:dodgerblue;
-		text-shadow: 1px 8px 1px springgreen;
+		text-shadow: -4.2px 8.88px 1px springgreen;
 		transition:all 880ms ease-in-out 18ms;
 		}
 	body a:hover::selection{
