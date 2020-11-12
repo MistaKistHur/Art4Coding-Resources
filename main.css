@@ -52,6 +52,7 @@ html,body{
 	}
 	body a:hover::selection{
 		background:linear-gradient(-33deg,green,blue);
+		color:springgreen;
 	}
 	body a:active{
 		color:;
