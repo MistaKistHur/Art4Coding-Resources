@@ -8,8 +8,13 @@
 	font-family:"Abassy";
 	src: url(/Imgs/z.Fonts/AbbasyCalligraphy.ttf) format("truetype");
     }
-    .disp_none{display:none;}.disp_block{display:block;}
-    .vis_hidden{visibility:hidden;}.pad8{padding:8px;}
+/*  ::>> Might move these out to a seperate file later.. */
+    .vis_hidden{visibility:hidden;}
+    .disp_none{display:none;}.temp_disp_none{display:none !important;}
+    .disp_block{display:block;}.disp_grid{display:grid;}
+
+    .pad8{padding:8px;}.pad28{padding:28px;}.pad48{padding:48px;}
+    .pad100{padding:100px;}.pad8_top_bottom{padding:8px 0 8px 0;}
     /* https://www.youtube.com/watch?v=XK7T3mY1V-w */
 *{
  margin:0; padding:0;
@@ -76,7 +81,7 @@ html,body{
 		font-size:calc(16.2px + 0.85vw);
     	text-rendering:geometricPrecision;
 		}
-	
+/*  ::>> Below styles aren't getting applied - taken from mdn or w3c */
 	svg|a:link, svg|a:visited {
 		font-size:calc(16.2px + 0.85vw);
 		fill:rgba(146,59,147,1);
