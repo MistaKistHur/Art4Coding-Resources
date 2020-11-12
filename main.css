@@ -68,8 +68,7 @@ html,body{
 /* Necessary to select only SVG <a> elements, and not also HTML’s.
    See warning below */
 	svg a{
-	    color:white;
-	    fill:white;
+		fill:rgba(146,59,147,1);
 		}
 	svg text{
 		color:white;
