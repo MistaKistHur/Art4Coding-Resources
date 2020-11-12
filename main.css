@@ -38,25 +38,26 @@ html,body{
 /* ::>> The 4 Link States <<:: CSS Tricks Referance ** L.O.V.E H.A.T.E > lv > ha */
     body a{
     	user-select:all;
-    }
+    	}
 	body a:link{
 		color:;
-	}
+		}
 	body a:visited{
 		color:;
 		text-decoration:underline wavy green;
 		text-decoration-thickness:2px;
-	}
+		}
 	body a:hover{
-		color:;
-	}
+		color:dodgerblue;
+		text-shadow: 1px 1px 1px springgreen;
+		}
 	body a:hover::selection{
 		background:linear-gradient(-33deg,green,blue);
 		color:springgreen;
-	}
+		}
 	body a:active{
 		color:;
-	}
+		}
 /* ::>> The 4 Link States <<:: */
 
 
