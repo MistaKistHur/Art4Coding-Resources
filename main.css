@@ -39,6 +39,7 @@ html,body{
     body a{
     	user-select:all;
     	transition:all 4800ms ease-out 80ms;
+    	text-rendering:geometricPrecision;
     	will-change: auto;
     	}
 	body a:link{
