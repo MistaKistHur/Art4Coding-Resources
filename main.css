@@ -36,9 +36,11 @@ html,body{
     z-index:1;
     }
 /* ::>> The 4 Link States <<:: CSS Tricks Referance ** L.O.V.E H.A.T.E > lv > ha */
+    body a{
+    	user-select:all;
+    }
 	body a:link{
 		color:;
-		text-
 	}
 	body a:visited{
 		color:;
