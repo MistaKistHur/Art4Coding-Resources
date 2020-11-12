@@ -82,6 +82,7 @@ html,body{
 	    cursor: pointer;
 		}       /* ::>> Font-size is having no effect here in the css */
 				/* ::>> is being responsive though for some reason. */
+				/* ::>> & the hover effect text-shadow is not moving as far in svg as outside of.. ? */
 	svg|a text,
 	text svg|a {
 	    fill: blue; /* Even for text, SVG uses fill over color */
