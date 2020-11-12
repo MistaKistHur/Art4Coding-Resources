@@ -63,14 +63,34 @@ html,body{
 		color:;
 		}
 /* ::>> The 4 Link States <<:: */
+
+@namespace svg url(http://www.w3.org/2000/svg);
+/* Necessary to select only SVG <a> elements, and not also HTML’s.
+   See warning below */
 	svg a{
 	    color:white;
+	    fill:white;
 		}
 	svg text{
 		color:white;
-		font-size:calc(16.2px + 0.85vw)
+		fill:white;
+		font-size:calc(16.2px + 0.85vw);
+		}
+	svg|a:link, svg|a:visited {
+	    cursor: pointer;
+		font-size:calc(16.2px + 0.85vw);
 		}
 
+	svg|a text,
+	text svg|a {
+	    fill: blue; /* Even for text, SVG uses fill over color */
+	    text-decoration: underline;
+		font-size:calc(16.2px + 0.85vw);
+		}
+
+	svg|a:hover, svg|a:active {
+	  	outline: dotted 1px blue;
+		}
 /* :: ALL Good Up2 Here <<:: Move Around When Sections are complete.. <<::.........................
 /* ::>> Change the Layout of this to be display:grid? flex? */
 /* ::>> Test this Out filter:url(); --> function takes the location of an XML file that specifies an SVG filter, and may include an anchor to a specific filter element
