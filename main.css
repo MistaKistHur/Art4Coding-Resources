@@ -51,7 +51,7 @@ html,body{
 	body a:hover{
 		color:dodgerblue;
 		text-shadow: -4.2px 8.88px 1px springgreen;
-		transition:all 880ms ease-in-out 18ms;
+		transition:all 1108ms ease-in-out 18ms;
 		}
 	body a:hover::selection{
 		background:linear-gradient(-33deg,green,blue);
