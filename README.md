@@ -5,9 +5,6 @@ Or Share Our Facebook Page: <a href="https://www.facebook.com/OpenSourceProjectz
 Help Build our community on our Discord Server: <a href="https://discord.gg/Ka2N7yt55b">Art4Coding Discord Invite</a><br>
 Our Discord Server's Json Api: <a href="https://discord.com/api/guilds/773912708180344872/widget.json">Art4Coding json api</a><br>
 
-
-<iframe src="https://discord.com/widget?id=773912708180344872&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-
 # Art and Coding Resources
  Resources for creativity
 
@@ -33,7 +30,8 @@ Topics of interest for this webpage & all subsequent pages:
   * Phaser.
   * Unity.  
   * CGI.
-  
+
+<span>Support the Project on Kofi</span>  
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/N4N62IBAH)
 
 
