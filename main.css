@@ -76,6 +76,7 @@ html,body{
 		font-size:calc(16.2px + 0.85vw);
     	text-rendering:geometricPrecision;
 		}
+	
 	svg|a:link, svg|a:visited {
 		font-size:calc(16.2px + 0.85vw);
 		fill:rgba(146,59,147,1);
