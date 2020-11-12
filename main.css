@@ -81,7 +81,7 @@ html,body{
 		fill:rgba(146,59,147,1);
 	    cursor: pointer;
 		}       /* ::>> Font-size is having no effect here in the css */
-
+				/* ::>> is being responsive though for some reason. */
 	svg|a text,
 	text svg|a {
 	    fill: blue; /* Even for text, SVG uses fill over color */
