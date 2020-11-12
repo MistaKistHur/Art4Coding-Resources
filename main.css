@@ -63,12 +63,13 @@ html,body{
 		color:;
 		}
 /* ::>> The 4 Link States <<:: */
-svg a{
-    color:white;
-}
-svg text{
-	color:white;
-}
+	svg a{
+	    color:white;
+		}
+	svg text{
+		color:white;
+		font-size:calc(16.2px + 0.85vw)
+		}
 
 /* :: ALL Good Up2 Here <<:: Move Around When Sections are complete.. <<::.........................
 /* ::>> Change the Layout of this to be display:grid? flex? */
