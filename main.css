@@ -77,9 +77,10 @@ html,body{
 		font-size:calc(16.2px + 0.85vw);
 		}
 	svg|a:link, svg|a:visited {
-	    cursor: pointer;
 		font-size:calc(16.2px + 0.85vw);
-		}
+		fill:rgba(146,59,147,1);
+	    cursor: pointer;
+		}       /* ::>> Font-size is having no effect here in the css */
 
 	svg|a text,
 	text svg|a {
