@@ -158,7 +158,7 @@ min-height:calc(528px + 48px + .8vh)!important;
 	  z-index:3;
 	  }
  .temp_override_remove{
- 	min-height:calc(528px + 48px + 8vh)!important;
+ 	min-height:calc(528px + 48px + .8vh)!important;
  }
 	/* ::>> NavBar & its contents need to be higher up in z-index than the initial content of the lower page. */
 	input[type=hidden]{
