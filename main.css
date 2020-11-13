@@ -195,12 +195,6 @@ header{
       word-wrap:inherit;
 	  z-index:3;
 	  }
-	/* ::>> ........... TEMP_REMOVE .......... <<:: */
-			/* .temp_override_remove{
-			 	min-height:calc(528px + 48px + .8vh)!important;
-			}  .. */
-	/* ::>> ........... TEMP_REMOVE .......... <<:: */
-	/* ::>> NavBar & its contents need to be higher up in z-index than the initial content of the lower page. */
 	input[type=hidden]{
 		display:none;
 		visibility:hidden;
@@ -208,6 +202,13 @@ header{
 		width:0 !important;
 		height:0 !important;
 	    }
+	/* ::>> ........... TEMP_REMOVE .......... <<:: */
+			/* .temp_override_remove{
+			 	min-height:calc(528px + 48px + .8vh)!important;
+			}  .. */
+	/* ::>> ........... TEMP_REMOVE .......... <<:: */
+	/* ::>> NavBar & its contents need to be higher up in z-index than the initial content of the lower page. */
+
 		i.blob{
 			position:absolute;
 			top:8px; left:8px;
@@ -237,28 +238,24 @@ header{
 		    }
 h1{
 	position:absolute;
-	top:0.02px; left:calc(8.88px + 0.87vw);
-	font-family:"Black_Chancery", Verdana, Tahoma;
 	font-size:calc(24.95px + 2.08vw);
+	font-family:"Black_Chancery", Verdana, Tahoma;
+	top:0.02px; left:calc(8.88px + 0.87vw);
 	transition:all 980ms ease-in-out 8ms;
 	filter:blur(0.54px) hue-rotate(0deg);
-	text-rendering: geometricPrecision;
-        -webkit-backface-visibility:hidden;
-	    -webkit-font-smoothing:antialiased;
+      -webkit-backface-visibility:hidden;
+	  -webkit-font-smoothing:antialiased;
 	background:linear-gradient(-33deg,#bf1a68,#bf1a68,
 		                            rgb(229, 235, 52),
 		                            rgb(11, 143, 130));
-	        background-clip:text;
-	-webkit-background-clip:text;
-	/* transform: scaleX(1) translateX(0); */
-	z-index:6 !important;
+	text-rendering: geometricPrecision;
 	padding:.8px 4.8px 34.8px .2px;
+	        background-clip:text;
+	-webkit-background-clip:text;	/* transform: scaleX(1) translateX(0); */
+	z-index:6 !important;
 	color:transparent;
 	will-change:auto;
     }
-
-
-
 h1:hover{
 	transition:all 980ms ease-in-out 8ms;
 	filter:blur(0.82px) hue-rotate(-122deg);
@@ -270,18 +267,19 @@ h1:hover{
 	}
 h2, .h2italic{
 	position:absolute;
-	left:22.8px; top:calc(47px + 0.28vh);
-	font-family:"Black_Chancery", Verdana, Tahoma;
+	background-size:contain;
 	font-size:calc(38.44px + 0.08vmax);
+	top:calc(47px + 0.28vh); left:22.8px;
+	font-family:"Black_Chancery", Verdana, Tahoma;
 	background:radial-gradient(circle at 60%,
 		                  rgba(18,239,255,1),
 		                  rgba(18,239,255,1),
 		       #bf1a68,#bf1a68,#bf1a68,gold);
-	background-clip:text; -webkit-background-clip:text;
-	background-size:contain;
-	padding:8.8px;
-	font-weight:850;
+	        background-clip:text;
+	-webkit-background-clip:text;
 	color:transparent;
+	font-weight:850;
+	padding:8.8px;
 	z-index:7;
     }
 .h2italic{
@@ -300,8 +298,8 @@ h2, .h2italic{
     }
     /* ::>> Create Star BAckground for RVMaps. Behind the Gradient... */
     .opensource_logo{
+    	display:none;
     	position:absolute;
-    	display: none;
     	width:calc(58.88px + 0.488vw);
     	top:0; left:calc(488px + 0.85vw);
     	filter:blur(0.49px);
@@ -312,10 +310,10 @@ h2, .h2italic{
     	content:"";
     	position:relative;
     	top:880px; left:0;
-    	background:white;
     	width:58px; height:58px;
-    	border-radius:50%;
-    	filter:blur(5.8px);
+		filter:blur(5.8px);
+		border-radius:50%;
+    	background:white;
     	z-index:10;
         }
 h3{
@@ -326,17 +324,17 @@ h3{
 	background:linear-gradient(-33deg,
 		                  black,orange,yellow,orange,black);
 	background-clip:text; -webkit-background-clip:text;
-	font-weight:750;
 	color:transparent;
+	font-weight:750;
 	z-index:11;
     }
 nav ul{
 	position:absolute;
-	background:transparent;
-	visibility: hidden;
 	top:0px; right:78px;
-	max-width:74vw; max-height:calc(128.8px + 5vh);
+	background:transparent;
 	margin-right:calc(18.8px + 0.8vw);
+    max-width:74vw; max-height:calc(128.8px + 5vh);
+	visibility: hidden;
 	margin-top:0.1vh;
 	z-index:12;
 	}
@@ -384,9 +382,9 @@ nav ul li a:hover{
         Main styles inline in svg [:This Container not Svg]....... Expr with order....
 		Maybe Tablet, Search, Deskt, Cog    **GET EVT Lstnrs sorted....**
         */
-	#TopNavSvgIcons{ 				    /* ::>>..Section Selector..<<:: */
+	#TopNavSvgIcons{
+	 	display:block;			    /* ::>>..Section Selector..<<:: */
 		position:absolute;
-		display:block;
 		top:0 !important;
 		right:0 !important;
 		width:calc(378px + 2.2vw);
@@ -396,23 +394,26 @@ nav ul li a:hover{
        .nav_arrow{
 			display:none;
 			position:relative;
-			transform:rotateZ(90deg);
-			left:calc(39.98px + 0.104vw); top:calc(8.97px + .87vh);
+			width:0; height:0;
+			top:calc(8.97px + .87vh);
+			left:calc(39.98px + 0.104vw);
 			box-shadow:-4px -4.8px 2.88px -.78px springgreen;
 			transition:all 788ms ease-in .8ms;
 			border:12.4px solid transparent;
 			border-bottom:12.4px solid gold;
+			transform:rotateZ(90deg);
 			border-radius:2.8px;
 			filter:blur(0.32px);
 			will-change:auto;
-			width:0; height:0;
+
 			z-index:50;
 		    }
 	   .nav_arrow:hover{
+			top:calc(8.97px + .87vh);
+			left:calc(39.98px + 0.104vw);
 			transform:rotateZ(180deg) scale(1.294);
-			transition:all 307ms ease-in 24ms;
-			left:calc(39.98px + 0.104vw); top:calc(8.97px + .87vh);
 			box-shadow:4px 4.8px 4.88px -.78px rgb(3,119,252);
+			transition:all 307ms ease-in 24ms;
 			border:12.8px solid transparent;
 			border-bottom:12.8px solid red;
 			border-radius:7.2px;
