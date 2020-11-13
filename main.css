@@ -149,7 +149,7 @@ min-height:calc(528px + 18px)!important;
 	  position:absolute;
 	  top:0 !important; left:0;
 	  width:100vw; height:calc(128.8px + (0.85vh + 0.22vmax));
- 	min-height:calc(528px + 8px)!important;
+ 	           /*min-height:calc(528px + 8px)!important;*/
 	  overflow:hidden !important;
 	  margin-bottom:18px;
 	  min-width:100%;
