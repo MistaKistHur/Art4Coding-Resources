@@ -1,0 +1,10 @@
+Github Repo has Default max size of 1gb => 1000mb
+code base - 550mb
+stock     - 450mb
+
+stock photo's max 1.55mb
+
+can host 290 stock images, on github ++ external sources.
+         450mb / 1.55mb = 290.322.
+    0r 185 + offsite/stock........
+    
