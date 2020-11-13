@@ -7,7 +7,7 @@ Our Discord Server's Json Api: <a href="https://discord.com/api/guilds/773912708
 
 # Art and Coding Resources
  Resources for creativity
-[![Stargazers repo roster for @MistaKistHur/Art4Coding-Resources](https://reporoster.com/stars/MistaKistHur/Art4Coding-Resources)](https://github.com/MistaKistHur/Art4Coding-Resources/stargazers)
+[![Stargazers repo roster for @MistaKistHur/Art4Coding-Resources](https://reporoster.com/stars/MistaKistHur/Art4Coding-Resources)](https://github.com/MistaKistHur/Art4Coding-Resources/stargazers)<br<br><br>
  The Aim of this page is to collect multiple resources, learning out-lets and assets for
 people who enjoy bothcoding and artwork. This is a work in progress and hopefully will be updated
 on a regular basis. Anybody is welcome to contribute, & add other resourcs.
