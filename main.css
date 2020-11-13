@@ -349,6 +349,7 @@ nav ul li a:hover{
 		right:0 !important;
 		width:calc(378px + 2.2vw);
 		height:calc(104px + 2.2vh);
+		z-index:15;
 		}
        .nav_arrow{
 			display:none;
@@ -383,21 +384,25 @@ nav ul li a:hover{
 		right:calc(248px + 0.840vw);
 		filter:blur(0.21px) hue-rotate(-42deg);
 		top:calc(7.4px + 0.08vh);
+		z-index:;
 		}
 	#SearchIcon{
 		position:absolute;
 		top:8px; right:calc(178.8px + 0.8vw);
 		filter:hue-rotate(-42deg);
+		z-index:;
 		}
 	#DesktopSvgIcon{
 		position:absolute;
         filter:blur(0.21px) hue-rotate(-42deg);
 		right:calc(102px + 0.4895vw + 0.0002vh);
 		top:calc(7.4px + 0.08vh);
+
 		}
 	#ProfileCog_Dv{
 		position:absolute;
 		top:0; right:calc(.8px + 0.08vw);
+
 		}
 	#Profile_Cog{
 		position:absolute;
@@ -406,6 +411,7 @@ nav ul li a:hover{
 		filter:hue-rotate(-42deg) blur(0.51px);
 		transition:filter 488ms ease-in-out 2ms,
 		           transform 744ms ease-in-out 8ms;
+
 		}
 	#Profile_Cog:hover{
 		cursor: pointer;
