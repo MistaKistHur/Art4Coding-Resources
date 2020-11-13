@@ -111,8 +111,8 @@ header{
 
 
 
-min-height:calc(528px + 48px + 8vh)!important;
-	
+min-height:calc(528px + 48px + .8vh)!important;
+
     border-bottom:2.8px solid #bf1a68;
 	overflow:hidden !important;
 	background:linear-gradient(-33deg,#2e2e2e,#1e1f26);
