@@ -108,9 +108,9 @@ header{
 	position:absolute;
 	top:0 !important; left:0 !important;
 	width:100vw; height:calc(128.8px + (0.85vh + 0.22vmax));
-/* ::>> ........... TEMP_REMOVE .......... <<:: */
-		min-height:calc(528px + 18px)!important;
-/* ::>> ........... TEMP_REMOVE .......... <<:: */
+	/* ::>> ........... TEMP_REMOVE .......... <<:: */
+			min-height:calc(528px + 18px)!important;
+	/* ::>> ........... TEMP_REMOVE .......... <<:: */
     border-bottom:2.8px solid #bf1a68;
 	overflow:hidden !important;
 	background:linear-gradient(-33deg,#2e2e2e,#1e1f26);
@@ -147,7 +147,9 @@ header{
 	  position:absolute;
 	  top:0 !important; left:0;
 	  width:100vw; height:calc(128.8px + (0.85vh + 0.22vmax));
- 	           /*min-height:calc(528px + 8px)!important;*/
+	/* ::>> ........... TEMP_REMOVE .......... <<:: */
+ 	        /* min-height:calc(528px + 8px)!important; */
+	/* ::>> ........... TEMP_REMOVE .......... <<:: */
 	  overflow:hidden !important;
 	  margin-bottom:18px;
 	  min-width:100%;
@@ -155,9 +157,11 @@ header{
       word-wrap:inherit;
 	  z-index:3;
 	  }
-/* .temp_override_remove{
- 	min-height:calc(528px + 48px + .8vh)!important;
- }*/
+	/* ::>> ........... TEMP_REMOVE .......... <<:: */
+			/* .temp_override_remove{
+			 	min-height:calc(528px + 48px + .8vh)!important;
+			}  .. */
+	/* ::>> ........... TEMP_REMOVE .......... <<:: */
 	/* ::>> NavBar & its contents need to be higher up in z-index than the initial content of the lower page. */
 	input[type=hidden]{
 		display:none;
@@ -259,6 +263,7 @@ h2, .h2italic{
     /* ::>> Create Star BAckground for RVMaps. Behind the Gradient... */
     .opensource_logo{
     	position:absolute;
+    	display: none;
     	width:calc(58.88px + 0.488vw);
     	top:0; left:calc(488px + 0.85vw);
     	filter:blur(0.49px);
@@ -343,6 +348,7 @@ nav ul li a:hover{
         */
 	#TopNavSvgIcons{ 				    /* ::>>..Section Selector..<<:: */
 		position:absolute;
+		display:block;
 		top:0 !important;
 		right:0 !important;
 		width:calc(378px + 2.2vw);
@@ -388,7 +394,7 @@ nav ul li a:hover{
 		position:absolute;
 		top:8px; right:calc(178.8px + 0.8vw);
 		filter:hue-rotate(-42deg);
-		z-index:;
+		z-index:78;
 		}
 	#DesktopSvgIcon{
 		position:absolute;
