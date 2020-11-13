@@ -15,7 +15,10 @@
 
     .pad8{padding:8px;}.pad28{padding:28px;}.pad48{padding:48px;}
     .pad100{padding:100px;}.pad8_top_bottom{padding:8px 0 8px 0;}
-    /* https://www.youtube.com/watch?v=XK7T3mY1V-w */
+
+    .spr_green_clr{background:springgreen;color:springgreen;}				/*Dark Pinkish Color ::>> #bf1a68 */
+    .crimson_clr{background:crimson;color:crimson;}    						/* https://www.youtube.com/watch?v=XK7T3mY1V-w */
+    .blk_clr{background:crimson;color:crimson;}
 *{
  margin:0; padding:0;
  text-decoration:none;
@@ -47,6 +50,32 @@ html,body{
 	grid-auto-columns:;
 	grid-gap:;
 	}
+/* ::..::Color_Codez..&..Shorthand..::..::
+	Aqua		#00ffff		#0ff
+	Black		#000000		#000
+	Blue		#0000ff		#00f
+	Fuchsia		#ff00ff		#f0f
+	Gray		#808080
+	Green		#008000
+	Lime		#00ff00		#0f0
+	Maroon		#800000
+	Navy		#000080
+	Olive		#808000
+	Purple		#800080
+	Red			#ff0000		#f00
+	Silver		#c0c0c0
+	Teal		#008080
+	White		#ffffff		#fff
+	Yellow		#ffff00		#ff0
+::>>            Notes..............
+
+									*/
+    body a{
+    	user-select:all;
+    	transition:all 4800ms ease-out 80ms;
+    	text-rendering:geometricPrecision;
+    	will-change: auto;
+    	}
 	/* Top 8th Body Section - Resources */
 	/* 2nd 8th Body Section - Articles */
 	/* 3rd 8th Body Section - Assets */
@@ -55,12 +84,7 @@ html,body{
 	/* 7th 8th Body Section - Projects */
 	/* 8th 8th Body Section - Crates[Bundled Zip Resources & Assets.. ie fonts, stock, code snippets, tutorials etc...] */
 /* ::>> The 4 Link States <<:: CSS Tricks Referance ** L.O.V.E H.A.T.E > lv > ha */
-    body a{
-    	user-select:all;
-    	transition:all 4800ms ease-out 80ms;
-    	text-rendering:geometricPrecision;
-    	will-change: auto;
-    	}
+
 	body a:link{
 		color:;
 		}
@@ -573,12 +597,12 @@ nav ul li a:hover{
 
 
 
-.face_group{
-	position:absolute;
-	top:62px; right:calc(18.8px + 0.25vw)!important;
-	display:none !important; /* Temp important */
-	z-index:15;
-    }
+	.faceb_group_icon{
+		position:absolute;
+		top:62px; right:calc(18.8px + 0.25vw)!important;
+		display:none !important; /* Temp important */
+		z-index:15;
+	    }
 /* ::>> Kofi Donate Button & Container */
 .btn-container{
 	position:absolute;
@@ -690,15 +714,16 @@ nav ul li a:hover{
 
 /* List stock imgs used ::>> https://www.pikrepo.com/fjpww/snow-covered-trees-and-moon*/
 
-.opensource_project_linx{
-	position:absolute;
-	top:880px;
-}
-#Deviant_Group{
-	position:absolute;
-	top:500px;
-}
-
+/* ::........::>> External Links Section <<::..........:: */
+	.opensource_project_linx{
+		position:absolute;
+		top:880px;
+		}
+	#Deviant_Group{
+		position:absolute;
+		top:500px;
+		}
+/* ::........::>> External Links Section <<::..........:: */
 
 
 
@@ -717,7 +742,7 @@ nav ul li a:hover{
 	.audioplayer-time{
 		transform:scale(0.77);
 	    }
-	.logo{
+	.logo{			/* :!!:..To vague..:!!: */
 		overflow:hidden !important;
 		filter:hue-rotate(188deg);
 		border-radius:59.2%;
