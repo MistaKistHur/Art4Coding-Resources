@@ -157,9 +157,9 @@ min-height:calc(528px + 18px)!important;
       word-wrap:inherit;
 	  z-index:3;
 	  }
- .temp_override_remove{
+/* .temp_override_remove{
  	min-height:calc(528px + 48px + .8vh)!important;
- }
+ }*/
 	/* ::>> NavBar & its contents need to be higher up in z-index than the initial content of the lower page. */
 	input[type=hidden]{
 		display:none;
@@ -351,7 +351,7 @@ nav ul li a:hover{
 		height:calc(104px + 2.2vh);
 		}
        .nav_arrow{
-			display:block;
+			display:none;
 			position:relative;
 			transform:rotateZ(90deg);
 			left:calc(39.98px + 0.104vw); top:calc(8.97px + .87vh);
