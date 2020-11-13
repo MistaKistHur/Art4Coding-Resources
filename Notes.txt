@@ -7,4 +7,8 @@ stock photo's max 1.55mb
 can host 290 stock images, on github ++ external sources.
          450mb / 1.55mb = 290.322.
     0r 185 + offsite/stock........
+       180
+    would leave => 720mb apprx for code base..  
+    possibly more if converted to webp or jpeg xl...
+    packed into zip's?
     
