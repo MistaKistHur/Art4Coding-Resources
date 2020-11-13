@@ -599,6 +599,7 @@ nav ul li a:hover{
 /* ::>> ... Revolver Maps Section > Hide the Scroll Bar ... ... ... ... */
 
 		#RMapsHoverActivator{
+			display:none;
 			position:absolute;
 			top:148px; right:18px;
 			transform-style:preserve-3d;
