@@ -40,6 +40,20 @@ html,body{
 	top:0; left:0;
     z-index:1;
     }
+#Body_Grid_Wrapper{
+	display:grid;
+	grid-template-areas:;
+	grid-template-rows:;
+	grid-auto-columns:;
+	grid-gap:;
+	}
+	/* Top 8th Body Section - Resources */
+	/* 2nd 8th Body Section - Articles */
+	/* 3rd 8th Body Section - Assets */
+	/* 4th 8th Body Section - Top Artists */
+	/* 6th 8th Body Section - Top Developers */
+	/* 7th 8th Body Section - Projects */
+	/* 8th 8th Body Section - Crates[Bundled Zip Resources & Assets.. ie fonts, stock, code snippets, tutorials etc...] */
 /* ::>> The 4 Link States <<:: CSS Tricks Referance ** L.O.V.E H.A.T.E > lv > ha */
     body a{
     	user-select:all;
@@ -401,7 +415,6 @@ nav ul li a:hover{
         filter:blur(0.21px) hue-rotate(-42deg);
 		right:calc(102px + 0.4895vw + 0.0002vh);
 		top:calc(7.4px + 0.08vh);
-
 		}
 	#ProfileCog_Dv{
 		position:absolute;
@@ -544,20 +557,7 @@ nav ul li a:hover{
 /* ::>> ....Media Queries Section - from Css Tricks .....................................*/
 /* ::>> ....Media Queries Section - from Css Tricks .....................................*/
 
-#Body_Grid_Wrapper{
-	display:grid;
-	grid-template-areas:;
-	grid-template-rows:;
-	grid-auto-columns:;
-	grid-gap:;
-	}
-	/* Top 8th Body Section - Resources */
-	/* 2nd 8th Body Section - Articles */
-	/* 3rd 8th Body Section - Assets */
-	/* 4th 8th Body Section - Top Artists */
-	/* 6th 8th Body Section - Top Developers */
-	/* 7th 8th Body Section - Projects */
-	/* 8th 8th Body Section - Crates[Bundled Zip Resources & Assets.. ie fonts, stock, code snippets, tutorials etc...] */
+
 .upload_btn button{
 	position:absolute;
 	top:50%; left:50%;
