@@ -1,24 +1,52 @@
 "use-strict";
- // import Core from '/Modules/core_module.js';
- // import AssetCard from '/Modules/module.asset_card.js';
+  // import Core from '/Modules/core_module.js';
+  // import AssetCard from '/Modules/module.asset_card.js';
 	console.log("::>> Js File Loaded Successfully");
 	window.addEventListener("DOMContentLoaded", (event) => {
-		(function hiding_body_override(){
-			// Setting inline styles back to an empty array.
+		        console.log("::>> DomC Ran Successfully");
+		        document.body.setAttribute("token", "x");
+  /*	        ::>> Notes::
+  */
+		(function body_style_override(){
 			document.body.style = [];
+	     // Setting inline styles back to an empty array on the body object.
 		})();
-		console.log("::>> DomC Ran Successfully");
-		 document.body.setAttribute("token", "x");
+/* ::...............::>> ElementGrabbers <<::...................::*/
+		let qS       =(s)=>{         //:: s for selector....
+			return document.querySelector(s);
+		    },
+		    qSAll    =(s)=>{
+		    return document.querySelectorAll(s);
+		    },
+		    getId    =(g)=>{		 //:: g for get..........
+		    return document.getElementById(g);
+		    },
+		    getTag   =(g)=>{
+		    return document.getElementsByTagName(g);
+		    },
+		    getClass =(g)=>{
+		    return document.getElementsByClassName(g);
+		    },
+/* ::...............::>> ElementGrabbers <<::...................::*/
+            setAttrib =(attrib, val)=>{
+        	return setAttribute(attrib, val);
+            }  // Not sure this one works, test it out......::
 
-		const Bodi       = document.querySelector("body");
-		const Head       = document.querySelector("head");
-		const Header     = document.querySelector("header");
-		const HidNav     = document.getElementById('HiddenNavBar');
-		const Footer     = document.querySelector("footer");
-		const TopNavLinx = document.getElementById("TopNavLinx");
+
+
+//      ::::::::::::::::::::::::::::::
+		const Bodi       = qS("body");
+		const Head       = qS("head");
+		const Header     = qS("header");
+		const Footer     = qS("footer");
+//      ::::::::::::::::::::::::::::::::
+		const HidNav     = getId('HiddenNavBar');
+
+		const TopNavLinx = getId("TopNavLinx");
 		      let sts    = document.styleSheets;
 		      const BodyObjectArr = document.all;
-		    const ProSettingCog = document.getElementById("Profile_Cog");
+		      const ProSettingCog = getId("Profile_Cog");
+
 
 		let nav_arr = document.querySelector('.nav_arrow');
 		    console.log(nav_arr);
