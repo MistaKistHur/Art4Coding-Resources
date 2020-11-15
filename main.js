@@ -1,24 +1,25 @@
 "use-strict";
   // import Core from '/Modules/core_module.js';
   // import AssetCard from '/Modules/module.asset_card.js';
+  // SetUp Animation Worker Thread;
 	console.log("::>> Js File Loaded Successfully");
 	window.addEventListener("DOMContentLoaded", (event) => {
 		        console.log("::>> DomC Ran Successfully");
 		        document.body.setAttribute("token", "x");
-  /*	        ::>> Notes::
-  */
-		(function body_style_override(){
+        /*	    ::>> Notes::
+        */
+		(function bs_reset(){
 			document.body.style = [];
 	     // Setting inline styles back to an empty array on the body object.
 		})();
-/* ::...............::>> ElementGrabbers <<::...................::*/
-		let qS       =(s)=>{         //:: s for selector....
+/* ::.............::>> ElementGrabbers <<::................::*/
+		let qS       =(s)=>{          //:: s for selector..::
 			return document.querySelector(s);
 		    },
 		    qSAll    =(s)=>{
 		    return document.querySelectorAll(s);
 		    },
-		    getId    =(g)=>{		 //:: g for get..........
+		    getId    =(g)=>{		  //:: g for get.......::
 		    return document.getElementById(g);
 		    },
 		    getTag   =(g)=>{
@@ -27,19 +28,17 @@
 		    getClass =(g)=>{
 		    return document.getElementsByClassName(g);
 		    },
-/* ::...............::>> ElementGrabbers <<::...................::*/
+/* ::.............::>> ElementGrabbers <<::...............::*/
             setAttrib =(attrib, val)=>{
         	return setAttribute(attrib, val);
             }  // Not sure this one works, test it out......::
 
-
-
-//      ::::::::::::::::::::::::::::::
-		const Bodi       = qS("body");
-		const Head       = qS("head");
-		const Header     = qS("header");
-		const Footer     = qS("footer");
-//      ::::::::::::::::::::::::::::::::
+		//      ::::::::::::::::::::::::::::::
+				const Bodi       = qS("body");
+				const Head       = qS("head");
+				const Header     = qS("header");
+				const Footer     = qS("footer");
+		//      ::::::::::::::::::::::::::::::::
 		const HidNav     = getId('HiddenNavBar');
 
 		const TopNavLinx = getId("TopNavLinx");
@@ -48,7 +47,7 @@
 		      const ProSettingCog = getId("Profile_Cog");
 
 
-		let nav_arr = document.querySelector('.nav_arrow');
+		let nav_arr = qS('.nav_arrow');
 		    console.log(nav_arr);
 		    nav_arr.addEventListener('mousedown',(e) => {
 		  			// Todo...
