@@ -6,8 +6,8 @@
 	window.addEventListener("DOMContentLoaded", (event) => {
 		        console.log("::>> DomC Ran Successfully");
 		        document.body.setAttribute("token", "x");
-        /*	    ::>> Notes::
-        */
+  /*	    ::>> Notes::
+   */
 		(function bs_reset(){
 			document.body.style = [];
 	     // Setting inline styles back to an empty array on the body object.
@@ -29,8 +29,8 @@
 		    return document.getElementsByClassName(g);
 		    },
 /* ::.............::>> ElementGrabbers <<::...............::*/
-            setAttrib =(attrib, val)=>{
-        	return setAttribute(attrib, val);
+            setAttrib =(elem, attrib, val)=>{
+        	return elem.setAttribute(attrib, val);
             }  // Not sure this one works, test it out......::
 /* ::..............::>> WebWorker <<::....................::
 	    function genWebWorker(){
@@ -41,8 +41,8 @@
 			 console.trace(genWorker);
 			 console.log(typeof genWorker);
 		     },false);
-		     genWorker.postMessage({"hello": "world"}); // ::<< send data to the worker thread.
-	    }*/ // ::<< Closing tag for gen worker
+		     genWorker.postMessage({"hello": "world"});
+	    }*/ // ::<< Closing tag for gen worker // ::<< send data to the worker thread.
 
 		//      ::::::::::::::::::::::::::::::
 				const Bodi       = qS("body");
@@ -62,7 +62,7 @@
 		    console.log(nav_arr);
 		    nav_arr.addEventListener('mousedown',(e) => {
 		  			// Todo...
-		  		let cs = window.getComputedStyle("HidNav", null).getPropertyValue("transform");;
+		  		let cs = window.getComputedStyle("HidNav", null).getPropertyValue("transform");
 		  		console.log(cs);
 
 
