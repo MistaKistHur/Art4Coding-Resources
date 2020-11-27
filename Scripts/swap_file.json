@@ -1,0 +1,26 @@
+
+..## List shorthand for swap ##..
+shorthand definition for stuff
+swap
+   ::pc::       => "::placeholder:: => ::
+   ::un::       => "undefined",
+   :!n::        => "null",
+   :^b:         => "<br />",
+   ::%exit::    => "",
+   ::%break::   => "",
+   ::rootUrl => "https://www.art4coding.icu",
+   ::cookieInit => "::>>A4C<<::",
+   
+   build list out for swaps....
+     csrf conatination multiple src.
+     hidden_token
+     secret_key
+     api_key
+     data-frame-key
+     data-svg-key
+     data-object-em-key
+     login-token
+     admin-token
+     admin-key
+     admin-match
+     regex
