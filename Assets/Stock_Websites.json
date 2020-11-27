@@ -1,0 +1,32 @@
+{
+ "asset_type"      : "list",
+ "asset_id"        : "ext_webs_1::a1x",
+ "flags"           : "",
+ "tags"            : "websites collection sources external_resources external_websites external_sources website_apis fetch_locations spider_dest",
+     "::>>Notes<<::"   : "Collection of External Websites, to grab Stock images from using fetch() xhr or iframes or possibly python webscraper",
+     "::>>ToDo<<::"    : "Build Collection Out, build pinging function to test if website available, add green svg tick + red x if down..."
+     "::>>Cont<::"     :  "sort Alphabetically/Length..... , Test fetch functionality",
+ "ext_site" : {
+    "dreamstime" : "",
+    "shutterstock" : "",    
+    "deviantart" : "",    
+    "publicdomainimages" : "",    
+    "wikimedia" : "",    
+    "pexels" : "",
+    "pixabay" : "",    
+    "freeimages" : "https://www.freeimages.com",    
+    "stockfreeimages" : "https://www.stockfreeimages.com",    
+    "canva" : "",    
+    "stocksnap.io" : "",
+    "unsplash" : "",    
+    "burst(shopify)" : "",    
+    "kaboompics" : "",    
+    "LifeOfPix" : "",    
+    "Gratisography" : "",
+    "Flickr" : "",    
+    "TheJopWellCollection" : "https://jopwell.pixieset.com",    
+    "" : "https://pixieset.com",    
+    "" : "", 
+ }
+
+}
