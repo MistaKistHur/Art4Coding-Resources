@@ -1,4 +1,5 @@
 {
+  "::>>NOTES<<::"      : "write some notations!";
   "Objs" :{
      "random_string" : "dexrv784280vholz3428ft6ed43^8v!#xvo^",
      "notes::>>" : "write a script that(if encounters :identifier)=>{...replaces current val...}",   
@@ -25,10 +26,12 @@
    shorthand definition for stuff
    swap
 `
+   "^i"            => "inherit"
    ":rt"           => "root",
    ":!n::"         => "null",
    ":if::el"       => "if(){}else",
    "::un::"        => "undefined",
+   ":!RQ!:"        => "required",
    "::%break::"    => "break;",        // not actually any shorter.. lol
    "::%exit::"     => "exit;",         // not actually any shorter.. lol
    ":?tt?:"        => "tool-tip",
@@ -39,6 +42,7 @@
    "::rootUrl"     => "https://www.art4coding.icu",
    "::cookieInit"  => "::>>A4C<<::",
    ":^b:"          => "<br />",
+   ":delim"        => "delimter",
    ":stat"         => "static",
    ":met"          => "meta data",
    ":mod"          => "module",
@@ -50,6 +54,21 @@
    ":enc:",        => "encrypted",
    ":flg",         => "flag",
    ":@m:",         => "mention",
+   ":x"            => "",
+   ":a"            => "",
+   ":b"            => "bold",
+   ":q"            => "quote",
+   ":!depr!:"      => "deprecated",
+   ":!UNA!:"       => "unavailable",
+   ":S^"           => "svg",
+   
+     ":img_szs:"     : {
+        Xs S M L XL MAX TIFF
+     },
+     ":lic_type"     :{
+       ""
+        `creative common, mit, moz etc`
+     }
 `
    build list out for swaps....
      csrf conatination multiple src.
