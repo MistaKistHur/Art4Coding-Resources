@@ -41,8 +41,8 @@
 			 console.trace(genWorker);
 			 console.log(typeof genWorker);
 		     },false);
-		     genWorker.postMessage({"hello": "world"});*/ // ::<< send data to the worker thread.
-	    } // ::<< Closing tag for gen worker
+		     genWorker.postMessage({"hello": "world"}); // ::<< send data to the worker thread.
+	    }*/ // ::<< Closing tag for gen worker
 
 		//      ::::::::::::::::::::::::::::::
 				const Bodi       = qS("body");
