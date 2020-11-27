@@ -1,20 +1,19 @@
 {
- Template_Img : {
-     "temp"
- }
-
-
-LinxBobCat : {
-   "type"               : "photograph",
-   "download"           : "",
-   "alternate_download" : "",  
-   "image_name"         : "Linx BobCat",
-   "licence_type"       : "public domain",
-   "short_url_1"        : "https://bit.ly/LinxBobCat_PublicDomainImgs",
-   "long_url_1"         : "https://www.publicdomainpictures.net/pictures/40000/velka/lynx-or-bobcat.jpg",
-   "url2"               :"",
-   "url3"               :"",  
-   "tags"               : "photograph cat large_cat big_cat stock yawning cute animals wild nature "  
+ "Minified_version_path" : "x_url",
+ "Notes"                 : "build file out then Json Validate & Minify",
+ "Template_Img" : {
+   "type"               : "prototype",
+   "skip"               : "1",
+   "discard"            : "true"
+   "download"           : "no",
+   "alternate_download" : "n/a",  
+   "image_name"         : "template",
+   "licence_type"       : "freeware",
+   "short_url_1"        : "n/a",
+   "long_url_1"         : "n/a",
+   "url2"               : "n/a",
+   "url3"               : "n/a",  
+   "tags"               : "temp template structure prototype",  
    "meta_data" : {
         "owner"        : "",
         "subject"      : "",  
@@ -43,26 +42,60 @@ LinxBobCat : {
         "size_in_mb"   : "",
         "iso_speed"    : "",  
         "file_ext"     : "",
-
-
-
-
-
-
-
-
-  
-  
+ },
+"LinxBobCat" : {
+   "type"               : "photograph",
+   "download"           : "true",
+   "alternate_download" : "x",  
+   "image_name"         : "Linx BobCat",
+   "licence_type"       : "public domain",
+   "licence_spec"       : "CC0 Public Domain",
+   "licence_url"        : "undefined",
+   "short_url_1"        : "https://bit.ly/LinxBobCat_PublicDomainImgs",
+   "long_url_1"         : "https://www.publicdomainpictures.net/pictures/40000/velka/lynx-or-bobcat.jpg",
+   "url2"               :"x",
+   "url3"               :"x",  
+   "tags"               : "photograph feline head pointy_ears cat large_cat big_cat stock yawning cute animals wild nature whiskers",
+   "description"        : "High Res image/photograph of a Lynx or BobCat Yawning, Showing teeth."
+       "meta_data" : {
+            "owner"        : "x",
+            "subject"      : "x",  
+            "software"     : "x",
+            "width"        : "x",
+            "height"       : "x",
+            "dimensions"   : "x",  
+            "asset_type"   : "x",
+            "copyright"    : "x",
+            "date_taken"   : "x",  
+            "folder_path"  : "x",  
+            "free_ware"    : "n/a",  
+            "short_name"   : "BobCatLnx",
+            "first_upload" : "n/a",
+            "bit_depth"    : "n/a",  
+            "rating"       : "25",
+            "ext_src"      : "https://www.publicdomainpictures.net",
+            "editor"       : "n/a",
+            "downloadable"           : "n/a",
+            "attrib_required"        : "x",
+            "royalty_free"           : "x",
+            "camera_name"            : "Canon EOS 40D"
+            "camera_serial_number"   : "n/a",
+            "shutter_speed"          : "x",
+            "lens_meta"              : "x",
+            "horizontal_resolution"  : "n/a",
+            "vertical_resolution"    : "n/a",
+            "dpi"          : "x",
+            "size_in_kb"   : "",
+            "size_in_mb"   : "",
+            "iso_settings" : "",  
+            "file_ext"     : "",
       }
     },
- TropicalBeach : {
+ "TropicalBeach" : {
    "image_name"   : "Tropical Beach",
    "licence_type" : "public domain",  
-  
-  
    "short_url_1"  : "https://bit.ly/TropicalBeachStock",
    "long_url_1"   : "https://www.publicdomainpictures.net/pictures/40000/velka/lynx-or-bobcat.jpg"
-
    "url2":"",
    "url3":"",
    "meta_data" : {
