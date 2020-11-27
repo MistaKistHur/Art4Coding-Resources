@@ -32,6 +32,17 @@
             setAttrib =(attrib, val)=>{
         	return setAttribute(attrib, val);
             }  // Not sure this one works, test it out......::
+/* ::..............::>> WebWorker <<::....................::*/
+	    function genWebWorker(){
+	         let genWorker = new Worker(genWorker.js);
+		     genWorker.addEventListener('message', function(e){
+		         console.log('Worker said: ', e.data);
+			 console.trace(this);
+			 console.trace(genWorker);
+			 console.log(typeof genWorker);
+		     },false);
+		     genWorker.postMessage({"hello": "world"}); // ::<< send data to the worker thread.
+	    } // ::<< Closing tag for gen worker
 
 		//      ::::::::::::::::::::::::::::::
 				const Bodi       = qS("body");
