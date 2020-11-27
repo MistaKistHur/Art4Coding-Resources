@@ -1,16 +1,56 @@
+{
+  "Objs:" {
+     "random_string" : "dexrv784280vholz3428ft6ed43^8v!#xvo^",
+     "notes::>>" : "write a script that(if encounters :identifier)=>{...replaces current val...}",   
+     "idea" : "",   
+     "ext_files" : "",   
+     "docs" : "",
+     "useful_docs" : "",   
+     "" : "",   
+     "" : "",    
+     "" : "",
+     "" : "",   
+     "" : "",   
+     "" : "",
+     "" : "",
+     "" : "",   
+     "" : "",   
+     "" : "", 
+  },
+  "Objs.methods" : "?"
 
+}
 ..## List shorthand for swap ##..
-shorthand definition for stuff
-swap
-   ::pc::       => "::placeholder:: => ::
-   ::un::       => "undefined",
-   :!n::        => "null",
-   :^b:         => "<br />",
-   ::%exit::    => "",
-   ::%break::   => "",
-   ::rootUrl => "https://www.art4coding.icu",
-   ::cookieInit => "::>>A4C<<::",
-   
+`
+   shorthand definition for stuff
+   swap
+`
+   ":rt"           => "root",
+   ":!n::"         => "null",
+   ":if::el"       => "if(){}else",
+   "::un::"        => "undefined",
+   "::%break::"    => "break;",        // not actually any shorter.. lol
+   "::%exit::"     => "exit;",         // not actually any shorter.. lol
+   ":?tt?:"        => "tool-tip",
+   "::def::"       => "definition",
+   "::des::"       => "description",
+   "::pc::"        => "::placeholder::,
+   ":<r<:"         => "return",
+   "::rootUrl"     => "https://www.art4coding.icu",
+   "::cookieInit"  => "::>>A4C<<::",
+   ":^b:"          => "<br />",
+   ":stat"         => "static",
+   ":met"          => "meta data",
+   ":mod"          => "module",
+   ":pub"          => "public",
+   ":priv"         => "private",
+   ":msg:",        => "message",
+   ":err:",        => "error",
+   ":warn:",       => "warning",
+   ":enc:",        => "encrypted",
+   ":flg",         => "flag",
+   ":@m:",         => "mention",
+`
    build list out for swaps....
      csrf conatination multiple src.
      hidden_token
@@ -24,3 +64,4 @@ swap
      admin-key
      admin-match
      regex
+`
