@@ -66,14 +66,38 @@
 
 <!-- ::>> fade/slide navbar in if search term entered -->
 		<div id="HiddenNavBar" height="105" style="">
+		<!-- ??:: Main Search Area ::?? -->
 			<form id="" action="" method="">
 				<input type="hidden" class="disp_none" value=""> <!-- :csrf: -->
 				<div class="search_overflow">
-				<input type="text" id="" class="" aria-label="Search"
-				       tabindex="1" value="" placeholder="Search">
+				<input name="Search" type="text"
+				       aria-label="Search" placeholder="Search"
+				       id="MainSearchInp" tabindex="1"
+				       class="search_inp" value="">
 				</div>
-				    <label for="Filter">Hide x results: <input type="checkbox" id="Filter" checked=""></label>
+				<!-- ::>> Search Filter Inputs <<:: -->
+				   <!-- !!:: Hide Tutorials -->
+				<label for="Filter">Hide x results:
+				      <input type="checkbox" name="" id="Filter" data-filter-type="" checked="false">
+				</label>
+				   <!-- !!:: Hide Tutorials -->				
+				<label for="Filter2">Hide x results:
+				      <input type="checkbox" name="" id="Filter2" data-filter-type="" checked="false">
+				</label>
+				   <!-- !!:: Hide Stock Images -->				
+				<label for="Filter3">Hide x results:
+				      <input type="checkbox" name="" id="Filter3" data-filter-type="" checked="false">
+				</label>
+				   <!-- !!:: Hide Pdf's -->				
+				<label for="Filter4">Hide x results:
+				      <input type="checkbox" name="" id="Filter4" data-filter-type="" checked="false">
+				</label>
+				   <!-- !!:: Hide 3D Assets -->				
+				<label for="Filter5">Hide x results:
+				      <input type="checkbox" name="" id="Filter5" data-filter-type="" checked="false">
+				</label>				
 			</form>
+<!-- ??:: Closing of MainSearchArea ::?? -->
 			<!-- ::>> Embed this svg within the bottom of the search bar and add a search/magnifier glass to the left or right hand suide. -->
 			<!-- This Svg can be shortened massively by manually recreating it -->
 			<svg id="TempName_HueSpaceBar" width="940" height="8"
@@ -483,6 +507,7 @@
 <!-- ::>> Revolver Maps Section <<:: .............................................. -->
 	<div id="RMapsHoverActivator">
 		<div id="RMapsBorder_Patch_">
+			<!-- ??:: This would be better as an object embed with multiple video src attribs -->
 			<video src="/Imgs/VjLoops/starsloop.mp4" id="StarBackdrop" type="video/mp4"
 			       width="inherit" height="auto" autoplay="true" loop="true"
 			       muted="true" style="filter:opacity(0.1);"><!-- !!::  decoding="async" is throwing an error, No Decoders for requested formats: video/mp4 -->
