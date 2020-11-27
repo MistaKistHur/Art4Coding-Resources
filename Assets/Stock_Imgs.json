@@ -1,1 +1,73 @@
+{
+ Template_Img : {
+     "temp"
+ }
 
+
+LinxBobCat : {
+   "type"               : "photograph",
+   "download"           : "",
+   "alternate_download" : "",  
+   "image_name"         : "Linx BobCat",
+   "licence_type"       : "public domain",
+   "short_url_1"        : "https://bit.ly/LinxBobCat_PublicDomainImgs",
+   "long_url_1"         : "https://www.publicdomainpictures.net/pictures/40000/velka/lynx-or-bobcat.jpg",
+   "url2"               :"",
+   "url3"               :"",  
+   "tags"               : "photograph cat large_cat big_cat stock yawning cute animals wild nature "  
+   "meta_data" : {
+        "owner"        : "",
+        "subject"      : "",  
+        "software"     : "",
+        "width"        : "",
+        "height"       : "",
+        "dimensions"   : "",  
+        "asset_type"   : "",
+        "copyright"    : "",
+        "date_taken"   : "",  
+        "folder_path"  : "",  
+        "free_ware"    : "",  
+        "short_name"   : "",
+        "first_upload" : "",
+        "bit_depth"    : "",  
+        "rating"       : "",
+        "ext_src"      : "",
+        "editor"       : "",
+        "downloadable"           : "",
+        "attrib_required"        : "",
+        "camera_serial_number"   : "",  
+        "horizontal_resolution"  : "",
+        "vertical_resolution"    : "",
+        "dpi"          : "",
+        "size_in_kb"   : "",
+        "size_in_mb"   : "",
+        "iso_speed"    : "",  
+        "file_ext"     : "",
+
+
+
+
+
+
+
+
+  
+  
+      }
+    },
+ TropicalBeach : {
+   "image_name"   : "Tropical Beach",
+   "licence_type" : "public domain",  
+  
+  
+   "short_url_1"  : "https://bit.ly/TropicalBeachStock",
+   "long_url_1"   : "https://www.publicdomainpictures.net/pictures/40000/velka/lynx-or-bobcat.jpg"
+
+   "url2":"",
+   "url3":"",
+   "meta_data" : {
+    
+      }
+ }
+
+}
