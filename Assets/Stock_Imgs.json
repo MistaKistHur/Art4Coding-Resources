@@ -6,6 +6,7 @@
  "Notes"                 : "build file out then Json Validate & Minify",
  "Template_Img" : {
    "type"               : "prototype",
+   "xd_flags"           : "ex ::safeforkids ::minor ::adult_material ::political ::religious ::war_img ::sensitive ::flashing_img ::epil_warn etc",
    "skip"               : "1",
    "discard"            : "true"
    "download"           : "no",
