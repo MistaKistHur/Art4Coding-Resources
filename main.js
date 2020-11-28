@@ -54,7 +54,7 @@
 
 /* ::..............::>> WebWorker <<::....................:: */
 	    function genWebWorker(){
-	         let genWorker = new Worker('/Scripts/Workers/genWorker.js');
+	         let genWorker = new Worker('./Scripts/Workers/genWorker.js');
 		     genWorker.addEventListener('message', function(e){
 		         console.log('Worker said: ', e.data);
 			 console.trace(this);
