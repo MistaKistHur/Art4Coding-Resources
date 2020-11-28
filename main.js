@@ -77,6 +77,10 @@
 
 		  			// HidNav.style.transform = "translateY(-378px) !important";
 		    });
+
+		if('requestAnimationFrame' in document){
+            console.log('doc contains raf');
+		}
 		if ('pictureInPictureEnabled' in document) { // not sure how to select the css background image.
 			console.trace(this || err);
 			console.log(this);
