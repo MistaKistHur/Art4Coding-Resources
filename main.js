@@ -12,6 +12,11 @@
 			document.body.style = [];
 	     // Setting inline styles back to an empty array on the body object.
 		})();
+		document.addEventListener("click",function(e){
+          // let click_details = e.target;
+
+           // return click_details;
+		})
 /* ::.............::>> ElementGrabbers <<::................::*/
 		let qS       =(s)=>{          //:: s for selector..::
 			return document.querySelector(s);
