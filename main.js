@@ -32,18 +32,6 @@
             setAttrib =(elem, attrib, val)=>{
         	return elem.setAttribute(attrib, val);
             }  // Not sure this one works, test it out......::
-/* ::..............::>> WebWorker <<::....................::
-	    function genWebWorker(){
-	         let genWorker = new Worker(genWorker.js);
-		     genWorker.addEventListener('message', function(e){
-		         console.log('Worker said: ', e.data);
-			 console.trace(this);
-			 console.trace(genWorker);
-			 console.log(typeof genWorker);
-		     },false);
-		     genWorker.postMessage({"hello": "world"});
-	    }*/ // ::<< Closing tag for gen worker // ::<< send data to the worker thread.
-
 		//      ::::::::::::::::::::::::::::::
 				const Bodi       = qS("body");
 				const Head       = qS("head");
@@ -56,6 +44,22 @@
 		      let sts    = document.styleSheets;
 		      const BodyObjectArr = document.all;
 		      const ProSettingCog = getId("Profile_Cog");
+
+
+
+/* ::..............::>> WebWorker <<::....................:: */
+	    function genWebWorker(){
+	         let genWorker = new Worker('/Scripts/genWorker.js');
+		     genWorker.addEventListener('message', function(e){
+		         console.log('Worker said: ', e.data);
+			 console.trace(this);
+			 console.trace(genWorker);
+			 console.log(typeof genWorker);
+		     },false);
+		     genWorker.postMessage({"hello": "world"});
+	    } // ::<< Closing tag for gen worker // ::<< send data to the worker thread.
+
+
 
 
 		let nav_arr = qS('.nav_arrow');
