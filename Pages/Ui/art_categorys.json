@@ -1,5 +1,6 @@
 {
  "NOTES"   : "::>> Sort alphebitcally, update & edit",
+ "NOTES"   : "::>> Catergory List for UI, use script to iterate and add buttons, checkboxes, tags etc[with svg attatched]"
  cats:{
    "Architecture"  :  "",
    "Resin Art"  :  "",
